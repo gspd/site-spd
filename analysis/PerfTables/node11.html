@@ -1,0 +1,129 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 3.2 Final//BR">
+
+<!--Converted with jLaTeX2HTML 2002 (1.62) JA patch-1.4
+patched version by:  Kenshi Muto, Debian Project.
+LaTeX2HTML 2002 (1.62),
+original version by:  Nikos Drakos, CBLU, University of Leeds
+* revised and updated by:  Marcus Hennecke, Ross Moore, Herb Swan
+* with significant contributions from:
+  Jens Lippmann, Marek Rouchal, Martin Wilck and others -->
+<HTML>
+<HEAD>
+<TITLE>Convers&#227;o do c&#243;digo execut&#225;vel em grafo de execu&ccedil;&#227;o</TITLE>
+<META NAME="description" CONTENT="Convers&#227;o do c&#243;digo execut&#225;vel em grafo de execu&ccedil;&#227;o">
+<META NAME="keywords" CONTENT="index">
+<META NAME="resource-type" CONTENT="document">
+<META NAME="distribution" CONTENT="global">
+
+<META HTTP-EQUIV="Content-Type" CONTENT="text/html; charset=iso-8859-1">
+<META NAME="Generator" CONTENT="jLaTeX2HTML v2002 JA patch-1.4">
+<META HTTP-EQUIV="Content-Style-Type" CONTENT="text/css">
+
+<LINK REL="STYLESHEET" HREF="index.css">
+
+<LINK REL="next" HREF="node12.html">
+<LINK REL="previous" HREF="node10.html">
+<LINK REL="up" HREF="node10.html">
+<LINK REL="next" HREF="node12.html">
+</HEAD>
+
+<BODY >
+<!--Navigation Panel-->
+<A NAME="tex2html218"
+  HREF="node12.html">
+<IMG WIDTH="37" HEIGHT="24" ALIGN="BOTTOM" BORDER="0" ALT="next"
+ SRC="file:/usr/share/latex2html/icons/next.png"></A> 
+<A NAME="tex2html216"
+  HREF="node10.html">
+<IMG WIDTH="26" HEIGHT="24" ALIGN="BOTTOM" BORDER="0" ALT="up"
+ SRC="file:/usr/share/latex2html/icons/up.png"></A> 
+<A NAME="tex2html210"
+  HREF="node10.html">
+<IMG WIDTH="63" HEIGHT="24" ALIGN="BOTTOM" BORDER="0" ALT="previous"
+ SRC="file:/usr/share/latex2html/icons/prev.png"></A>   
+<BR>
+<B> Next:</B> <A NAME="tex2html219"
+  HREF="node12.html">GSPN - rede de</A>
+<B> Up:</B> <A NAME="tex2html217"
+  HREF="node10.html">T&#233;cnicas aplic&#225;veis a sistemas</A>
+<B> Previous:</B> <A NAME="tex2html211"
+  HREF="node10.html">T&#233;cnicas aplic&#225;veis a sistemas</A>
+<BR>
+<BR>
+<!--End of Navigation Panel-->
+
+<H2><A NAME="SECTION00121000000000000000">
+Convers&#227;o do c&#243;digo execut&#225;vel em grafo de execu&#231;&#227;o</A>
+</H2>
+<BR>
+[<A
+ HREF="node34.html#manacero:97">Manacero Jr., 1997</A>]
+
+<BR><P></P>
+<DIV ALIGN="CENTER"><A NAME="126"></A>
+<TABLE>
+<CAPTION><STRONG>Tabela:</STRONG>
+Caracter&#237;sticas da t&#233;cnica de convers&#227;o de c&#243;digo em grafo de execu&#231;&#227;o.</CAPTION>
+<TR><TD>
+	<DIV ALIGN="CENTER">
+<TABLE CELLPADDING=3 BORDER="1" ALIGN="CENTER">
+<TR><TD ALIGN="LEFT" VALIGN="TOP" WIDTH=170>Nome</TD>
+<TD ALIGN="LEFT" VALIGN="TOP" WIDTH=227>Convers&#227;o do c&#243;digo em grafo de execu&#231;&#227;o</TD>
+</TR>
+<TR><TD ALIGN="LEFT" VALIGN="TOP" WIDTH=170>Sistema aplicado</TD>
+<TD ALIGN="LEFT" VALIGN="TOP" WIDTH=227>software</TD>
+</TR>
+<TR><TD ALIGN="LEFT" VALIGN="TOP" WIDTH=170>Abordagem para obten&#231;&#227;o dos resultados</TD>
+<TD ALIGN="LEFT" VALIGN="TOP" WIDTH=227>simula&#231;&#227;o</TD>
+</TR>
+<TR><TD ALIGN="LEFT" VALIGN="TOP" WIDTH=170>Forma de medi&#231;&#227;o ou instrumenta&#231;&#227;o</TD>
+<TD ALIGN="LEFT" VALIGN="TOP" WIDTH=227>an&#225;lise de fluxo pela simula&#231;&#227;o do programa reescrito</TD>
+</TR>
+<TR><TD ALIGN="LEFT" VALIGN="TOP" WIDTH=170>Tipos de dados gerados pela an&#225;lise</TD>
+<TD ALIGN="LEFT" VALIGN="TOP" WIDTH=227>tra&#231;os de eventos, profiling</TD>
+</TR>
+<TR><TD ALIGN="LEFT" VALIGN="TOP" WIDTH=170>Arquitetura</TD>
+<TD ALIGN="LEFT" VALIGN="TOP" WIDTH=227>SIMD, MIMD</TD>
+</TR>
+<TR><TD ALIGN="LEFT" VALIGN="TOP" WIDTH=170>Informa&#231;&#245;es fornecidas</TD>
+<TD ALIGN="LEFT" VALIGN="TOP" WIDTH=227>tempo de processamento do programa, velocidade m&#233;dia de processamento, velocidade m&#233;dia por cliente, tempo m&#233;dio de espera por cliente, ``speedup''</TD>
+</TR>
+<TR><TD ALIGN="LEFT" VALIGN="TOP" WIDTH=170>An&#225;lise (sistema alvo)</TD>
+<TD ALIGN="LEFT" VALIGN="TOP" WIDTH=227>programas paralelos</TD>
+</TR>
+</TABLE>
+</DIV>
+	
+	<A NAME="tab4:aleardo"></A>
+</TD></TR>
+</TABLE>
+</DIV><P></P>
+<BR>
+O m&#233;todo proposto &#233; baseado na reescrita do c&#243;digo execut&#225;vel em um grafo de execu&#231;&#227;o, e na posterior simula&#231;&#227;o do grafo gerado, para extra&#231;&#227;o dos dados sobre o desempenho do programa no modelo de m&#225;quina pr&#233;-determinado.
+
+De acordo com o autor, algumas vantagens desta proposta s&#227;o a precis&#227;o obtida com a reescrita do c&#243;digo execut&#225;vel na forma de grafo de execu&#231;&#227;o e o baixo custo de simula&#231;&#227;o (devido &#224; n&#227;o necessidade da m&#225;quina paralela para execu&#231;&#227;o).
+
+<HR>
+<!--Navigation Panel-->
+<A NAME="tex2html218"
+  HREF="node12.html">
+<IMG WIDTH="37" HEIGHT="24" ALIGN="BOTTOM" BORDER="0" ALT="next"
+ SRC="file:/usr/share/latex2html/icons/next.png"></A> 
+<A NAME="tex2html216"
+  HREF="node10.html">
+<IMG WIDTH="26" HEIGHT="24" ALIGN="BOTTOM" BORDER="0" ALT="up"
+ SRC="file:/usr/share/latex2html/icons/up.png"></A> 
+<A NAME="tex2html210"
+  HREF="node10.html">
+<IMG WIDTH="63" HEIGHT="24" ALIGN="BOTTOM" BORDER="0" ALT="previous"
+ SRC="file:/usr/share/latex2html/icons/prev.png"></A>   
+<BR>
+<B> Next:</B> <A NAME="tex2html219"
+  HREF="node12.html">GSPN - rede de</A>
+<B> Up:</B> <A NAME="tex2html217"
+  HREF="node10.html">T&#233;cnicas aplic&#225;veis a sistemas</A>
+<B> Previous:</B> <A NAME="tex2html211"
+  HREF="node10.html">T&#233;cnicas aplic&#225;veis a sistemas</A>
+<!--End of Navigation Panel-->
+</BODY>
+</HTML>

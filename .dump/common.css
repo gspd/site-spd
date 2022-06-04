@@ -1,0 +1,89 @@
+body {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	background-color: #FFFFCC;
+	background-image: url(images/background.gif);
+	color: #000066;
+}
+body.login {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	background-color: #FFFFFF;
+}
+a:link, a:visited {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	text-decoration: none;
+	color: #006666;
+}
+a:hover, a:active {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	text-decoration: underline;
+	color: #996600;
+}
+
+/* elementos de formulário */
+input {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 12px;
+}
+select {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 12px;
+}
+textarea {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 12px;
+}
+.title {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 20px;
+	font-weight: bold;
+	color: #000099;
+}
+.title2 {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 16px;
+	font-weight: bold;
+	color: #000099;
+}
+.subtitle {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 14px;
+	font-weight: bold;
+	color: #000099;
+}
+.errmsg {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 14px;
+	font-weight: bold;
+	color: #FF0000;
+}
+table.menu {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 14px;
+	color: #FFFFFF;
+}
+table.menu td {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 14px;
+	color: #FFFFFF;
+	background-color: #3300CC;
+}
+table.menu a:link, table.menu a:visited {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 14px;
+	color: #FFFFFF;
+}
+table.menu a:hover, table.menu a:active {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 14px;
+	color: #FFFFFF;
+}
+.data_erro {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	font-weight: bold;
+	color: #FF0000;
+}

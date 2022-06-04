@@ -1,0 +1,9 @@
+create table bugs(
+  id int not null auto_increment primary key,
+  texto blob default "",
+  arquivo mediumblob default null,
+  tipo_arq varchar(20),
+  emailuser varchar(40), index bugsuser(emailuser),
+  foreign key (emailuser) references
+        usuario(email) on delete cascade
+) type=innodb;

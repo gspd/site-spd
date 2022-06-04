@@ -1,0 +1,68 @@
+<html>
+<head>
+<title>RTbugs - A pagina que vc estava procurando...</title>
+<script language="JavaScript">
+function checkInputs(form) {
+  	if(form.email.value=='') 
+		alert('Coloque seu email para que seja possivel lhe enviar uma resposta');
+	else if (form.bug.value=='')
+		alert('Qual o bug que voce deseja reportar ??');
+	     else return true;
+
+	return false;
+}
+</script>
+</head>
+
+<body bgcolor=#ffffff>
+<br>
+<h1><font color="#3333cc"><center>Reportar Bugs do RTsim</center></font></h1>
+<p><hr></p>
+
+<p>Esta p&aacute;gina foi criada para que os usu&aacute;rios do software 
+<b>RTsim</b> possam reportar os bugs que o 
+software pode apresentar durante sua execu&ccedil;&atilde;o.</p>
+<p>Para isso apenas digite: o que ocorreu, dados de entradas, 
+sequ&ecirc;ncia de comandos, e mensagens de erro encontradas durante
+a execu&ccedil;&atilde;o na caixa abaixo.</p>
+
+<center>
+<form action="gravarBug.php" method="POST" onSubmit="return checkInputs(this)">
+<table>
+<tr>
+<td><p>Nome:</p></td>
+<td><input type="text" name="nome" size="50"></td>
+</tr>
+
+<tr>
+<td><p>Email:</p></td>
+<td> <input type="text" name="email" size="50"</td>
+</tr>
+</table>
+
+<table>
+<tr>
+<td align=left colspan=2><p>Bugs</p></td>
+</tr>
+
+<tr>
+<td align=center colspan=2>
+<textarea name="bug" rows="15" cols="60" wrap="virtual">
+</textarea>
+</td>
+
+<tr>
+  <td align=center> 
+    <input type="submit" name="submit" value="Send it now">
+  </td>
+  <td align=center>
+    <input type="reset" name="reset" value="Cancel"> 
+  </td>
+</tr>
+
+</table>
+</form>
+</center>
+
+</body>
+</html>

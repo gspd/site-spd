@@ -1,0 +1,122 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 3.2 Final//BR">
+
+<!--Converted with jLaTeX2HTML 2002 (1.62) JA patch-1.4
+patched version by:  Kenshi Muto, Debian Project.
+LaTeX2HTML 2002 (1.62),
+original version by:  Nikos Drakos, CBLU, University of Leeds
+* revised and updated by:  Marcus Hennecke, Ross Moore, Herb Swan
+* with significant contributions from:
+  Jens Lippmann, Marek Rouchal, Martin Wilck and others -->
+<HTML>
+<HEAD>
+<TITLE>Instru&ccedil;&#245;es para uso das tabelas apresentadas</TITLE>
+<META NAME="description" CONTENT="Instru&ccedil;&#245;es para uso das tabelas apresentadas">
+<META NAME="keywords" CONTENT="index">
+<META NAME="resource-type" CONTENT="document">
+<META NAME="distribution" CONTENT="global">
+
+<META HTTP-EQUIV="Content-Type" CONTENT="text/html; charset=iso-8859-1">
+<META NAME="Generator" CONTENT="jLaTeX2HTML v2002 JA patch-1.4">
+<META HTTP-EQUIV="Content-Style-Type" CONTENT="text/css">
+
+<LINK REL="STYLESHEET" HREF="index.css">
+
+<LINK REL="previous" HREF="node22.html">
+<LINK REL="up" HREF="node1.html">
+<LINK REL="next" HREF="node33.html">
+</HEAD>
+
+<BODY >
+<!--Navigation Panel-->
+<A NAME="tex2html436"
+  HREF="node33.html">
+<IMG WIDTH="37" HEIGHT="24" ALIGN="BOTTOM" BORDER="0" ALT="next"
+ SRC="file:/usr/share/latex2html/icons/next.png"></A> 
+<A NAME="tex2html434"
+  HREF="node1.html">
+<IMG WIDTH="26" HEIGHT="24" ALIGN="BOTTOM" BORDER="0" ALT="up"
+ SRC="file:/usr/share/latex2html/icons/up.png"></A> 
+<A NAME="tex2html430"
+  HREF="node31.html">
+<IMG WIDTH="63" HEIGHT="24" ALIGN="BOTTOM" BORDER="0" ALT="previous"
+ SRC="file:/usr/share/latex2html/icons/prev.png"></A>   
+<BR>
+<B> Next:</B> <A NAME="tex2html437"
+  HREF="node33.html">Tabelas para refer&#234;ncia r&#225;pida</A>
+<B> Up:</B> <A NAME="tex2html435"
+  HREF="node1.html">Tabelas classificat&#243;rias das t&#233;cnicas</A>
+<B> Previous:</B> <A NAME="tex2html431"
+  HREF="node31.html">Vampir/Vampirtrace</A>
+<BR>
+<BR>
+<!--End of Navigation Panel-->
+
+<H1><A NAME="SECTION00150000000000000000">
+Instru&#231;&#245;es para uso das tabelas apresentadas</A>
+</H1>
+
+Para que as tabelas possam ser utilizadas de forma correta, o usu&#225;rio ou analista precisa ter conhecimento do problema a ser resolvido ou da aplica&#231;&#227;o a ser avaliada. 
+A escolha da ferramenta ou t&#233;cnica para avalia&#231;&#227;o do desempenho torna-se menos trabalhosa a medida em que a quantidade de informa&#231;&#245;es que descrevem o problema aumenta.
+
+Atrav&#233;s das informa&#231;&#245;es sobre o problema, o analista pode seguir um procedimento para sele&#231;&#227;o da t&#233;cnica ou ferramenta a ser aplicada. 
+Esse procedimento &#233; realizado atrav&#233;s dos seguintes passos:
+
+<UL>
+<LI>verifica&#231;&#227;o do tipo de sistema, incluindo sua arquitetura;
+</LI>
+<LI>verifica&#231;&#227;o da exist&#234;ncia f&#237;sica e da disponibilidade do sistema a ser avaliado (para escolha da abordagem de avalia&#231;&#227;o);
+</LI>
+<LI>qual o sistema ou subsistema alvo da avalia&#231;&#227;o;
+</LI>
+<LI>quais informa&#231;&#245;es devem ser fornecidas na avalia&#231;&#227;o.
+</LI>
+</UL>
+
+Ao seguir esse procedimento, pode-se assegurar que a ferramenta escolhida, ser&#225; no m&#237;nimo adequada, podendo ser a &#243;tima em grande parte das ocasi&#245;es. Observe-se que a determina&#231;&#227;o de uma ferramenta &#243;tima depende de fatores como disponibilidade de acesso &#224; mesma.
+
+Para ilustrar o uso dessas tabelas e, principalmente, das v&#225;rias estrat&#233;gias
+de classifica&#231;&#227;o, considere que um analista tem em m&#227;os a tarefa
+de medir o desempenho de um algoritmo paralelo de ajuste de curvas que ser&#225;
+executado em um <EM>cluster Beowulf</EM>. Qual seria ent&#227;o o crit&#233;rio de
+escolha por uma ferramenta de an&#225;lise de desempenho?
+
+Primeiro, o que se quer medir &#233; o desempenho de software, o que j&#225; restringe 
+em parte o universo de escolha.
+Segundo, o <EM>cluster Beowulf</EM> &#233; uma m&#225;quina MIMD, com granula&#231;&#227;o m&#233;dia
+para alta, restringindo ainda mais as ferramentas. 
+Terceiro, o usu&#225;rio deve definir se o algoritmo j&#225; foi codificado, o que 
+permite o uso de <EM>benchmarking</EM>, ou n&#227;o. 
+
+Quarto, que tipo de dados s&#227;o do interesse do usu&#225;rio, a partir da descri&#231;&#227;o das 
+ferramentas neste cap&#237;tulo. Uma op&#231;&#227;o razo&#225;vel caso se deseje tempos consumidos em fun&#231;&#245;es do 
+programa e o c&#243;digo fonte estiver dispon&#237;vel, seria o uso de Pablo ou do
+Etnus Total View (vers&#227;o comercial). J&#225; se a medida desejada n&#227;o for
+previamente conhecida e se queira evitar a execu&#231;&#227;o de muitos 
+<EM>benchmarks</EM>, uma op&#231;&#227;o seria o Paradyn.
+
+
+<P>
+<HR>
+<!--Navigation Panel-->
+<A NAME="tex2html436"
+  HREF="node33.html">
+<IMG WIDTH="37" HEIGHT="24" ALIGN="BOTTOM" BORDER="0" ALT="next"
+ SRC="file:/usr/share/latex2html/icons/next.png"></A> 
+<A NAME="tex2html434"
+  HREF="node1.html">
+<IMG WIDTH="26" HEIGHT="24" ALIGN="BOTTOM" BORDER="0" ALT="up"
+ SRC="file:/usr/share/latex2html/icons/up.png"></A> 
+<A NAME="tex2html430"
+  HREF="node31.html">
+<IMG WIDTH="63" HEIGHT="24" ALIGN="BOTTOM" BORDER="0" ALT="previous"
+ SRC="file:/usr/share/latex2html/icons/prev.png"></A>   
+<BR>
+<B> Next:</B> <A NAME="tex2html437"
+  HREF="node33.html">Tabelas para refer&#234;ncia r&#225;pida</A>
+<B> Up:</B> <A NAME="tex2html435"
+  HREF="node1.html">Tabelas classificat&#243;rias das t&#233;cnicas</A>
+<B> Previous:</B> <A NAME="tex2html431"
+  HREF="node31.html">Vampir/Vampirtrace</A>
+<!--End of Navigation Panel-->
+</BODY>
+</HTML>

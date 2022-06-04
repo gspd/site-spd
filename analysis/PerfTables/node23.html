@@ -1,0 +1,134 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 3.2 Final//BR">
+
+<!--Converted with jLaTeX2HTML 2002 (1.62) JA patch-1.4
+patched version by:  Kenshi Muto, Debian Project.
+LaTeX2HTML 2002 (1.62),
+original version by:  Nikos Drakos, CBLU, University of Leeds
+* revised and updated by:  Marcus Hennecke, Ross Moore, Herb Swan
+* with significant contributions from:
+  Jens Lippmann, Marek Rouchal, Martin Wilck and others -->
+<HTML>
+<HEAD>
+<TITLE>AIMS</TITLE>
+<META NAME="description" CONTENT="AIMS">
+<META NAME="keywords" CONTENT="index">
+<META NAME="resource-type" CONTENT="document">
+<META NAME="distribution" CONTENT="global">
+
+<META HTTP-EQUIV="Content-Type" CONTENT="text/html; charset=iso-8859-1">
+<META NAME="Generator" CONTENT="jLaTeX2HTML v2002 JA patch-1.4">
+<META HTTP-EQUIV="Content-Style-Type" CONTENT="text/css">
+
+<LINK REL="STYLESHEET" HREF="index.css">
+
+<LINK REL="next" HREF="node24.html">
+<LINK REL="previous" HREF="node22.html">
+<LINK REL="up" HREF="node22.html">
+<LINK REL="next" HREF="node24.html">
+</HEAD>
+
+<BODY >
+<!--Navigation Panel-->
+<A NAME="tex2html350"
+  HREF="node24.html">
+<IMG WIDTH="37" HEIGHT="24" ALIGN="BOTTOM" BORDER="0" ALT="next"
+ SRC="file:/usr/share/latex2html/icons/next.png"></A> 
+<A NAME="tex2html348"
+  HREF="node22.html">
+<IMG WIDTH="26" HEIGHT="24" ALIGN="BOTTOM" BORDER="0" ALT="up"
+ SRC="file:/usr/share/latex2html/icons/up.png"></A> 
+<A NAME="tex2html342"
+  HREF="node22.html">
+<IMG WIDTH="63" HEIGHT="24" ALIGN="BOTTOM" BORDER="0" ALT="previous"
+ SRC="file:/usr/share/latex2html/icons/prev.png"></A>   
+<BR>
+<B> Next:</B> <A NAME="tex2html351"
+  HREF="node24.html">ASiA</A>
+<B> Up:</B> <A NAME="tex2html349"
+  HREF="node22.html">Ferramentas aplic&#225;veis a sistemas</A>
+<B> Previous:</B> <A NAME="tex2html343"
+  HREF="node22.html">Ferramentas aplic&#225;veis a sistemas</A>
+<BR>
+<BR>
+<!--End of Navigation Panel-->
+
+<H2><A NAME="SECTION00141000000000000000">
+AIMS</A>
+</H2>
+<BR>
+[<A
+ HREF="node34.html#yan:95">Yan, 1995</A>]
+
+<BR><P></P>
+<DIV ALIGN="CENTER"><A NAME="261"></A>
+<TABLE>
+<CAPTION><STRONG>Tabela 1.18:</STRONG>
+Caracter&#237;sticas da ferramenta AIMS.</CAPTION>
+<TR><TD>
+	<DIV ALIGN="CENTER">
+<TABLE CELLPADDING=3 BORDER="1" ALIGN="CENTER">
+<TR><TD ALIGN="LEFT" VALIGN="TOP" WIDTH=170>Nome</TD>
+<TD ALIGN="LEFT" VALIGN="TOP" WIDTH=227>AIMS</TD>
+</TR>
+<TR><TD ALIGN="LEFT" VALIGN="TOP" WIDTH=170>Sistema aplicado</TD>
+<TD ALIGN="LEFT" VALIGN="TOP" WIDTH=227>software</TD>
+</TR>
+<TR><TD ALIGN="LEFT" VALIGN="TOP" WIDTH=170>Abordagem para obten&#231;&#227;o dos resultados</TD>
+<TD ALIGN="LEFT" VALIGN="TOP" WIDTH=227>benchmarking</TD>
+</TR>
+<TR><TD ALIGN="LEFT" VALIGN="TOP" WIDTH=170>Forma de medi&#231;&#227;o ou instrumenta&#231;&#227;o</TD>
+<TD ALIGN="LEFT" VALIGN="TOP" WIDTH=227>instrumenta&#231;&#227;o do c&#243;digo fonte, monitora&#231;&#227;o por software</TD>
+</TR>
+<TR><TD ALIGN="LEFT" VALIGN="TOP" WIDTH=170>Tipos de dados gerados pela an&#225;lise</TD>
+<TD ALIGN="LEFT" VALIGN="TOP" WIDTH=227>profiling, medi&#231;&#227;o de intervalo de tempos, extra&#231;&#227;o de tra&#231;os de eventos</TD>
+</TR>
+<TR><TD ALIGN="LEFT" VALIGN="TOP" WIDTH=170>Arquitetura</TD>
+<TD ALIGN="LEFT" VALIGN="TOP" WIDTH=227>MIMD, SIMD</TD>
+</TR>
+<TR><TD ALIGN="LEFT" VALIGN="TOP" WIDTH=170>Informa&#231;&#245;es fornecidas</TD>
+<TD ALIGN="LEFT" VALIGN="TOP" WIDTH=227>tempo de execu&#231;&#227;o do programa e de subrotinas, eventos de E/S e troca de mensagens</TD>
+</TR>
+<TR><TD ALIGN="LEFT" VALIGN="TOP" WIDTH=170>An&#225;lise (sistema alvo)</TD>
+<TD ALIGN="LEFT" VALIGN="TOP" WIDTH=227>sistema de software</TD>
+</TR>
+</TABLE>
+</DIV>
+	
+	<A NAME="tab4:aims"></A>
+</TD></TR>
+</TABLE>
+</DIV><P></P>
+<BR>
+Os dados sobre o desempenho dos programas s&#227;o gerados a partir da execu&#231;&#227;o do programa compilado referenciando as bibliotecas de monitoramento. A ferramenta gera arquivos separados para cada processador e, ap&#243;s a execu&#231;&#227;o, une os arquivos para a cria&#231;&#227;o de um arquivo totalizador das estat&#237;sticas ou das informa&#231;&#245;es.
+
+Os arquivos ent&#227;o podem ser analisados atrav&#233;s do m&#243;dulo de visualiza&#231;&#227;o (VK - Visual Kernel).  Essa ferramenta possui um controle parecido com o de um ``playback'' e, literalmente, reproduz a execu&#231;&#227;o, exibindo os dados sobre o desempenho. O usu&#225;rio pode, se desejar, adicionar pontos de an&#225;lise particulares para verificar a situa&#231;&#227;o do sistema. 
+
+As informa&#231;&#245;es oferecidas pelo conjunto s&#227;o os eventos de entrada e sa&#237;da, eventos de troca de mensagens, tempos de execu&#231;&#227;o das sub-rotinas e do programa.
+Aspectos negativos sobre o conjunto s&#227;o o n&#250;mero reduzido de plataformas onde a ferramenta pode ser executada e alguns erros na amostragem das medidas durante a fase de an&#225;lise de desempenho.
+
+A ferramenta AIMS &#233; muito vers&#225;til quanto &#224; instrumenta&#231;&#227;o, permitindo em alguns casos a instrumenta&#231;&#227;o autom&#225;tica sem a necessidade da adi&#231;&#227;o manual de c&#243;digo pelo usu&#225;rio. Outra caracter&#237;stica &#233; a possibilidade da edi&#231;&#227;o dos arquivos de configura&#231;&#227;o, e conseq&#252;ente altera&#231;&#227;o no comportamento da ferramenta de monitoramento, em tempo de execu&#231;&#227;o.
+
+<HR>
+<!--Navigation Panel-->
+<A NAME="tex2html350"
+  HREF="node24.html">
+<IMG WIDTH="37" HEIGHT="24" ALIGN="BOTTOM" BORDER="0" ALT="next"
+ SRC="file:/usr/share/latex2html/icons/next.png"></A> 
+<A NAME="tex2html348"
+  HREF="node22.html">
+<IMG WIDTH="26" HEIGHT="24" ALIGN="BOTTOM" BORDER="0" ALT="up"
+ SRC="file:/usr/share/latex2html/icons/up.png"></A> 
+<A NAME="tex2html342"
+  HREF="node22.html">
+<IMG WIDTH="63" HEIGHT="24" ALIGN="BOTTOM" BORDER="0" ALT="previous"
+ SRC="file:/usr/share/latex2html/icons/prev.png"></A>   
+<BR>
+<B> Next:</B> <A NAME="tex2html351"
+  HREF="node24.html">ASiA</A>
+<B> Up:</B> <A NAME="tex2html349"
+  HREF="node22.html">Ferramentas aplic&#225;veis a sistemas</A>
+<B> Previous:</B> <A NAME="tex2html343"
+  HREF="node22.html">Ferramentas aplic&#225;veis a sistemas</A>
+<!--End of Navigation Panel-->
+</BODY>
+</HTML>

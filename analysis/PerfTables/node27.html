@@ -1,0 +1,136 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 3.2 Final//BR">
+
+<!--Converted with jLaTeX2HTML 2002 (1.62) JA patch-1.4
+patched version by:  Kenshi Muto, Debian Project.
+LaTeX2HTML 2002 (1.62),
+original version by:  Nikos Drakos, CBLU, University of Leeds
+* revised and updated by:  Marcus Hennecke, Ross Moore, Herb Swan
+* with significant contributions from:
+  Jens Lippmann, Marek Rouchal, Martin Wilck and others -->
+<HTML>
+<HEAD>
+<TITLE>Pablo Performance Analysis Environment</TITLE>
+<META NAME="description" CONTENT="Pablo Performance Analysis Environment">
+<META NAME="keywords" CONTENT="index">
+<META NAME="resource-type" CONTENT="document">
+<META NAME="distribution" CONTENT="global">
+
+<META HTTP-EQUIV="Content-Type" CONTENT="text/html; charset=iso-8859-1">
+<META NAME="Generator" CONTENT="jLaTeX2HTML v2002 JA patch-1.4">
+<META HTTP-EQUIV="Content-Style-Type" CONTENT="text/css">
+
+<LINK REL="STYLESHEET" HREF="index.css">
+
+<LINK REL="next" HREF="node28.html">
+<LINK REL="previous" HREF="node26.html">
+<LINK REL="up" HREF="node22.html">
+<LINK REL="next" HREF="node28.html">
+</HEAD>
+
+<BODY >
+<!--Navigation Panel-->
+<A NAME="tex2html390"
+  HREF="node28.html">
+<IMG WIDTH="37" HEIGHT="24" ALIGN="BOTTOM" BORDER="0" ALT="next"
+ SRC="file:/usr/share/latex2html/icons/next.png"></A> 
+<A NAME="tex2html388"
+  HREF="node22.html">
+<IMG WIDTH="26" HEIGHT="24" ALIGN="BOTTOM" BORDER="0" ALT="up"
+ SRC="file:/usr/share/latex2html/icons/up.png"></A> 
+<A NAME="tex2html382"
+  HREF="node26.html">
+<IMG WIDTH="63" HEIGHT="24" ALIGN="BOTTOM" BORDER="0" ALT="previous"
+ SRC="file:/usr/share/latex2html/icons/prev.png"></A>   
+<BR>
+<B> Next:</B> <A NAME="tex2html391"
+  HREF="node28.html">Paradyn</A>
+<B> Up:</B> <A NAME="tex2html389"
+  HREF="node22.html">Ferramentas aplic&#225;veis a sistemas</A>
+<B> Previous:</B> <A NAME="tex2html383"
+  HREF="node26.html">P3T+</A>
+<BR>
+<BR>
+<!--End of Navigation Panel-->
+
+<H2><A NAME="SECTION00145000000000000000">
+Pablo Performance Analysis Environment</A>
+</H2>
+<BR>
+[<A
+ HREF="node34.html#reed:94">Reed, 1994</A>]
+
+<BR><P></P>
+<DIV ALIGN="CENTER"><A NAME="315"></A>
+<TABLE>
+<CAPTION><STRONG>Tabela 1.22:</STRONG>
+Caracter&#237;sticas das Ferramentas Pablo/SvPablo.</CAPTION>
+<TR><TD>
+	<DIV ALIGN="CENTER">
+<TABLE CELLPADDING=3 BORDER="1" ALIGN="CENTER">
+<TR><TD ALIGN="LEFT" VALIGN="TOP" WIDTH=170>Nome</TD>
+<TD ALIGN="LEFT" VALIGN="TOP" WIDTH=227>Pablo/SvPablo</TD>
+</TR>
+<TR><TD ALIGN="LEFT" VALIGN="TOP" WIDTH=170>Sistema aplicado</TD>
+<TD ALIGN="LEFT" VALIGN="TOP" WIDTH=227>software</TD>
+</TR>
+<TR><TD ALIGN="LEFT" VALIGN="TOP" WIDTH=170>Abordagem para obten&#231;&#227;o dos resultados</TD>
+<TD ALIGN="LEFT" VALIGN="TOP" WIDTH=227>benchmarking</TD>
+</TR>
+<TR><TD ALIGN="LEFT" VALIGN="TOP" WIDTH=170>Forma de medi&#231;&#227;o ou instrumenta&#231;&#227;o</TD>
+<TD ALIGN="LEFT" VALIGN="TOP" WIDTH=227>modifica&#231;&#227;o do c&#243;digo fonte e do execut&#225;vel</TD>
+</TR>
+<TR><TD ALIGN="LEFT" VALIGN="TOP" WIDTH=170>Tipos de dados gerados pela an&#225;lise</TD>
+<TD ALIGN="LEFT" VALIGN="TOP" WIDTH=227>extra&#231;&#227;o de tra&#231;os de eventos, profiling</TD>
+</TR>
+<TR><TD ALIGN="LEFT" VALIGN="TOP" WIDTH=170>Arquitetura</TD>
+<TD ALIGN="LEFT" VALIGN="TOP" WIDTH=227>n&#227;o se aplica</TD>
+</TR>
+<TR><TD ALIGN="LEFT" VALIGN="TOP" WIDTH=170>Informa&#231;&#245;es fornecidas</TD>
+<TD ALIGN="LEFT" VALIGN="TOP" WIDTH=227>tempo de processamento, contagem de disparos de rotinas, comportamento em rela&#231;&#227;o &#224; troca de mensagens, utiliza&#231;&#227;o de E/S</TD>
+</TR>
+<TR><TD ALIGN="LEFT" VALIGN="TOP" WIDTH=170>An&#225;lise (sistema alvo)</TD>
+<TD ALIGN="LEFT" VALIGN="TOP" WIDTH=227>software</TD>
+</TR>
+</TABLE>
+</DIV>
+	
+	<A NAME="tab4:pablo"></A>
+</TD></TR>
+</TABLE>
+</DIV><P></P>
+<BR>
+A instrumenta&#231;&#227;o do software &#233; realizada atrav&#233;s da inser&#231;&#227;o das bibliotecas contendo extens&#245;es que realizam a extra&#231;&#227;o de tra&#231;os, ciclos e troca de mensagens. A extra&#231;&#227;o de tra&#231;os de troca de mensagens atrav&#233;s de MPI &#233; realizada apenas com a refer&#234;ncia &#224; biblioteca propriet&#225;ria no momento da execu&#231;&#227;o. 
+A extra&#231;&#227;o de tra&#231;os sobre o processamento e ciclos &#233; realizada automaticamente em apenas algumas arquiteturas, pois em esta&#231;&#245;es Unix, IBM RS 6000 e SPs por exemplo, a instrumenta&#231;&#227;o deve ser realizada manualmente.
+Quando o alvo da avalia&#231;&#227;o do sistema for a utiliza&#231;&#227;o de dispositivos de E/S, todas as instrumenta&#231;&#245;es (em qualquer arquitetura) devem ser realizadas manualmente, pois o sistema n&#227;o prov&#234; instrumenta&#231;&#227;o autom&#225;tica para esses casos.
+
+A an&#225;lise e verifica&#231;&#227;o dos dados gerados pela instrumenta&#231;&#227;o deve ser realizada atrav&#233;s da utiliza&#231;&#227;o de comandos espec&#237;ficos, no caso de tra&#231;os de E/S e atrav&#233;s do componente ``Pablo Analysis GUI'', quando os dados estiverem dispostos no formato SDDF. O GUI &#233; um conjunto capaz de processar arquivos SDDF composto de quatro m&#243;dulos, que permitem a cria&#231;&#227;o de grafos para disponibiliza&#231;&#227;o dos dados de desempenho.
+
+Apesar de permitir a cria&#231;&#227;o de v&#225;rios tipos de grafos para an&#225;lise das medidas de desempenho, existem relatos [<A
+ HREF="node34.html#browne:97">Browne, 1997</A>] sobre o n&#227;o funcionamento de alguns dos tipos de grafos oferecidos pelo componente.
+
+Outra op&#231;&#227;o para an&#225;lise de desempenho no conjunto Pablo &#233; o componente chamado SvPablo. Com ele o usu&#225;rio pode organizar o c&#243;digo fonte do programa, al&#233;m de organizar os arquivos de tra&#231;os criados em outras avalia&#231;&#245;es. Com esse componente, ap&#243;s o arquivo dos tra&#231;os do programa ser aberto, o usu&#225;rio pode verificar as estat&#237;sticas de cada rotina instrumentada e de cada la&#231;o analisado.
+
+<HR>
+<!--Navigation Panel-->
+<A NAME="tex2html390"
+  HREF="node28.html">
+<IMG WIDTH="37" HEIGHT="24" ALIGN="BOTTOM" BORDER="0" ALT="next"
+ SRC="file:/usr/share/latex2html/icons/next.png"></A> 
+<A NAME="tex2html388"
+  HREF="node22.html">
+<IMG WIDTH="26" HEIGHT="24" ALIGN="BOTTOM" BORDER="0" ALT="up"
+ SRC="file:/usr/share/latex2html/icons/up.png"></A> 
+<A NAME="tex2html382"
+  HREF="node26.html">
+<IMG WIDTH="63" HEIGHT="24" ALIGN="BOTTOM" BORDER="0" ALT="previous"
+ SRC="file:/usr/share/latex2html/icons/prev.png"></A>   
+<BR>
+<B> Next:</B> <A NAME="tex2html391"
+  HREF="node28.html">Paradyn</A>
+<B> Up:</B> <A NAME="tex2html389"
+  HREF="node22.html">Ferramentas aplic&#225;veis a sistemas</A>
+<B> Previous:</B> <A NAME="tex2html383"
+  HREF="node26.html">P3T+</A>
+<!--End of Navigation Panel-->
+</BODY>
+</HTML>

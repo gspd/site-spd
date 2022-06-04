@@ -1,0 +1,130 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 3.2 Final//BR">
+
+<!--Converted with jLaTeX2HTML 2002 (1.62) JA patch-1.4
+patched version by:  Kenshi Muto, Debian Project.
+LaTeX2HTML 2002 (1.62),
+original version by:  Nikos Drakos, CBLU, University of Leeds
+* revised and updated by:  Marcus Hennecke, Ross Moore, Herb Swan
+* with significant contributions from:
+  Jens Lippmann, Marek Rouchal, Martin Wilck and others -->
+<HTML>
+<HEAD>
+<TITLE>Linpack e varia&ccedil;&#245;es</TITLE>
+<META NAME="description" CONTENT="Linpack e varia&ccedil;&#245;es">
+<META NAME="keywords" CONTENT="index">
+<META NAME="resource-type" CONTENT="document">
+<META NAME="distribution" CONTENT="global">
+
+<META HTTP-EQUIV="Content-Type" CONTENT="text/html; charset=iso-8859-1">
+<META NAME="Generator" CONTENT="jLaTeX2HTML v2002 JA patch-1.4">
+<META HTTP-EQUIV="Content-Style-Type" CONTENT="text/css">
+
+<LINK REL="STYLESHEET" HREF="index.css">
+
+<LINK REL="next" HREF="node17.html">
+<LINK REL="previous" HREF="node15.html">
+<LINK REL="up" HREF="node14.html">
+<LINK REL="next" HREF="node17.html">
+</HEAD>
+
+<BODY >
+<!--Navigation Panel-->
+<A NAME="tex2html273"
+  HREF="node17.html">
+<IMG WIDTH="37" HEIGHT="24" ALIGN="BOTTOM" BORDER="0" ALT="next"
+ SRC="file:/usr/share/latex2html/icons/next.png"></A> 
+<A NAME="tex2html271"
+  HREF="node14.html">
+<IMG WIDTH="26" HEIGHT="24" ALIGN="BOTTOM" BORDER="0" ALT="up"
+ SRC="file:/usr/share/latex2html/icons/up.png"></A> 
+<A NAME="tex2html265"
+  HREF="node15.html">
+<IMG WIDTH="63" HEIGHT="24" ALIGN="BOTTOM" BORDER="0" ALT="previous"
+ SRC="file:/usr/share/latex2html/icons/prev.png"></A>   
+<BR>
+<B> Next:</B> <A NAME="tex2html274"
+  HREF="node17.html">PAWS - Parallel Assessment</A>
+<B> Up:</B> <A NAME="tex2html272"
+  HREF="node14.html">Ferramentas aplic&#225;veis a sistemas</A>
+<B> Previous:</B> <A NAME="tex2html266"
+  HREF="node15.html">FTIO benchmark</A>
+<BR>
+<BR>
+<!--End of Navigation Panel-->
+
+<H2><A NAME="SECTION00132000000000000000">
+Linpack e varia&ccedil;&#245;es</A>
+</H2>
+<BR>
+[<A
+ HREF="node34.html#dongarra:88">Dongarra, 1988</A>]
+
+<BR><P></P>
+<DIV ALIGN="CENTER"><A NAME="180"></A>
+<TABLE>
+<CAPTION><STRONG>Tabela:</STRONG>
+Caracter&#237;sticas do benchmark linpack e suas varia&ccedil;&#245;es.</CAPTION>
+<TR><TD>
+	<DIV ALIGN="CENTER">
+<TABLE CELLPADDING=3 BORDER="1" ALIGN="CENTER">
+<TR><TD ALIGN="LEFT" VALIGN="TOP" WIDTH=170>Nome</TD>
+<TD ALIGN="LEFT" VALIGN="TOP" WIDTH=227>Linpack, lapack, scalapack, hplinpack</TD>
+</TR>
+<TR><TD ALIGN="LEFT" VALIGN="TOP" WIDTH=170>Sistema aplicado</TD>
+<TD ALIGN="LEFT" VALIGN="TOP" WIDTH=227>hardware</TD>
+</TR>
+<TR><TD ALIGN="LEFT" VALIGN="TOP" WIDTH=170>Abordagem para obten&#231;&#227;o dos resultados</TD>
+<TD ALIGN="LEFT" VALIGN="TOP" WIDTH=227>benchmarking</TD>
+</TR>
+<TR><TD ALIGN="LEFT" VALIGN="TOP" WIDTH=170>Forma de medi&#231;&#227;o ou instrumenta&#231;&#227;o</TD>
+<TD ALIGN="LEFT" VALIGN="TOP" WIDTH=227>-</TD>
+</TR>
+<TR><TD ALIGN="LEFT" VALIGN="TOP" WIDTH=170>Tipos de dados gerados pela an&#225;lise</TD>
+<TD ALIGN="LEFT" VALIGN="TOP" WIDTH=227>contagem de eventos, medi&#231;&#227;o de intervalo de tempos</TD>
+</TR>
+<TR><TD ALIGN="LEFT" VALIGN="TOP" WIDTH=170>Arquitetura</TD>
+<TD ALIGN="LEFT" VALIGN="TOP" WIDTH=227>SISD, SIMD e MIMD</TD>
+</TR>
+<TR><TD ALIGN="LEFT" VALIGN="TOP" WIDTH=170>Informa&#231;&#245;es fornecidas</TD>
+<TD ALIGN="LEFT" VALIGN="TOP" WIDTH=227>n&#250;mero de opera&#231;&#245;es (em GFlops) m&#225;ximo, tamanho da matriz em que o n&#250;mero de opera&#231;&#245;es &#233; m&#225;ximo, n&#250;mero de opera&#231;&#245;es com a matriz reduzida (metade da original)</TD>
+</TR>
+<TR><TD ALIGN="LEFT" VALIGN="TOP" WIDTH=170>An&#225;lise (sistema alvo)</TD>
+<TD ALIGN="LEFT" VALIGN="TOP" WIDTH=227>sistema computacional</TD>
+</TR>
+</TABLE>
+</DIV>
+	
+	<A NAME="tab4:linpack"></A>
+</TD></TR>
+</TABLE>
+</DIV><P></P>
+<BR>
+A vers&#227;o original do ``benchmark'' Linpack (matriz 100x100), passado um per&#237;odo de sua cria&#231;&#227;o, deixou de ser o maior ``benchmark'' na hist&#243;ria da an&#225;lise de desempeno para ser uma ferramenta esquecida. Tal fato deu-se devido a v&#225;rios fabricantes conseguirem colocar na mem&#243;ria ``cache'' todas as estruturas utilizadas durante a execu&#231;&#227;o da ferramenta. Para contornar esse problema, o tamanho da matriz precisou ser alterado, tornando o Linpack um ``benchmark'' aceito novamente pela comunidade.
+
+Apesar desse fato, os dados fornecidos pelo ``benchmark'' Linpack continuaram (e ainda continuam) servindo de base para compara&#231;&#227;o entre diferentes computadores de todo o mundo, como acontece em <I>``Top 500 Report''</I> [<A
+ HREF="node34.html#top500:02">TOP500, 2002</A>].
+
+<HR>
+<!--Navigation Panel-->
+<A NAME="tex2html273"
+  HREF="node17.html">
+<IMG WIDTH="37" HEIGHT="24" ALIGN="BOTTOM" BORDER="0" ALT="next"
+ SRC="file:/usr/share/latex2html/icons/next.png"></A> 
+<A NAME="tex2html271"
+  HREF="node14.html">
+<IMG WIDTH="26" HEIGHT="24" ALIGN="BOTTOM" BORDER="0" ALT="up"
+ SRC="file:/usr/share/latex2html/icons/up.png"></A> 
+<A NAME="tex2html265"
+  HREF="node15.html">
+<IMG WIDTH="63" HEIGHT="24" ALIGN="BOTTOM" BORDER="0" ALT="previous"
+ SRC="file:/usr/share/latex2html/icons/prev.png"></A>   
+<BR>
+<B> Next:</B> <A NAME="tex2html274"
+  HREF="node17.html">PAWS - Parallel Assessment</A>
+<B> Up:</B> <A NAME="tex2html272"
+  HREF="node14.html">Ferramentas aplic&#225;veis a sistemas</A>
+<B> Previous:</B> <A NAME="tex2html266"
+  HREF="node15.html">FTIO benchmark</A>
+<!--End of Navigation Panel-->
+</BODY>
+</HTML>

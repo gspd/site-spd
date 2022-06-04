@@ -1,0 +1,129 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 3.2 Final//BR">
+
+<!--Converted with jLaTeX2HTML 2002 (1.62) JA patch-1.4
+patched version by:  Kenshi Muto, Debian Project.
+LaTeX2HTML 2002 (1.62),
+original version by:  Nikos Drakos, CBLU, University of Leeds
+* revised and updated by:  Marcus Hennecke, Ross Moore, Herb Swan
+* with significant contributions from:
+  Jens Lippmann, Marek Rouchal, Martin Wilck and others -->
+<HTML>
+<HEAD>
+<TITLE>An&#225;lise do desempenho da mem&#243;ria em sistemas DSM</TITLE>
+<META NAME="description" CONTENT="An&#225;lise do desempenho da mem&#243;ria em sistemas DSM">
+<META NAME="keywords" CONTENT="index">
+<META NAME="resource-type" CONTENT="document">
+<META NAME="distribution" CONTENT="global">
+
+<META HTTP-EQUIV="Content-Type" CONTENT="text/html; charset=iso-8859-1">
+<META NAME="Generator" CONTENT="jLaTeX2HTML v2002 JA patch-1.4">
+<META HTTP-EQUIV="Content-Style-Type" CONTENT="text/css">
+
+<LINK REL="STYLESHEET" HREF="index.css">
+
+<LINK REL="next" HREF="node5.html">
+<LINK REL="previous" HREF="node3.html">
+<LINK REL="up" HREF="node2.html">
+<LINK REL="next" HREF="node5.html">
+</HEAD>
+
+<BODY >
+<!--Navigation Panel-->
+<A NAME="tex2html147"
+  HREF="node5.html">
+<IMG WIDTH="37" HEIGHT="24" ALIGN="BOTTOM" BORDER="0" ALT="next"
+ SRC="file:/usr/share/latex2html/icons/next.png"></A> 
+<A NAME="tex2html145"
+  HREF="node2.html">
+<IMG WIDTH="26" HEIGHT="24" ALIGN="BOTTOM" BORDER="0" ALT="up"
+ SRC="file:/usr/share/latex2html/icons/up.png"></A> 
+<A NAME="tex2html139"
+  HREF="node3.html">
+<IMG WIDTH="63" HEIGHT="24" ALIGN="BOTTOM" BORDER="0" ALT="previous"
+ SRC="file:/usr/share/latex2html/icons/prev.png"></A>   
+<BR>
+<B> Next:</B> <A NAME="tex2html148"
+  HREF="node5.html">An&#225;lise do tempo de</A>
+<B> Up:</B> <A NAME="tex2html146"
+  HREF="node2.html">T&#233;cnicas aplic&#225;veis a sistemas</A>
+<B> Previous:</B> <A NAME="tex2html140"
+  HREF="node3.html">An&#225;lise de subsistema de</A>
+<BR>
+<BR>
+<!--End of Navigation Panel-->
+
+<H2><A NAME="SECTION00112000000000000000">
+An&#225;lise do desempenho da mem&#243;ria em sistemas DSM</A>
+</H2>
+<BR>
+[<A
+ HREF="node34.html#abandah:98">Abandah, 1998</A>]
+
+<BR><P></P>
+<DIV ALIGN="CENTER"><A NAME="43"></A>
+<TABLE>
+<CAPTION><STRONG>Tabela 1.2:</STRONG>
+Caracter&#237;sticas da t&#233;cnica de an&#225;lise de desempenho de sistemas DSM.</CAPTION>
+<TR><TD>
+	<DIV ALIGN="CENTER">
+<TABLE CELLPADDING=3 BORDER="1" ALIGN="CENTER">
+<TR><TD ALIGN="LEFT" VALIGN="TOP" WIDTH=170>Nome</TD>
+<TD ALIGN="LEFT" VALIGN="TOP" WIDTH=227>An&#225;lise de desempenho de mem&#243;ria em sistemas DSM</TD>
+</TR>
+<TR><TD ALIGN="LEFT" VALIGN="TOP" WIDTH=170>Sistema aplicado</TD>
+<TD ALIGN="LEFT" VALIGN="TOP" WIDTH=227>hardware</TD>
+</TR>
+<TR><TD ALIGN="LEFT" VALIGN="TOP" WIDTH=170>Abordagem para obten&#231;&#227;o dos resultados</TD>
+<TD ALIGN="LEFT" VALIGN="TOP" WIDTH=227>benchmarking</TD>
+</TR>
+<TR><TD ALIGN="LEFT" VALIGN="TOP" WIDTH=170>Forma de medi&#231;&#227;o ou instrumenta&#231;&#227;o</TD>
+<TD ALIGN="LEFT" VALIGN="TOP" WIDTH=227>-</TD>
+</TR>
+<TR><TD ALIGN="LEFT" VALIGN="TOP" WIDTH=170>Tipos de dados gerados pela an&#225;lise</TD>
+<TD ALIGN="LEFT" VALIGN="TOP" WIDTH=227>medi&#231;&#227;o de intervalo de tempos</TD>
+</TR>
+<TR><TD ALIGN="LEFT" VALIGN="TOP" WIDTH=170>Arquitetura</TD>
+<TD ALIGN="LEFT" VALIGN="TOP" WIDTH=227>SIMD, MIMD (estrutura dos benchmarks)</TD>
+</TR>
+<TR><TD ALIGN="LEFT" VALIGN="TOP" WIDTH=170>Informa&#231;&#245;es fornecidas</TD>
+<TD ALIGN="LEFT" VALIGN="TOP" WIDTH=227>tempo de acesso &#224; mem&#243;ria (local, cache e compartilhada), largura de banda necess&#225;ria na execu&#231;&#227;o dos programas, tempo de sobregarga para sincronismo</TD>
+</TR>
+<TR><TD ALIGN="LEFT" VALIGN="TOP" WIDTH=170>An&#225;lise (sistema alvo)</TD>
+<TD ALIGN="LEFT" VALIGN="TOP" WIDTH=227>subsistema de mem&#243;ria, subsistema de escalonamento (sist. operacional)</TD>
+</TR>
+</TABLE>
+</DIV>
+	
+	<A NAME="tab4:analiseDSM"></A>
+</TD></TR>
+</TABLE>
+</DIV><P></P>
+<BR>
+O desempenho do subsistema de mem&#243;ria &#233; avaliado em duas situa&#231;&#245;es: uma quando apenas um processador tem acesso ao subsistema, representando o melhor caso, em que n&#227;o existe disputa para acessar os dispositivos (apenas um processador escreve e l&#234; nas mem&#243;rias); e outra quando v&#225;rios processadores disputam o acesso &#224;s mem&#243;rias e aos meios de comunica&#231;&#227;o (entre os v&#225;rios ``hypernodes'' e, dentro de cada um, entre as unidades funcionais).
+
+A degrada&#231;&#227;o de desempenho resultante da disputa entre os processadores &#233; avaliada confrontando os dados gerados pelas medi&#231;&#245;es nos dois casos.
+
+<HR>
+<!--Navigation Panel-->
+<A NAME="tex2html147"
+  HREF="node5.html">
+<IMG WIDTH="37" HEIGHT="24" ALIGN="BOTTOM" BORDER="0" ALT="next"
+ SRC="file:/usr/share/latex2html/icons/next.png"></A> 
+<A NAME="tex2html145"
+  HREF="node2.html">
+<IMG WIDTH="26" HEIGHT="24" ALIGN="BOTTOM" BORDER="0" ALT="up"
+ SRC="file:/usr/share/latex2html/icons/up.png"></A> 
+<A NAME="tex2html139"
+  HREF="node3.html">
+<IMG WIDTH="63" HEIGHT="24" ALIGN="BOTTOM" BORDER="0" ALT="previous"
+ SRC="file:/usr/share/latex2html/icons/prev.png"></A>   
+<BR>
+<B> Next:</B> <A NAME="tex2html148"
+  HREF="node5.html">An&#225;lise do tempo de</A>
+<B> Up:</B> <A NAME="tex2html146"
+  HREF="node2.html">T&#233;cnicas aplic&#225;veis a sistemas</A>
+<B> Previous:</B> <A NAME="tex2html140"
+  HREF="node3.html">An&#225;lise de subsistema de</A>
+<!--End of Navigation Panel-->
+</BODY>
+</HTML>
