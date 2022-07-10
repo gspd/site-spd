@@ -14,7 +14,7 @@
 }
 -->
 </style>
-<!-- DEPENDENDO DA LOCALIZAÇÃO DO SEU ARQUIVO DENTRO DA HIERARQUIA DAS PASTAS DO SEU SITE, A FOLHA DE ESTILOS PODE NÃO ENCONTRAR O CAMINHO CORRETO, SE DER ERRO AO VISUALIZAR O ARQUIVO, VERIFIQUE O CAMINHO QUE DEVE SER COLOCADO NA SUA PÁGINA (SOMENTE A PÁGINA QUE ESTÁ COM ERRO) PARA SOLUCIONAR O PROBLEMA - ENTRE EM CONTATO COM O ADMINISTRADOR DE REDES LOCAL PARA IDENTIFICAR O CAMINHO  -->
+<!-- DEPENDENDO DA LOCALIZAï¿½ï¿½O DO SEU ARQUIVO DENTRO DA HIERARQUIA DAS PASTAS DO SEU SITE, A FOLHA DE ESTILOS PODE Nï¿½O ENCONTRAR O CAMINHO CORRETO, SE DER ERRO AO VISUALIZAR O ARQUIVO, VERIFIQUE O CAMINHO QUE DEVE SER COLOCADO NA SUA Pï¿½GINA (SOMENTE A Pï¿½GINA QUE ESTï¿½ COM ERRO) PARA SOLUCIONAR O PROBLEMA - ENTRE EM CONTATO COM O ADMINISTRADOR DE REDES LOCAL PARA IDENTIFICAR O CAMINHO  -->
 <link href="folha.css" rel="stylesheet" type="text/css">
 <!-- MANTER OS CAMINHOS DAS FOLHAS ABAIXO (FOLHADESTAQUE e IMPRIMIR) GRATO  -->
 <!-- <link href="folhaDESTAQUE.css" rel="stylesheet" type="text/css"> -->
@@ -31,7 +31,7 @@
 <!--        <td width="2" class="RodapeDivisor"><div align="center"></div></td>  -->
         <td width="420"><div align="center"><a href="http://www.unesp.br/" target="_blank" class="RodapeTexto"><font size=+0> Sao Paulo State University - UNESP</font></a></div></td>
 <!--        <td width="2" class="RodapeDivisor"><div align="center"></div></td>   -->
-        <td width="420"><div align="center"><a href="http://www.erad-sp.org/" target="_blank" class="RodapeTexto"><font size=+0><img src="logo-erad-sp.png" height="40"></font></a></div></td>
+        <td width="420"><div align="center"><a href="http://cradsp.sbc.org.br/eradsp" target="_blank" class="RodapeTexto"><font size=+0><img src="logo-erad-sp.png" height="40"></font></a></div></td>
 <!--        <td width="2" class="RodapeDivisor"><div align="center"></div></td>       -->
       </tr>
       </table>

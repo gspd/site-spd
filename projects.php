@@ -21,21 +21,21 @@ function MM_reloadPage(init) {  //reloads the window if Nav4 resized
 MM_reloadPage(true);
 //-->
 </script>
-<!-- DEPENDENDO DA LOCALIZAÇÃO DO SEU ARQUIVO DENTRO DA HIERARQUIA DAS PASTAS DO SEU SITE, A FOLHA DE ESTILOS PODE NÃO ENCONTRAR O CAMINHO CORRETO, SE DER ERRO AO VISUALIZAR O ARQUIVO, VERIFIQUE O CAMINHO QUE DEVE SER COLOCADO NA SUA PÁGINA (SOMENTE A PÁGINA QUE ESTÁ COM ERRO) PARA SOLUCIONAR O PROBLEMA - ENTRE EM CONTATO COM O ADMINISTRADOR DE REDES LOCAL PARA IDENTIFICAR O CAMINHO  --><link href="folha.css" rel="stylesheet" type="text/css">
+<!-- DEPENDENDO DA LOCALIZAï¿½ï¿½O DO SEU ARQUIVO DENTRO DA HIERARQUIA DAS PASTAS DO SEU SITE, A FOLHA DE ESTILOS PODE Nï¿½O ENCONTRAR O CAMINHO CORRETO, SE DER ERRO AO VISUALIZAR O ARQUIVO, VERIFIQUE O CAMINHO QUE DEVE SER COLOCADO NA SUA Pï¿½GINA (SOMENTE A Pï¿½GINA QUE ESTï¿½ COM ERRO) PARA SOLUCIONAR O PROBLEMA - ENTRE EM CONTATO COM O ADMINISTRADOR DE REDES LOCAL PARA IDENTIFICAR O CAMINHO  --><link href="folha.css" rel="stylesheet" type="text/css">
 <!-- MANTER OS CAMINHOS DAS FOLHAS ABAIXO (FOLHADESTAQUE e IMPRIMIR) GRATO  -->
 <!-- <link href="folhaDESTAQUE.css" rel="stylesheet" type="text/css"> -->
 <link href="folha.css" rel="stylesheet" type="text/css">
 
 </head>
 
- <body leftmargin="0" topmargin="0" marginwidth="0" marginheight="0" class="FundoPaginaInterna"><!-- TROQUE O CAMINHO DE ACESSO CONFORME A LOCALIZAÇÃO DO SEU ARQUIVO - INFORME-SE COM O ADMINISTRADOR DA REDE -->
-<meta name="Keywords" content="mestrado computação, pós graduação computação, 
-pós graduação stricto senso, mestrado gratuito, ciência da computação, UNESP, 
-mestrado sistemas distribuídos, mestrado segurança, mestrado redes, mestrado banco dados, 
+ <body leftmargin="0" topmargin="0" marginwidth="0" marginheight="0" class="FundoPaginaInterna"><!-- TROQUE O CAMINHO DE ACESSO CONFORME A LOCALIZAï¿½ï¿½O DO SEU ARQUIVO - INFORME-SE COM O ADMINISTRADOR DA REDE -->
+<meta name="Keywords" content="mestrado computaï¿½ï¿½o, pï¿½s graduaï¿½ï¿½o computaï¿½ï¿½o, 
+pï¿½s graduaï¿½ï¿½o stricto senso, mestrado gratuito, ciï¿½ncia da computaï¿½ï¿½o, UNESP, 
+mestrado sistemas distribuï¿½dos, mestrado seguranï¿½a, mestrado redes, mestrado banco dados, 
 mestrado processamento imagens,  mestrado sistemas inteligentes,  mestrado
-computação científica, mestrado arquitetura computadores, mestrado sistemas
+computaï¿½ï¿½o cientï¿½fica, mestrado arquitetura computadores, mestrado sistemas
 inteligentes, mestrado engenharia software,  mestrado UNESP Rio Preto, mestrado UNESP Bauru, 
-mestrado UNESP Rio  Claro, mestrado UNESP Prudente, estado São Paulo, mestrado
+mestrado UNESP Rio  Claro, mestrado UNESP Prudente, estado Sï¿½o Paulo, mestrado
 conceito  CAPES, mestrado credenciado">
 <?php include "head.php"; ?>
 <table width="900" border="0" cellspacing="0" cellpadding="0">
@@ -47,7 +47,7 @@ conceito  CAPES, mestrado credenciado">
     </tr>  
     <tr> 
       <td width="200" valign="top" class="MenuEsqFundo04"> 
-      <!-- TROQUE O CAMINHO DE ACESSO CONFORME A LOCALIZAÇÃO DO SEU ARQUIVO - INFORME-SE COM O ADMINISTRADOR DA REDE -->
+      <!-- TROQUE O CAMINHO DE ACESSO CONFORME A LOCALIZAï¿½ï¿½O DO SEU ARQUIVO - INFORME-SE COM O ADMINISTRADOR DA REDE -->
            <?php include "menu_esquerdo.php"; ?>
       </td>
       <td width="20">&nbsp;</td>
@@ -70,9 +70,8 @@ conceito  CAPES, mestrado credenciado">
              <tr><td>&nbsp;</td></tr>
              <tr><td><b>RTsim</b></td><td>Is a real-time scheduling policies simulator aimed to either as a teaching tool or an evaluation tool. Its user can insert scheduling policies to be evaluated, if this is his goal, or can practice over native schedulers, if learning is his goal.</td></tr>
              <tr><td>&nbsp;</td></tr>
-             <tr><td><b>Yasc</b></td><td>Will be a generator of customized simulators. It is intended to discrete event systems and will enable its user to create a custom graphical-based simulator of a given type of system.</td></tr>
-             <tr><td>&nbsp;</td></tr>
-          <tr><td>&nbsp;</td></tr>
+
+
             </table>
                 </td>
               </tr>
@@ -87,6 +86,8 @@ conceito  CAPES, mestrado credenciado">
              <tr><td><b>JaNi</b></td><td>It is a compiler that generates Nios II code from a Java code.</td></tr>
              <tr><td>&nbsp;</td></tr>
              <tr><td><b>GraspTool</b></td><td>It is a simulator based in the execution graph of a parallel program aimed to performance evaluation.</td></tr>
+             <tr><td>&nbsp;</td></tr>
+             <tr><td><b>Yasc</b></td><td>Will be a generator of customized simulators. It is intended to discrete event systems and will enable its user to create a custom graphical-based simulator of a given type of system.</td></tr>
              <tr><td>&nbsp;</td></tr>
 <!--          <tr><td>&nbsp;</td></tr>
          <tr><td>&nbsp;</td></tr>
@@ -111,8 +112,8 @@ conceito  CAPES, mestrado credenciado">
    </td>
   </tr>
 </table>
-  <!-- TROQUE O CAMINHO DE ACESSO CONFORME A LOCALIZAÇÃO DO SEU ARQUIVO - INFORME-SE COM O ADMINISTRADOR DA REDE -->
+  <!-- TROQUE O CAMINHO DE ACESSO CONFORME A LOCALIZAï¿½ï¿½O DO SEU ARQUIVO - INFORME-SE COM O ADMINISTRADOR DA REDE -->
 <?php include "footnote.php"; ?>
-<!-- PARA A CORRETA IMPRESSÃO DA PÁGINA NÃO APAGUE O CÓDIGO ABAIXO -->
+<!-- PARA A CORRETA IMPRESSï¿½O DA Pï¿½GINA Nï¿½O APAGUE O Cï¿½DIGO ABAIXO -->
 <link href="imprimir.css" rel="stylesheet" media="print" type="text/css"></body>
 </html>

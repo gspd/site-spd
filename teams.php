@@ -3,13 +3,13 @@
     <head>
         <title>:: GSPD's Homepage ::</title>
         <meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
-        <meta name="Keywords" content="mestrado computação, pós graduação computação, 
-              pós graduação stricto senso, mestrado gratuito, ciência da computação, UNESP, 
-              mestrado sistemas distribuídos, mestrado segurança, mestrado redes, mestrado banco dados, 
+        <meta name="Keywords" content="mestrado computaï¿½ï¿½o, pï¿½s graduaï¿½ï¿½o computaï¿½ï¿½o, 
+              pï¿½s graduaï¿½ï¿½o stricto senso, mestrado gratuito, ciï¿½ncia da computaï¿½ï¿½o, UNESP, 
+              mestrado sistemas distribuï¿½dos, mestrado seguranï¿½a, mestrado redes, mestrado banco dados, 
               mestrado processamento imagens,  mestrado sistemas inteligentes,  mestrado
-              computação científica, mestrado arquitetura computadores, mestrado sistemas
+              computaï¿½ï¿½o cientï¿½fica, mestrado arquitetura computadores, mestrado sistemas
               inteligentes, mestrado engenharia software,  mestrado UNESP Rio Preto, mestrado UNESP Bauru, 
-              mestrado UNESP Rio  Claro, mestrado UNESP Prudente, estado São Paulo, mestrado
+              mestrado UNESP Rio  Claro, mestrado UNESP Prudente, estado Sï¿½o Paulo, mestrado
               conceito  CAPES, mestrado credenciado">
 
         <script language="JavaScript" type="text/JavaScript">
@@ -35,7 +35,7 @@
             MM_reloadPage(true);
             //-->
         </script>
-        <!-- DEPENDENDO DA LOCALIZAÇÃO DO SEU ARQUIVO DENTRO DA HIERARQUIA DAS PASTAS DO SEU SITE, A FOLHA DE ESTILOS PODE NÃO ENCONTRAR O CAMINHO CORRETO, SE DER ERRO AO VISUALIZAR O ARQUIVO, VERIFIQUE O CAMINHO QUE DEVE SER COLOCADO NA SUA PÁGINA (SOMENTE A PÁGINA QUE ESTÁ COM ERRO) PARA SOLUCIONAR O PROBLEMA - ENTRE EM CONTATO COM O ADMINISTRADOR DE REDES LOCAL PARA IDENTIFICAR O CAMINHO  --><link href="folha.css" rel="stylesheet" type="text/css">
+        <!-- DEPENDENDO DA LOCALIZAï¿½ï¿½O DO SEU ARQUIVO DENTRO DA HIERARQUIA DAS PASTAS DO SEU SITE, A FOLHA DE ESTILOS PODE Nï¿½O ENCONTRAR O CAMINHO CORRETO, SE DER ERRO AO VISUALIZAR O ARQUIVO, VERIFIQUE O CAMINHO QUE DEVE SER COLOCADO NA SUA Pï¿½GINA (SOMENTE A Pï¿½GINA QUE ESTï¿½ COM ERRO) PARA SOLUCIONAR O PROBLEMA - ENTRE EM CONTATO COM O ADMINISTRADOR DE REDES LOCAL PARA IDENTIFICAR O CAMINHO  --><link href="folha.css" rel="stylesheet" type="text/css">
         <!-- MANTER OS CAMINHOS DAS FOLHAS ABAIXO (FOLHADESTAQUE e IMPRIMIR) GRATO  -->
         <!-- <link href="folhaDESTAQUE.css" rel="stylesheet" type="text/css"> -->
         <link href="folha.css" rel="stylesheet" type="text/css">
@@ -43,7 +43,7 @@
 
     </head>
 
-    <body leftmargin="0" topmargin="0" marginwidth="0" marginheight="0" class="FundoPaginaInterna"><!-- TROQUE O CAMINHO DE ACESSO CONFORME A LOCALIZAÇÃO DO SEU ARQUIVO - INFORME-SE COM O ADMINISTRADOR DA REDE -->
+    <body leftmargin="0" topmargin="0" marginwidth="0" marginheight="0" class="FundoPaginaInterna"><!-- TROQUE O CAMINHO DE ACESSO CONFORME A LOCALIZAï¿½ï¿½O DO SEU ARQUIVO - INFORME-SE COM O ADMINISTRADOR DA REDE -->
         <?php include "head.php"; ?>
         <table width="900" border="0" cellspacing="0" cellpadding="0">
             <tr>
@@ -54,7 +54,7 @@
             </tr>
             <tr>
                 <td width="200" valign="top" class="MenuEsqFundo04"> 
-                    <!-- TROQUE O CAMINHO DE ACESSO CONFORME A LOCALIZAÇÃO DO SEU ARQUIVO - INFORME-SE COM O ADMINISTRADOR DA REDE -->
+                    <!-- TROQUE O CAMINHO DE ACESSO CONFORME A LOCALIZAï¿½ï¿½O DO SEU ARQUIVO - INFORME-SE COM O ADMINISTRADOR DA REDE -->
                     <?php include "menu_esquerdo.php"; ?>
                 </td>
                 <td width="20">&nbsp;</td>
@@ -83,6 +83,12 @@
                                         <td width="5%">&nbsp;</td>
                                         <td>
                                             <li><a href="http://www.dcce.ibilce.unesp.br/~aleardo/"><u>Aleardo Manacero Jr.</u></a></li>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td>&nbsp;</td>
+                                        <td>
+                                            <li><a href=""><u>Gabriel Covello Furlanetto</u></a></li>
                                         </td>
                                     </tr>
                                     <tr>
@@ -133,7 +139,15 @@
                                     </tr>
                                     <tr>
                                         <td width="10mm">&nbsp;</td>
+                                        <td><li> JoÃ£o Antonio Magri Rodrigues</li></td>
+                                    </tr>
+                                    <tr>
+                                        <td width="10mm">&nbsp;</td>
                                         <td><li> Igor Andrade Britto (MSc)</li></td>
+                                    </tr>                                    
+                                    <tr>
+                                        <td width="10mm">&nbsp;</td>
+                                        <td><li>Leandro Luis Pauro</li></td>
                                     </tr>
                                     <tr>
                                         <td width="10mm">&nbsp;</td>
@@ -145,7 +159,11 @@
                                     </tr>
                                     <tr>
                                         <td width="10mm">&nbsp;</td>
-                                        <td><li> Matheus Santi dos Santos (MSc)</li></td>
+                                        <td><li> Thiago Alexandre Domingues de Souza</li></td>
+                                    </tr>
+                                    <tr>
+                                        <td width="10mm">&nbsp;</td>
+                                        <td><li> Wellington Francisco da Silva</li></td>
                                     </tr>
                         <tr><td>&nbsp;</td></tr>
                                     <tr>
@@ -165,32 +183,37 @@
                                 <table width="100%"  border="0" cellpadding="0" cellspacing="0" id="conteudo">
                                     <tr>
                                         <td>&nbsp;</td>
-                                        <td><li> Fabio Amorim da Silva </td>
+                                        <td><li>Bruno Vinicius Veronez de Jesus </td>
                                     </tr>
                                     <tr>
                                         <td>&nbsp;</td>
-                                        <td><li> Felipe Borsato </td>
+                                        <td><li>Daniela Pizzuti </td>
                                     </tr>
                                     <tr>
                                         <td>&nbsp;</td>
-                                        <td><li> João Pedro Resende Barroso </td>
+                                        <td><li>Daphne Lie Haranaka Pereira</td>
                                     </tr>
                                     <tr>
-                                      <td width="5%">&nbsp;</td>
-                                        <td><li> Luis Vinicius Omar Baldissera</td>
-                                    </tr>
-                                    <tr>
-                                        <td>&nbsp;</td>
-                                        <td><li> Matheus Augusto da Silva Santos </td>
+                                      <td >&nbsp;</td>
+                                        <td><li> Gustavo Tomaello Juiza</td>
                                     </tr>
                                     <tr>
                                         <td>&nbsp;</td>
-                                        <td><li> Ricardo Trivizan Fares </td>
+                                        <td><li> Lucas Afonso Cazarote </td>
                                     </tr>
                                     <tr>
                                         <td>&nbsp;</td>
-                                        <td><li> Rodrigo Silveira Soares </td>
+                                        <td><li> Lucas Emanuel Genova </td>
                                     </tr>
+                                    <tr>
+                                        <td>&nbsp;</td>
+                                        <td><li>LuÃ­s VinÃ­cius Omar Baldissera</td>
+                                    </tr>
+                                    <tr>
+                                        <td>&nbsp;</td>
+                                        <td><li>Matheus Santi dos Santos</td>
+                                    </tr>
+
                         <tr><td>&nbsp;</td></tr>
                                     <tr>
                                         <td>&nbsp;</td>
@@ -206,6 +229,12 @@
                                 <table width="100%"  border="0" cellpadding="0" cellspacing="0" id="conteudo">
                                     <tr>
                                         <td width="5%">&nbsp;</td>
+                                        <td><li> Adriano Ricardo Digiere, left in 2014
+                                        </td>
+                                        </tr>
+                                    <tr>
+                                    <tr>
+                                        <td width="5%">&nbsp;</td>
                                         <td><li> Aldo Ianelo Guerra (Undergrad), left in 2010
                                         </td>
                                     </tr>
@@ -214,6 +243,11 @@
                                         <td><li> Alisson Guindo Casagrande (Undergrad), left in 2002
                                         </td>
                                         </tr>
+                                    <tr>
+                                        <td width="10mm">&nbsp;</td>
+                                        <td><li> Arthur Jorge,left in 2016 <font color="blue">(MSc)</font>, left in 2009
+                                        </td>
+                                    </tr>
                                     <tr>
                                         <td width="10mm">&nbsp;</td>
                                         <td><li> Antonio Carlos Fernandes da Silva <font color="blue">(MSc)</font>, left in 2009
@@ -226,7 +260,12 @@
                                     </tr>
                                     <tr>
                                         <td width="10mm">&nbsp;</td>
-                                        <td><li> Cássio Henrique Volpatto Forte <font color="blue">(MSc)</font>, left in 2018</li></td>
+                                        <td><li> CÃ¡ssio Henrique Volpatto Forte <font color="blue">(MSc)</font>, left in 2018</li></td>
+                                    </tr>
+                                    <tr>
+                                        <td width="10mm">&nbsp;</td>
+                                        <td><li> Cristiano Oliveira GonÃ§alves, left in 2016 <font color="blue">(MSc)</font>, left in 2004
+                                        </td>
                                     </tr>
                                     <tr>
                                         <td width="10mm">&nbsp;</td>
@@ -235,7 +274,12 @@
                                     </tr>
                                     <tr>
                                         <td width="10mm">&nbsp;</td>
-                                        <td><li> Daniel Cardoso de Leão (Undergrad), left in 2011
+                                        <td><li> Daniel Cardoso de Leï¿½o (Undergrad), left in 2011
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td width="10mm">&nbsp;</td>
+                                        <td><li> Danilo Costa Marim Segura), left in 2016
                                         </td>
                                     </tr>
                                     <tr>
@@ -289,12 +333,17 @@
                                     </tr>
                                     <tr>
                                         <td width="10mm">&nbsp;</td>
-                                        <td><li> Frederico José Camiloti Dallalana <font color="blue">(MSc)</font>, left in 2010
+                                        <td><li> Frederico JosÃ© Camiloti Dallalana <font color="blue">(MSc)</font>, left in 2010
                                         </li></td>
                                     </tr>
                                     <tr>
                                         <td width="10mm">&nbsp;</td>
                                         <td><li> Gabriel Covello Furlanetto <font color="blue">(MSc)</font>, left in 2016</font></li></td>
+                                    </tr>
+                                    <tr>
+                                        <td width="10mm">&nbsp;</td>
+                                        <td><li> Gabriel Henrique Martinez Saraiva, left in 2016
+                                        </td>
                                     </tr>
                                     <tr>
                                         <td width="10mm">&nbsp;</td>
@@ -313,20 +362,25 @@
                                     </tr>
                                     <tr>
                                         <td width="10mm">&nbsp;</td>
+                                        <td><li> Henrique Pachioni Martins, left in 2016
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td width="10mm">&nbsp;</td>
                                         <td><li> Hethini do Nascimento Ribeiro <font color="blue">(MSc)</font>, left in 2018</li></td>
                                     </tr>
                                     <tr>
                                         <td width="10mm">&nbsp;</td>
-                                        <td><li> João Antonio Magri Rodrigues <font color="blue">(MSc)</font>, left in 2019</li></td>
+                                        <td><li> JoÃ£o Antonio Magri Rodrigues <font color="blue">(MSc)</font>, left in 2019</li></td>
                                     </tr>
                                     <tr>
                                         <td width="10mm">&nbsp;</td>
-                                        <td><li> João Marcelo Rondina <font color="blue">(MSc)</font>, left in 2005
+                                        <td><li> JoÃ£o Marcelo Rondina <font color="blue">(MSc)</font>, left in 2005
                                         </td>
                                         </tr>
                                     <tr>
                                         <td width="5%">&nbsp;</td>
-                                        <td><li> José Nelson Falavinha Jr. <font color="blue">(PhD)</font>, left in 2009
+                                        <td><li> JosÃ© Nelson Falavinha Jr. <font color="blue">(PhD)</font>, left in 2009
                                         </td>
                                     </tr>
                                     <tr>
@@ -377,19 +431,34 @@
                                     </tr>
                                     <tr>
                                         <td width="10mm">&nbsp;</td>
+                                        <td><li> Matheus Augusto dos Santos Guissi, left in 2016
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td width="10mm">&nbsp;</td>
                                         <td><li> Matheus Della Croce (Undergrad), left in 2013
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td width="10mm">&nbsp;</td>
+                                        <td><li> Naylor Garcia Bachiega, left in 2020
                                         </td>
                                     </tr>
                                     <tr>
                                         <td width="10mm">&nbsp;</td>
                                         <td><li> Odnei Cuesta Lopes (Undergrad), left in 2002
                                         </td>
-                                        </tr>
+                                    </tr>
+                                    <tr>
+                                        <td width="10mm">&nbsp;</td>
+                                        <td><li> PatrÃ­cia Batista Franco, left in 2014
+                                        </td>
+                                    </tr>
                                     <tr>
                                         <td width="10mm">&nbsp;</td>
                                         <td><li> Patr&iacute;cia Ramos de Oliveira (Undergrad), left in 2003
                                         </td>
-                                        </tr>
+                                    </tr>
                                     <tr>
                                         <td width="10mm">&nbsp;</td>
                                         <td><li> Paulo Henrique Maestrello Assad Oliveira (Undergrad), left in 2010
@@ -407,6 +476,10 @@
                                     <tr>
                                         <td>&nbsp;</td>
                                         <td><li> Renan Miguel Retondo (Undergrad), left in 2018</td>
+                                    </tr>
+                                    <tr>
+                                        <td>&nbsp;</td>
+                                        <td><li> Rodrigo Martins da ConceiÃ§Ã£o, left in 2016</td>
                                     </tr>
                                     <tr>
                                         <td width="10mm">&nbsp;</td>
@@ -438,6 +511,14 @@
                                         <td width="10mm">&nbsp;</td>
                                         <td><li> Tiago Donizete Gon&ccedil;alves (Undergrad), left in 2004   </td>
                                     </tr>
+                                    </tr>
+                                        <td width="10mm">&nbsp;</td>
+                                        <td><li> Thiago Kenji Okada, left in 2016   </td>
+                                    </tr>
+                                    </tr>
+                                        <td width="10mm">&nbsp;</td>
+                                        <td><li> Tiago Polizelli Brait, left in 2016   </td>
+                                    </tr>
                                     <tr>
                                         <td width="10mm">&nbsp;</td>
                                         <td><li> Vanessa Gomes de Oliveira (Undergrad), left in 2006   </td>
@@ -448,7 +529,7 @@
                                         </tr>
                                     <tr>
                                         <td>&nbsp;</td>
-                                        <td><li> Victor Hugo Cândido de Oliveira (Undergrad), left in 2015</td>
+                                        <td><li> Victor Hugo CÃ¢ndido de Oliveira (Undergrad), left in 2015</td>
                                     </tr>
                                     <tr>
                                         <td width="10mm">&nbsp;</td>
@@ -484,8 +565,8 @@
                 </td>
             </tr>
         </table>
-        <!-- TROQUE O CAMINHO DE ACESSO CONFORME A LOCALIZAÇÃO DO SEU ARQUIVO - INFORME-SE COM O ADMINISTRADOR DA REDE -->
+        <!-- TROQUE O CAMINHO DE ACESSO CONFORME A LOCALIZAï¿½ï¿½O DO SEU ARQUIVO - INFORME-SE COM O ADMINISTRADOR DA REDE -->
         <?php include "footnote.php"; ?>
-        <!-- PARA A CORRETA IMPRESSÃO DA PÁGINA NÃO APAGUE O CÓDIGO ABAIXO -->
+        <!-- PARA A CORRETA IMPRESSï¿½O DA Pï¿½GINA Nï¿½O APAGUE O Cï¿½DIGO ABAIXO -->
     </body>
 </html>

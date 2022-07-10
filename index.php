@@ -21,19 +21,20 @@ function MM_reloadPage(init) {  //reloads the window if Nav4 resized
 MM_reloadPage(true);
 //-->
 </script>
-<!-- DEPENDENDO DA LOCALIZAÇÃO DO SEU ARQUIVO DENTRO DA HIERARQUIA DAS PASTAS DO SEU SITE, A FOLHA DE ESTILOS PODE NÃO ENCONTRAR O CAMINHO CORRETO, SE DER ERRO AO VISUALIZAR O ARQUIVO, VERIFIQUE O CAMINHO QUE DEVE SER COLOCADO NA SUA PÁGINA (SOMENTE A PÁGINA QUE ESTÁ COM ERRO) PARA SOLUCIONAR O PROBLEMA - ENTRE EM CONTATO COM O ADMINISTRADOR DE REDES LOCAL PARA IDENTIFICAR O CAMINHO  --><link href="folha.css" rel="stylesheet" type="text/css">
+<!-- DEPENDENDO DA LOCALIZAï¿½ï¿½O DO SEU ARQUIVO DENTRO DA HIERARQUIA DAS PASTAS DO SEU SITE, A FOLHA DE ESTILOS PODE Nï¿½O ENCONTRAR O CAMINHO CORRETO, SE DER ERRO AO VISUALIZAR O ARQUIVO, VERIFIQUE O CAMINHO QUE DEVE SER COLOCADO NA SUA Pï¿½GINA (SOMENTE A Pï¿½GINA QUE ESTï¿½ COM ERRO) PARA SOLUCIONAR O PROBLEMA - ENTRE EM CONTATO COM O ADMINISTRADOR DE REDES LOCAL PARA IDENTIFICAR O CAMINHO  --><link href="folha.css" rel="stylesheet" type="text/css">
 <!-- MANTER OS CAMINHOS DAS FOLHAS ABAIXO (FOLHADESTAQUE e IMPRIMIR) GRATO  -->
 <link href="./imagens/gspd3.gif" rel="gspd icon">
 
+
 </head>
 
-<body leftmargin="0" topmargin="0" marginwidth="0" marginheight="0" class="FundoPaginaInterna" width="800"><!-- TROQUE O CAMINHO DE ACESSO CONFORME A LOCALIZAÇÃO DO SEU ARQUIVO - INFORME-SE COM O ADMINISTRADOR DA REDE -->
-<meta name="Keywords" content="mestrado computação, graduação computação, 
-ciência da computação, UNESP, mestrado sistemas distribuídos, mestrado computação alto desempenho,
+<body leftmargin="0" topmargin="0" marginwidth="0" marginheight="0" class="FundoPaginaInterna" ><!-- TROQUE O CAMINHO DE ACESSO CONFORME A LOCALIZAï¿½ï¿½O DO SEU ARQUIVO - INFORME-SE COM O ADMINISTRADOR DA REDE -->
+<meta name="Keywords" content="mestrado computaï¿½ï¿½o, graduaï¿½ï¿½o computaï¿½ï¿½o, 
+ciï¿½ncia da computaï¿½ï¿½o, UNESP, mestrado sistemas distribuï¿½dos, mestrado computaï¿½ï¿½o alto desempenho,
 mestrado arquitetura computadores, parallel and distributed systems, high performance computing,
 parallel clusters, grid computing, simulation, computer science">
 <?php include "head.php"; ?>
-<table width="900" border="0" cellspacing="0" cellpadding="0">
+<table id="pg">
     <tr> 
       <td width="200" height="100">&nbsp;</td>
       <td width="20">&nbsp;</td>
@@ -42,7 +43,7 @@ parallel clusters, grid computing, simulation, computer science">
     </tr>  
     <tr> 
       <td width="200" valign="top" class="MenuEsqFundo04"> 
-      <!-- TROQUE O CAMINHO DE ACESSO CONFORME A LOCALIZAÇÃO DO SEU ARQUIVO - INFORME-SE COM O ADMINISTRADOR DA REDE -->
+      <!-- TROQUE O CAMINHO DE ACESSO CONFORME A LOCALIZAï¿½ï¿½O DO SEU ARQUIVO - INFORME-SE COM O ADMINISTRADOR DA REDE -->
            <?php include "menu_esquerdo.php"; ?>
       </td>
       <td width="20">&nbsp;</td>
@@ -63,7 +64,7 @@ parallel clusters, grid computing, simulation, computer science">
              <p align="justify" class="Texto"><font size=+1>This involves projects on tools for performance analysis, simulators, parallel algorithms, schedulers and virtual systems. </p>
              <p align="justify" class="Texto"><font size=+1>In the links in the left side menu you can find more detailed information about the group, people involved, published works, and current research.</p>
              <p align="justify" class="Texto"><font size=+1>&nbsp;</p>
-<p><font color="red">This page is under revision in order to upload up-to-date contents</font></p>
+             <p><font color="red">This page is under revision in order to upload up-to-date contents</font></p>
              <p align="justify" class="Texto"><font size=+1>Comments, fixes, and suggestions are welcome! </p>
             </div>
            </td>
@@ -85,9 +86,9 @@ parallel clusters, grid computing, simulation, computer science">
 &nbsp;
 &nbsp;
 </table>
-  <!-- TROQUE O CAMINHO DE ACESSO CONFORME A LOCALIZAÇÃO DO SEU ARQUIVO - INFORME-SE COM O ADMINISTRADOR DA REDE -->
+  <!-- TROQUE O CAMINHO DE ACESSO CONFORME A LOCALIZAï¿½ï¿½O DO SEU ARQUIVO - INFORME-SE COM O ADMINISTRADOR DA REDE -->
 <?php include "footnote.php"; ?>
-<!-- PARA A CORRETA IMPRESSÃO DA PÁGINA NÃO APAGUE O CÓDIGO ABAIXO -->
+<!-- PARA A CORRETA IMPRESSï¿½O DA Pï¿½GINA Nï¿½O APAGUE O Cï¿½DIGO ABAIXO -->
 <link href="imprimir.css" rel="stylesheet" media="print" type="text/css"></body>
 </html>
 
