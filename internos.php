@@ -21,21 +21,22 @@ function MM_reloadPage(init) {  //reloads the window if Nav4 resized
 MM_reloadPage(true);
 //-->
 </script>
-<!-- DEPENDENDO DA LOCALIZAÇÃO DO SEU ARQUIVO DENTRO DA HIERARQUIA DAS PASTAS DO SEU SITE, A FOLHA DE ESTILOS PODE NÃO ENCONTRAR O CAMINHO CORRETO, SE DER ERRO AO VISUALIZAR O ARQUIVO, VERIFIQUE O CAMINHO QUE DEVE SER COLOCADO NA SUA PÁGINA (SOMENTE A PÁGINA QUE ESTÁ COM ERRO) PARA SOLUCIONAR O PROBLEMA - ENTRE EM CONTATO COM O ADMINISTRADOR DE REDES LOCAL PARA IDENTIFICAR O CAMINHO  --><link href="folha.css" rel="stylesheet" type="text/css">
+<!-- DEPENDENDO DA LOCALIZAï¿½ï¿½O DO SEU ARQUIVO DENTRO DA HIERARQUIA DAS PASTAS DO SEU SITE, A FOLHA DE ESTILOS PODE Nï¿½O ENCONTRAR O CAMINHO CORRETO, SE DER ERRO AO VISUALIZAR O ARQUIVO, VERIFIQUE O CAMINHO QUE DEVE SER COLOCADO NA SUA Pï¿½GINA (SOMENTE A Pï¿½GINA QUE ESTï¿½ COM ERRO) PARA SOLUCIONAR O PROBLEMA - ENTRE EM CONTATO COM O ADMINISTRADOR DE REDES LOCAL PARA IDENTIFICAR O CAMINHO  --><link href="folha.css" rel="stylesheet" type="text/css">
 <!-- MANTER OS CAMINHOS DAS FOLHAS ABAIXO (FOLHADESTAQUE e IMPRIMIR) GRATO  -->
 <!-- <link href="folhaDESTAQUE.css" rel="stylesheet" type="text/css"> -->
 <link href="folha.css" rel="stylesheet" type="text/css">
 
 </head>
 
- <body leftmargin="0" topmargin="0" marginwidth="0" marginheight="0" class="FundoPaginaInterna"><!-- TROQUE O CAMINHO DE ACESSO CONFORME A LOCALIZAÇÃO DO SEU ARQUIVO - INFORME-SE COM O ADMINISTRADOR DA REDE -->
-<meta name="Keywords" content="mestrado computação, pós graduação computação, 
-pós graduação stricto senso, mestrado gratuito, ciência da computação, UNESP, 
-mestrado sistemas distribuídos, mestrado segurança, mestrado redes, mestrado banco dados, 
+ <body leftmargin="0" topmargin="0" marginwidth="0" marginheight="0" class="FundoPaginaInterna"><!-- TROQUE O CAMINHO DE ACESSO CONFORME A LOCALIZAï¿½ï¿½O DO SEU ARQUIVO - INFORME-SE COM O ADMINISTRADOR DA REDE -->
+
+<meta name="Keywords" content="mestrado computaÃ§Ã£o, pÃ³s graduaÃ§Ã£o computaÃ§Ã£o, 
+pÃ³s graduaÃ§Ã£o stricto senso, mestrado gratuito, ciÃªncia da computaÃ§Ã£o, UNESP, 
+mestrado sistemas distribuÃ­dos, mestrado seguranÃ§a, mestrado redes, mestrado banco dados, 
 mestrado processamento imagens,  mestrado sistemas inteligentes,  mestrado
-computação científica, mestrado arquitetura computadores, mestrado sistemas
+computaÃ§Ã£o cientÃ­fica, mestrado arquitetura computadores, mestrado sistemas
 inteligentes, mestrado engenharia software,  mestrado UNESP Rio Preto, mestrado UNESP Bauru, 
-mestrado UNESP Rio  Claro, mestrado UNESP Prudente, estado São Paulo, mestrado
+mestrado UNESP Rio  Claro, mestrado UNESP Prudente, estado SÃ£o Paulo, mestrado
 conceito  CAPES, mestrado credenciado">
 <?php include "topo.php"; ?>
 <table width="900" border="0" cellspacing="0" cellpadding="0">
@@ -47,7 +48,7 @@ conceito  CAPES, mestrado credenciado">
     </tr>  
     <tr> 
       <td width="200" valign="top" class="MenuEsqFundo04"> 
-      <!-- TROQUE O CAMINHO DE ACESSO CONFORME A LOCALIZAÇÃO DO SEU ARQUIVO - INFORME-SE COM O ADMINISTRADOR DA REDE -->
+      <!-- TROQUE O CAMINHO DE ACESSO CONFORME A LOCALIZAï¿½ï¿½O DO SEU ARQUIVO - INFORME-SE COM O ADMINISTRADOR DA REDE -->
            <?php include "menu_esq_port.php"; ?>
       </td>
       <td width="20">&nbsp;</td>
@@ -58,7 +59,7 @@ conceito  CAPES, mestrado credenciado">
             </td>
            </tr>
               <tr>
-                <td height="20" class="NomeArea"><font size=+2>Softwares Disponíveis             ::: </font></td>
+                <td height="20" class="NomeArea"><font size=+2>Softwares DisponÃ­veis             ::: </font></td>
               </tr>
               <tr><td>&nbsp;</td></tr>
               <tr>
@@ -66,13 +67,13 @@ conceito  CAPES, mestrado credenciado">
               <!-- INSERIR AQUI O CONTEUDO -->  
 <br>
 
-<dt><font size=+2 color="blue"><a href="./downloads/modelo2.jpg">Diagrama estrutural do iSPD (em português)</a></font></dd>
+<dt><font size=+2 color="blue"><a href="./downloads/modelo2.jpg">Diagrama estrutural do iSPD (em portuguÃªs)</a></font></dd>
 
 <br>
 
 <hr size=2>
 
-<dt><font size=+2 color="blue"><a href="./downloads/modelo.jpg">Diagrama estrutural do iSPD (em inglês)</a></font></dd>
+<dt><font size=+2 color="blue"><a href="./downloads/modelo.jpg">Diagrama estrutural do iSPD (em inglÃªs)</a></font></dd>
 
 <br>
 
@@ -80,7 +81,7 @@ conceito  CAPES, mestrado credenciado">
 
 <br>
 
-<dt><font size=+2 color="blue"><a href="./downloads/gspd.bib">Arquivo bibtex cumulativo de referências</a></font></dd>
+<dt><font size=+2 color="blue"><a href="./downloads/gspd.bib">Arquivo bibtex cumulativo de referÃªncias</a></font></dd>
 
 <br>
 
@@ -115,8 +116,8 @@ conceito  CAPES, mestrado credenciado">
    </td>
   </tr>
 </table>
-  <!-- TROQUE O CAMINHO DE ACESSO CONFORME A LOCALIZAÇÃO DO SEU ARQUIVO - INFORME-SE COM O ADMINISTRADOR DA REDE -->
+  <!-- TROQUE O CAMINHO DE ACESSO CONFORME A LOCALIZAï¿½ï¿½O DO SEU ARQUIVO - INFORME-SE COM O ADMINISTRADOR DA REDE -->
 <?php include "rodape.php"; ?>
-<!-- PARA A CORRETA IMPRESSÃO DA PÁGINA NÃO APAGUE O CÓDIGO ABAIXO -->
+<!-- PARA A CORRETA IMPRESSï¿½O DA Pï¿½GINA Nï¿½O APAGUE O Cï¿½DIGO ABAIXO -->
 <link href="imprimir.css" rel="stylesheet" media="print" type="text/css"></body>
 </html>

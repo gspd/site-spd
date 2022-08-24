@@ -14,7 +14,7 @@
 }
 -->
 </style>
-<!-- DEPENDENDO DA LOCALIZAÇÃO DO SEU ARQUIVO DENTRO DA HIERARQUIA DAS PASTAS DO SEU SITE, A FOLHA DE ESTILOS PODE NÃO ENCONTRAR O CAMINHO CORRETO, SE DER ERRO AO VISUALIZAR O ARQUIVO, VERIFIQUE O CAMINHO QUE DEVE SER COLOCADO NA SUA PÁGINA (SOMENTE A PÁGINA QUE ESTÁ COM ERRO) PARA SOLUCIONAR O PROBLEMA - ENTRE EM CONTATO COM O ADMINISTRADOR DE REDES LOCAL PARA IDENTIFICAR O CAMINHO  -->
+<!-- DEPENDENDO DA LOCALIZAÃ‡ÃƒO DO SEU ARQUIVO DENTRO DA HIERARQUIA DAS PASTAS DO SEU SITE, A FOLHA DE ESTILOS PODE NÃƒO ENCONTRAR O CAMINHO CORRETO, SE DER ERRO AO VISUALIZAR O ARQUIVO, VERIFIQUE O CAMINHO QUE DEVE SER COLOCADO NA SUA PÃGINA (SOMENTE A PÃGINA QUE ESTÃ COM ERRO) PARA SOLUCIONAR O PROBLEMA - ENTRE EM CONTATO COM O ADMINISTRADOR DE REDES LOCAL PARA IDENTIFICAR O CAMINHO  -->
 <link href="folha.css" rel="stylesheet" type="text/css">
 <!-- MANTER OS CAMINHOS DAS FOLHAS ABAIXO (FOLHADESTAQUE e IMPRIMIR) GRATO  -->
 <!-- <link href="folhaDESTAQUE.css" rel="stylesheet" type="text/css"> -->
@@ -50,7 +50,7 @@
                 </tr>
                 <tr>
                   <td width="50">&nbsp;</td>
-                  <td height="30"><center><b>O conteúdo desta página é de total responsabilidade do GSPD, não representando o pensamento ou posições da UNESP.</b></center></td>
+                  <td height="30"><center><b>O conteÃºdo desta pÃ¡gina Ã© de total responsabilidade do GSPD, nÃ£o representando o pensamento ou posiÃ§Ãµes da UNESP.</b></center></td>
                   <td width="50">&nbsp;</td>
                 </tr>
             </table></td>

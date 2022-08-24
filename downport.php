@@ -21,21 +21,21 @@ function MM_reloadPage(init) {  //reloads the window if Nav4 resized
 MM_reloadPage(true);
 //-->
 </script>
-<!-- DEPENDENDO DA LOCALIZA«√O DO SEU ARQUIVO DENTRO DA HIERARQUIA DAS PASTAS DO SEU SITE, A FOLHA DE ESTILOS PODE N√O ENCONTRAR O CAMINHO CORRETO, SE DER ERRO AO VISUALIZAR O ARQUIVO, VERIFIQUE O CAMINHO QUE DEVE SER COLOCADO NA SUA P¡GINA (SOMENTE A P¡GINA QUE EST¡ COM ERRO) PARA SOLUCIONAR O PROBLEMA - ENTRE EM CONTATO COM O ADMINISTRADOR DE REDES LOCAL PARA IDENTIFICAR O CAMINHO  --><link href="folha.css" rel="stylesheet" type="text/css">
+<!-- DEPENDENDO DA LOCALIZAÔøΩÔøΩO DO SEU ARQUIVO DENTRO DA HIERARQUIA DAS PASTAS DO SEU SITE, A FOLHA DE ESTILOS PODE NÔøΩO ENCONTRAR O CAMINHO CORRETO, SE DER ERRO AO VISUALIZAR O ARQUIVO, VERIFIQUE O CAMINHO QUE DEVE SER COLOCADO NA SUA PÔøΩGINA (SOMENTE A PÔøΩGINA QUE ESTÔøΩ COM ERRO) PARA SOLUCIONAR O PROBLEMA - ENTRE EM CONTATO COM O ADMINISTRADOR DE REDES LOCAL PARA IDENTIFICAR O CAMINHO  --><link href="folha.css" rel="stylesheet" type="text/css">
 <!-- MANTER OS CAMINHOS DAS FOLHAS ABAIXO (FOLHADESTAQUE e IMPRIMIR) GRATO  -->
 <!-- <link href="folhaDESTAQUE.css" rel="stylesheet" type="text/css"> -->
 <link href="folha.css" rel="stylesheet" type="text/css">
 
 </head>
 
- <body leftmargin="0" topmargin="0" marginwidth="0" marginheight="0" class="FundoPaginaInterna"><!-- TROQUE O CAMINHO DE ACESSO CONFORME A LOCALIZA«√O DO SEU ARQUIVO - INFORME-SE COM O ADMINISTRADOR DA REDE -->
-<meta name="Keywords" content="mestrado computaÁ„o, pÛs graduaÁ„o computaÁ„o, 
-pÛs graduaÁ„o stricto senso, mestrado gratuito, ciÍncia da computaÁ„o, UNESP, 
-mestrado sistemas distribuÌdos, mestrado seguranÁa, mestrado redes, mestrado banco dados, 
+<body leftmargin="0" topmargin="0" marginwidth="0" marginheight="0" class="FundoPaginaInterna"><!-- TROQUE O CAMINHO DE ACESSO CONFORME A LOCALIZAÔøΩÔøΩO DO SEU ARQUIVO - INFORME-SE COM O ADMINISTRADOR DA REDE -->
+<meta name="Keywords" content="mestrado computa√ß√£o, p√≥s gradua√ß√£o computa√ß√£o, 
+p√≥s gradua√ß√£o stricto senso, mestrado gratuito, ci√™ncia da computa√ß√£o, UNESP, 
+mestrado sistemas distribu√≠dos, mestrado seguran√ßa, mestrado redes, mestrado banco dados, 
 mestrado processamento imagens,  mestrado sistemas inteligentes,  mestrado
-computaÁ„o cientÌfica, mestrado arquitetura computadores, mestrado sistemas
+computa√ß√£o cient√≠fica, mestrado arquitetura computadores, mestrado sistemas
 inteligentes, mestrado engenharia software,  mestrado UNESP Rio Preto, mestrado UNESP Bauru, 
-mestrado UNESP Rio  Claro, mestrado UNESP Prudente, estado S„o Paulo, mestrado
+mestrado UNESP Rio  Claro, mestrado UNESP Prudente, estado S√£o Paulo, mestrado
 conceito  CAPES, mestrado credenciado">
 <?php include "topo.php"; ?>
 <table width="900" border="0" cellspacing="0" cellpadding="0">
@@ -47,7 +47,7 @@ conceito  CAPES, mestrado credenciado">
     </tr>  
     <tr> 
       <td width="200" valign="top" class="MenuEsqFundo04"> 
-      <!-- TROQUE O CAMINHO DE ACESSO CONFORME A LOCALIZA«√O DO SEU ARQUIVO - INFORME-SE COM O ADMINISTRADOR DA REDE -->
+      <!-- TROQUE O CAMINHO DE ACESSO CONFORME A LOCALIZAÔøΩÔøΩO DO SEU ARQUIVO - INFORME-SE COM O ADMINISTRADOR DA REDE -->
            <?php include "menu_esq_port.php"; ?>
       </td>
       <td width="20">&nbsp;</td>
@@ -58,7 +58,7 @@ conceito  CAPES, mestrado credenciado">
             </td>
            </tr>
               <tr>
-                <td height="20" class="NomeArea"><font size=+2>Softwares DisponÌveis             ::: </font></td>
+                <td height="20" class="NomeArea"><font size=+2>Softwares Dispon√≠veis             ::: </font></td>
               </tr>
               <tr><td>&nbsp;</td></tr>
               <tr>
@@ -66,16 +66,22 @@ conceito  CAPES, mestrado credenciado">
               <!-- INSERIR AQUI O CONTEUDO -->  
 <br>
 
-<dt><font size=+2 color="blue"><a href="./downloads/jani.tar">Compilador JaNi</a></font></dd>
+<dt><font size=+2 color="blue"><a href="./downloads/iSPD.jar">Simulador ISPD</a></font></dt>
+<dd>O iSPD √© um simulador de grades computacionais usando uma interface de modelagem ic√¥nica. Isso permite uma f√°cil cria√ß√£o de modelos de grade complexos, que podem ser simulados em iSPD com boa precis√£o e velocidade.
+Os modelos criados com iSPD podem incluir meta-agendadores criados atrav√©s de uma interface gr√°fica simples, onde a pessoa que cria o modelo tem apenas que introduzir rela√ß√µes matem√°ticas simples, atrav√©s de uma sele√ß√£o de par√¢metros pr√©-definidos.</dd>
+<br>
 
+<dt><font size=+2 color="blue"><a href="./downloads/jani.tar">Compilador JaNi</a></font></dt>
+<dd>JaNi √© um prot√≥tipo de um compilador Java-to-Nios2. Ele √© capaz de transformar programas de classe √∫nica escritos em Java para descri√ß√£o de hardware Nios2.</dd>
 <br>
 
 <hr size=2>
 
 <br>
 
-<dt><font size=+2 color="blue"><a href="./downloads/RTsim.jar">Pacote RTsim</a></font></dd>
-
+<dt><font size=+2 color="blue"><a href="./downloads/RTsim.jar">Pacote RTsim</a></font></dt>
+<dd>O RTsim √© um simulador de escalonadores de sistemas de tempo real. Atualmente oferece os algoritmos Rate-Monotonic, Sporadic server, Deferrable server, algoritmos de troca de prioridade e teto de prioridade para sistemas monoprocessados, e Miopic, algoritmos de licita√ß√£o e licita√ß√£o seletiva para sistemas distribu√≠dos.
+Tamb√©m pode ser usado como ferramenta de ensino, pois todos os algoritmos podem ser "praticados" ou "testados" pelos alunos usando uma interface passo a passo para agendar tarefas.</dd>
 <br>
 
                 </td>
@@ -102,8 +108,8 @@ conceito  CAPES, mestrado credenciado">
    </td>
   </tr>
 </table>
-  <!-- TROQUE O CAMINHO DE ACESSO CONFORME A LOCALIZA«√O DO SEU ARQUIVO - INFORME-SE COM O ADMINISTRADOR DA REDE -->
+  <!-- TROQUE O CAMINHO DE ACESSO CONFORME A LOCALIZAÔøΩÔøΩO DO SEU ARQUIVO - INFORME-SE COM O ADMINISTRADOR DA REDE -->
 <?php include "rodape.php"; ?>
-<!-- PARA A CORRETA IMPRESS√O DA P¡GINA N√O APAGUE O C”DIGO ABAIXO -->
+<!-- PARA A CORRETA IMPRESSÔøΩO DA PÔøΩGINA NÔøΩO APAGUE O CÔøΩDIGO ABAIXO -->
 <link href="imprimir.css" rel="stylesheet" media="print" type="text/css"></body>
 </html>

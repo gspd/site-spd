@@ -1,7 +1,7 @@
 <!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
 <html>
 <head>
-<title>:: Homepage do Grupo de Sistemas Paralelos e Distribuídos ::</title>
+<title>:: Homepage do Grupo de Sistemas Paralelos e DistribuÃ­dos ::</title>
 <meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
 <script language="JavaScript" type="text/JavaScript">
 <!--
@@ -21,15 +21,15 @@ function MM_reloadPage(init) {  //reloads the window if Nav4 resized
 MM_reloadPage(true);
 //-->
 </script>
-<!-- DEPENDENDO DA LOCALIZAÇÃO DO SEU ARQUIVO DENTRO DA HIERARQUIA DAS PASTAS DO SEU SITE, A FOLHA DE ESTILOS PODE NÃO ENCONTRAR O CAMINHO CORRETO, SE DER ERRO AO VISUALIZAR O ARQUIVO, VERIFIQUE O CAMINHO QUE DEVE SER COLOCADO NA SUA PÁGINA (SOMENTE A PÁGINA QUE ESTÁ COM ERRO) PARA SOLUCIONAR O PROBLEMA - ENTRE EM CONTATO COM O ADMINISTRADOR DE REDES LOCAL PARA IDENTIFICAR O CAMINHO  --><link href="folha.css" rel="stylesheet" type="text/css">
+<!-- DEPENDENDO DA LOCALIZAÃ‡ÃƒO DO SEU ARQUIVO DENTRO DA HIERARQUIA DAS PASTAS DO SEU SITE, A FOLHA DE ESTILOS PODE NÃƒO ENCONTRAR O CAMINHO CORRETO, SE DER ERRO AO VISUALIZAR O ARQUIVO, VERIFIQUE O CAMINHO QUE DEVE SER COLOCADO NA SUA PÃGINA (SOMENTE A PÃGINA QUE ESTÃ COM ERRO) PARA SOLUCIONAR O PROBLEMA - ENTRE EM CONTATO COM O ADMINISTRADOR DE REDES LOCAL PARA IDENTIFICAR O CAMINHO  --><link href="folha.css" rel="stylesheet" type="text/css">
 <!-- MANTER OS CAMINHOS DAS FOLHAS ABAIXO (FOLHADESTAQUE e IMPRIMIR) GRATO  -->
 <!-- <link href="folhaDESTAQUE.css" rel="stylesheet" type="text/css"> -->
 
 </head>
 
-<body leftmargin="0" topmargin="0" marginwidth="0" marginheight="0" class="FundoPaginaInterna" width="800"><!-- TROQUE O CAMINHO DE ACESSO CONFORME A LOCALIZAÇÃO DO SEU ARQUIVO - INFORME-SE COM O ADMINISTRADOR DA REDE -->
-<meta name="Keywords" content="mestrado computação, graduação computação, 
-ciência da computação, UNESP, mestrado sistemas distribuídos, mestrado computação alto desempenho,
+<body leftmargin="0" topmargin="0" marginwidth="0" marginheight="0" class="FundoPaginaInterna" width="800"><!-- TROQUE O CAMINHO DE ACESSO CONFORME A LOCALIZAÃ‡ÃƒO DO SEU ARQUIVO - INFORME-SE COM O ADMINISTRADOR DA REDE -->
+<meta name="Keywords" content="mestrado computaÃ§Ã£o, graduaÃ§Ã£o computaÃ§Ã£o, 
+ciÃªncia da computaÃ§Ã£o, UNESP, mestrado sistemas distribuÃ­dos, mestrado computaÃ§Ã£o alto desempenho,
 mestrado arquitetura computadores, parallel and distributed systems, high performance computing,
 parallel clusters, grid computing, simulation, computer science">
 <?php include "topo.php"; ?>
@@ -43,7 +43,7 @@ parallel clusters, grid computing, simulation, computer science">
     </tr>  
     <tr> 
       <td width="200" valign="top" class="MenuEsqFundo04"> 
-      <!-- TROQUE O CAMINHO DE ACESSO CONFORME A LOCALIZAÇÃO DO SEU ARQUIVO - INFORME-SE COM O ADMINISTRADOR DA REDE -->
+      <!-- TROQUE O CAMINHO DE ACESSO CONFORME A LOCALIZAÃ‡ÃƒO DO SEU ARQUIVO - INFORME-SE COM O ADMINISTRADOR DA REDE -->
            <?php include "menu_esq_port.php"; ?>
       </td>
       <td width="20">&nbsp;</td>
@@ -60,13 +60,13 @@ parallel clusters, grid computing, simulation, computer science">
            <tr>
              <td>  
                 <div align="justify">
-                  <p align="justify" class="Texto"><font size=+1>O Grupo de pesquisas em Sistemas Paralelos e Distribuídos da Unesp (GSPD) é um grupo/laboratório de pesquisa voltado para problemas relacionados com computação de alto desempenho.</p>
-                  <p align="justify" class="Texto"><font size=+1>Isto envolve projetos de ferramentas para análise de desempenho, simuladores, algoritmos paralelos, escalonadores e máquinas virtuais. </p>
+                  <p align="justify" class="Texto"><font size=+1>O Grupo de pesquisas em Sistemas Paralelos e DistribuÃ­dos da Unesp (GSPD) Ã© um grupo/laboratÃ³rio de pesquisa voltado para problemas relacionados com computaÃ§Ã£o de alto desempenho.</p>
+                  <p align="justify" class="Texto"><font size=+1>Isto envolve projetos de ferramentas para anÃ¡lise de desempenho, simuladores, algoritmos paralelos, escalonadores e mÃ¡quinas virtuais. </p>
                   <p align="justify" class="Texto"><font size=+1>Nos links no menu ao lado podem ser encontrados detalhes sobre o trabalho do grupo, pessoas envolvidas, trabalhos publicados e projetos em andamento.</p>
                   <p align="justify" class="Texto"><font size=+1>&nbsp;</p>
                   <p align="justify" class="Texto"><font size=+1 color="blue">OBS. - As p&aacute;ginas em ingl&ecirc;s s&atilde;o atualizadas com mais regularidade.</font></p>
                   <p align="justify" class="Texto"><font size=+1>&nbsp;</p>
-                  <p align="justify" class="Texto"><font size=+1>Comentários, correções e sugestões são benvindas! </p>
+                  <p align="justify" class="Texto"><font size=+1>ComentÃ¡rios, correÃ§Ãµes e sugestÃµes sÃ£o benvindas! </p>
             </div>
            </td>
           </tr>
@@ -80,9 +80,9 @@ parallel clusters, grid computing, simulation, computer science">
 &nbsp;
 &nbsp;
 </table>
-  <!-- TROQUE O CAMINHO DE ACESSO CONFORME A LOCALIZAÇÃO DO SEU ARQUIVO - INFORME-SE COM O ADMINISTRADOR DA REDE -->
+  <!-- TROQUE O CAMINHO DE ACESSO CONFORME A LOCALIZAÃ‡ÃƒO DO SEU ARQUIVO - INFORME-SE COM O ADMINISTRADOR DA REDE -->
 <?php include "rodape.php"; ?>
-<!-- PARA A CORRETA IMPRESSÃO DA PÁGINA NÃO APAGUE O CÓDIGO ABAIXO -->
+<!-- PARA A CORRETA IMPRESSÃƒO DA PÃGINA NÃƒO APAGUE O CÃ“DIGO ABAIXO -->
 <link href="imprimir.css" rel="stylesheet" media="print" type="text/css"></body>
 </html>
 

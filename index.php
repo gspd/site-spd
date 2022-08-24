@@ -30,7 +30,7 @@ MM_reloadPage(true);
 
 <body leftmargin="0" topmargin="0" marginwidth="0" marginheight="0" class="FundoPaginaInterna" ><!-- TROQUE O CAMINHO DE ACESSO CONFORME A LOCALIZA��O DO SEU ARQUIVO - INFORME-SE COM O ADMINISTRADOR DA REDE -->
 <meta name="Keywords" content="mestrado computa��o, gradua��o computa��o, 
-ci�ncia da computa��o, UNESP, mestrado sistemas distribu�dos, mestrado computa��o alto desempenho,
+ciência da computação, UNESP, mestrado sistemas distribu�dos, mestrado computa��o alto desempenho,
 mestrado arquitetura computadores, parallel and distributed systems, high performance computing,
 parallel clusters, grid computing, simulation, computer science">
 <?php include "head.php"; ?>

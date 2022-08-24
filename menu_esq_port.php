@@ -40,7 +40,7 @@ MM_reloadPage(true);
 //-->
 </script>
 
-<!-- DEPENDENDO DA LOCALIZAÇÃO DO SEU ARQUIVO DENTRO DA HIERARQUIA DAS PASTAS DO SEU SITE, A FOLHA DE ESTILOS PODE NÃO ENCONTRAR O CAMINHO CORRETO, SE DER ERRO AO VISUALIZAR O ARQUIVO, VERIFIQUE O CAMINHO QUE DEVE SER COLOCADO NA SUA PÁGINA (SOMENTE A PÁGINA QUE ESTÁ COM ERRO) PARA SOLUCIONAR O PROBLEMA - ENTRE EM CONTATO COM O ADMINISTRADOR DE REDES LOCAL PARA IDENTIFICAR O CAMINHO  -->
+<!-- DEPENDENDO DA LOCALIZAï¿½ï¿½O DO SEU ARQUIVO DENTRO DA HIERARQUIA DAS PASTAS DO SEU SITE, A FOLHA DE ESTILOS PODE Nï¿½O ENCONTRAR O CAMINHO CORRETO, SE DER ERRO AO VISUALIZAR O ARQUIVO, VERIFIQUE O CAMINHO QUE DEVE SER COLOCADO NA SUA Pï¿½GINA (SOMENTE A Pï¿½GINA QUE ESTï¿½ COM ERRO) PARA SOLUCIONAR O PROBLEMA - ENTRE EM CONTATO COM O ADMINISTRADOR DE REDES LOCAL PARA IDENTIFICAR O CAMINHO  -->
 <link href="folha.css" rel="stylesheet" type="text/css">
 <!-- MANTER OS CAMINHOS DAS FOLHAS ABAIXO (FOLHADESTAQUE e IMPRIMIR) GRATO  -->
 <!-- <link href="folhaDESTAQUE.css" rel="stylesheet" type="text/css"> --> 
@@ -53,7 +53,7 @@ function MM_jumpMenu(targ,selObj,restore){ //v3.0
 //-->
 </script>
 
-<!-- INÍCIO - PARA RODAR O MENU COM ROLAGEM VERTICAL -->
+<!-- INï¿½CIO - PARA RODAR O MENU COM ROLAGEM VERTICAL -->
 <script language="JavaScript" type="text/javascript" src="menu_esq/menu_rodar_win.js"></script>
 <!-- FIM -->
 <link href="http://www.dcce.ibilce.unesp.br/~aleardo/menu_dd01.css" rel="stylesheet" type="text/css">
@@ -96,7 +96,7 @@ window.onload=startList;
 
 </script>
 
-<!-- PARTE 1 PHP: CRIAR FORMATO DE APRESENTAÇÃO DO SUBMENU - NÃO MEXER NESSE CÓDIGO -->
+<!-- PARTE 1 PHP: CRIAR FORMATO DE APRESENTAï¿½ï¿½O DO SUBMENU - Nï¿½O MEXER NESSE Cï¿½DIGO -->
 <form action="<? echo $PATH_INFO; ?>"  name="formmenu_esq" method="post">
 <input name="menu_ancora" type="hidden" value="">
 <input name="menu_esq1" type="text" style="display:none" value="">
@@ -112,18 +112,18 @@ window.onload=startList;
     <td><! valign="top" class="MenuEsqDetalhe">
       <table width="100%" border="0" align="center" cellpadding="0" cellspacing="0">
         <tr> 
-          <td><!-- SE SUA IMAGEM NÃO APARECE NA VISUALIZAÇÃO DA SUA PÁGINA, VERIFIQUE SE O CAMINHO PARA A IMAGEM ESTÁ CORRETO, SE PREFERIR,  PROCURE UTILIZAR O CAMINHO ABSOLUTO PARA LOCALIZAÇÃO DESSA IMAGEM, POIS DESSA FORMA, MESMO ESTANDO EM NÍVEIS DIFERENTES NA HIERARQUIA DAS PASTAS DO SEU SITE A IMAGEM SEMPRE SERÁ EXIBIDA NA VISUALIZAÇÃO NO NAVEGADOR (EXEMPLO: HTTP://WWW.UNESP.BR/PADRAO/IMAGENS/SPACER.GIF) - NA DÚVIDA, ENTRE EM CONTATO COM O ADMINISTRADOR DE REDE --><img src="imagens/spacer.gif" width="50" height="2"></td>
+          <td><!-- SE SUA IMAGEM Nï¿½O APARECE NA VISUALIZAï¿½ï¿½O DA SUA Pï¿½GINA, VERIFIQUE SE O CAMINHO PARA A IMAGEM ESTï¿½ CORRETO, SE PREFERIR,  PROCURE UTILIZAR O CAMINHO ABSOLUTO PARA LOCALIZAï¿½ï¿½O DESSA IMAGEM, POIS DESSA FORMA, MESMO ESTANDO EM Nï¿½VEIS DIFERENTES NA HIERARQUIA DAS PASTAS DO SEU SITE A IMAGEM SEMPRE SERï¿½ EXIBIDA NA VISUALIZAï¿½ï¿½O NO NAVEGADOR (EXEMPLO: HTTP://WWW.UNESP.BR/PADRAO/IMAGENS/SPACER.GIF) - NA Dï¿½VIDA, ENTRE EM CONTATO COM O ADMINISTRADOR DE REDE --><img src="imagens/spacer.gif" width="50" height="2"></td>
         </tr>
         <tr> 
           <td>
             <select name="select2" class="itens-form" onChange="MM_jumpMenu('parent',this,1)">
-              <option selected>Mapa do Sítio</option>			                
+              <option selected>Mapa do SÃ­tio</option>			                
               <option value="<?php print('./pindex.php'); ?>">- Principal</option>
               <option value="<?php print('./pesquisa.php'); ?>">- Linhas de pesquisa</option>
               <option value="<?php print('./projetos.php'); ?>">- Projetos Atuais</option>
               <option value="<?php print('./equipe.php'); ?>">- Equipe</option>
-              <option value="<?php print('./publicacao.php'); ?>">- Publicações</option> 
-              <option value="<?php print('./enderecos.php'); ?>">- Endereços</option>
+              <option value="<?php print('./publicacao.php'); ?>">- PublicaÃ§Ãµes</option> 
+              <option value="<?php print('./enderecos.php'); ?>">- EndereÃ§os</option>
               <option value="<?php print('./downport.php'); ?>">- Downloads</option>
             </select>         			
           </td>
@@ -142,9 +142,9 @@ window.onload=startList;
         </li>
         <li><a href="equipe.php"  class="COMdestaque"  >Equipe</a>
         </li>
-        <li><a href="publicacao.php" class="COMdestaque"  >Publicações</a>
+        <li><a href="publicacao.php" class="COMdestaque"  >PublicaÃ§Ãµes</a>
         </li>
-        <li><a href="enderecos.php" class="COMdestaque"  >Endereços para contato</a>
+        <li><a href="enderecos.php" class="COMdestaque"  >EndereÃ§os para contato</a>
         </li>
         <li><a href="downport.php" class="COMdestaque"  >Downloads</a>
         </li>
@@ -154,7 +154,7 @@ window.onload=startList;
         <li><a href="index.php" class="COMdestaque"  ><img src="wgb.gif"> This page in English</a>
         </li>
         <li>&nbsp;</li>
-        <li><div align="center"><a href="http://www.dcce.ibilce.unesp.br/erad/" target="_blank" class="RodapeTexto"><font size=+0><img src="logo-erad-sp.png"></font></a></div></li>
+        <li><div align="center"><a href="http://cradsp.sbc.org.br/eradsp" target="_blank" class="RodapeTexto"><font size=+0><img src="logo-erad-sp.png"></font></a></div></li>
       </ul>
     </td>
   </tr>

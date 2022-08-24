@@ -1,7 +1,7 @@
 <!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
 <html>
 <head>
-<title>:: Página do GSPD ::</title>
+<title>:: PÃ¡gina do GSPD ::</title>
 <meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
 <script language="JavaScript" type="text/JavaScript">
 <!--
@@ -21,21 +21,21 @@ function MM_reloadPage(init) {  //reloads the window if Nav4 resized
 MM_reloadPage(true);
 //-->
 </script>
-<!-- DEPENDENDO DA LOCALIZAÇÃO DO SEU ARQUIVO DENTRO DA HIERARQUIA DAS PASTAS DO SEU SITE, A FOLHA DE ESTILOS PODE NÃO ENCONTRAR O CAMINHO CORRETO, SE DER ERRO AO VISUALIZAR O ARQUIVO, VERIFIQUE O CAMINHO QUE DEVE SER COLOCADO NA SUA PÁGINA (SOMENTE A PÁGINA QUE ESTÁ COM ERRO) PARA SOLUCIONAR O PROBLEMA - ENTRE EM CONTATO COM O ADMINISTRADOR DE REDES LOCAL PARA IDENTIFICAR O CAMINHO  --><link href="folha.css" rel="stylesheet" type="text/css">
+<!-- DEPENDENDO DA LOCALIZAÃ‡ÃƒO DO SEU ARQUIVO DENTRO DA HIERARQUIA DAS PASTAS DO SEU SITE, A FOLHA DE ESTILOS PODE NÃƒO ENCONTRAR O CAMINHO CORRETO, SE DER ERRO AO VISUALIZAR O ARQUIVO, VERIFIQUE O CAMINHO QUE DEVE SER COLOCADO NA SUA PÃGINA (SOMENTE A PÃGINA QUE ESTÃ COM ERRO) PARA SOLUCIONAR O PROBLEMA - ENTRE EM CONTATO COM O ADMINISTRADOR DE REDES LOCAL PARA IDENTIFICAR O CAMINHO  --><link href="folha.css" rel="stylesheet" type="text/css">
 <!-- MANTER OS CAMINHOS DAS FOLHAS ABAIXO (FOLHADESTAQUE e IMPRIMIR) GRATO  -->
 <!-- <link href="folhaDESTAQUE.css" rel="stylesheet" type="text/css"> -->
 <link href="folha.css" rel="stylesheet" type="text/css">
 
 </head>
 
- <body leftmargin="0" topmargin="0" marginwidth="0" marginheight="0" class="FundoPaginaInterna"><!-- TROQUE O CAMINHO DE ACESSO CONFORME A LOCALIZAÇÃO DO SEU ARQUIVO - INFORME-SE COM O ADMINISTRADOR DA REDE -->
-<meta name="Keywords" content="mestrado computação, pós graduação computação, 
-pós graduação stricto senso, mestrado gratuito, ciência da computação, UNESP, 
-mestrado sistemas distribuídos, mestrado segurança, mestrado redes, mestrado banco dados, 
+ <body leftmargin="0" topmargin="0" marginwidth="0" marginheight="0" class="FundoPaginaInterna"><!-- TROQUE O CAMINHO DE ACESSO CONFORME A LOCALIZAÃ‡ÃƒO DO SEU ARQUIVO - INFORME-SE COM O ADMINISTRADOR DA REDE -->
+ <meta name="Keywords" content="mestrado computaÃ§Ã£o, pÃ³s graduaÃ§Ã£o computaÃ§Ã£o, 
+pÃ³s graduaÃ§Ã£o stricto senso, mestrado gratuito, ciÃªncia da computaÃ§Ã£o, UNESP, 
+mestrado sistemas distribuÃ­dos, mestrado seguranÃ§a, mestrado redes, mestrado banco dados, 
 mestrado processamento imagens,  mestrado sistemas inteligentes,  mestrado
-computação científica, mestrado arquitetura computadores, mestrado sistemas
+computaÃ§Ã£o cientÃ­fica, mestrado arquitetura computadores, mestrado sistemas
 inteligentes, mestrado engenharia software,  mestrado UNESP Rio Preto, mestrado UNESP Bauru, 
-mestrado UNESP Rio  Claro, mestrado UNESP Prudente, estado São Paulo, mestrado
+mestrado UNESP Rio  Claro, mestrado UNESP Prudente, estado SÃ£o Paulo, mestrado
 conceito  CAPES, mestrado credenciado">
 <?php include "topo.php"; ?>
 <table width="900" border="0" cellspacing="0" cellpadding="0">
@@ -47,7 +47,7 @@ conceito  CAPES, mestrado credenciado">
     </tr>  
     <tr> 
       <td width="200" valign="top" class="MenuEsqFundo04"> 
-      <!-- TROQUE O CAMINHO DE ACESSO CONFORME A LOCALIZAÇÃO DO SEU ARQUIVO - INFORME-SE COM O ADMINISTRADOR DA REDE -->
+      <!-- TROQUE O CAMINHO DE ACESSO CONFORME A LOCALIZAÃ‡ÃƒO DO SEU ARQUIVO - INFORME-SE COM O ADMINISTRADOR DA REDE -->
            <?php include "menu_esq_port.php"; ?>
       </td>
       <td width="20">&nbsp;</td>
@@ -61,18 +61,18 @@ conceito  CAPES, mestrado credenciado">
                 <td height="20" class="NomeArea"><font size=+2><a name="voltar">Linhas de Pesquisa     ::: </a></font></td>
               </tr>
               <tr><td>&nbsp;</td></tr>
-              <tr><td><li> <a href="#sim"><u>Técnicas de Simulação de Sistemas</u></a></td></tr>
+              <tr><td><li> <a href="#sim"><u>TÃ©cnicas de SimulaÃ§Ã£o de Sistemas</u></a></td></tr>
               <tr><td>&nbsp;</td></tr>
               <tr><td><li> <a href="#perf"><u>Sistemas Concorrentes, Paralelos e Distribu&iacute;dos</u></a></td></tr>
               <tr><td>&nbsp;</td></tr>
               <tr><td>&nbsp;</td></tr>
-              <tr class="tabela-linha2"><td><font size="+1" color="green"><a name="sim">Técnicas de Simulação de Sistemas</a></font></td></tr>
+              <tr class="tabela-linha2"><td><font size="+1" color="green"><a name="sim">TÃ©cnicas de SimulaÃ§Ã£o de Sistemas</a></font></td></tr>
               <tr><td>&nbsp;</td></tr>
               <tr><td>
                 <table width="100%"  border="0" cellpadding="0" cellspacing="0" id="conteudo">
                   <tr>
                     <td width="5%">&nbsp;</td>
-                    <td><li>Nesta linha de pesquisa investigamos métodos e técnicas para simulação computacional de sistemas computacionais, principalmente de sistemas paralelos e distribuídos, além de simulação distribuída.                    </td>
+                    <td><li>Nesta linha de pesquisa investigamos mÃ©todos e tÃ©cnicas para simulaÃ§Ã£o computacional de sistemas computacionais, principalmente de sistemas paralelos e distribuÃ­dos, alÃ©m de simulaÃ§Ã£o distribuÃ­da.                   </td>
                   </tr>
                   <tr>
                     <td>&nbsp;</td>
@@ -81,17 +81,7 @@ conceito  CAPES, mestrado credenciado">
                   </tr>
                   <tr>
                     <td>&nbsp;</td>
-                    <td><li>Nosso atual projeto principal envolve o desenvolvimento de um simulador de grades e nuvens computacionais baseado em modelagem icônica. Com ele se busca eliminar dificuldades de modelagem presentes nos simuladores mais utilizados, tais como SimGrid, GridSim e CloudSim. Este projeto tem financiamento da FAPESP e envolve a maioria dos membros do GSPD.
-                    </td>
-                  </tr>
-                  <tr>
-                    <td>&nbsp;</td>
-                    <td>
-                    </td>
-                  </tr>
-                  <tr>
-                    <td>&nbsp;</td>
-                    <td><li>Em caminho diferente estamos estudando técnicas para a geração personalizada de simuladores a partir de características comportamentais definidas pelo usuário. Atualmente estamos interessados em simuladores de eventos discretos e as ferramentas a serem geradas devem ser precisas e fáceis de usar, com interface gráfica para a modelagem do sistema.
+                    <td><li>Nosso atual projeto principal envolve o desenvolvimento de um simulador de grades e nuvens computacionais baseado em modelagem icÃ´nica. Com ele se busca eliminar dificuldades de modelagem presentes nos simuladores mais utilizados, tais como SimGrid, GridSim e CloudSim. Este projeto tem financiamento da FAPESP e envolve a maioria dos membros do GSPD.
                     </td>
                   </tr>
                   <tr>
@@ -101,7 +91,17 @@ conceito  CAPES, mestrado credenciado">
                   </tr>
                   <tr>
                     <td>&nbsp;</td>
-                    <td>Outro simulador é o RTsim (Real-Time simulator), que está em desenvolvimento há bastante tempo e simula algoritmos de escalonamento de tempo-real. Ele tem interfaces gráficas para modelar novos escalonadores e também dependências entre tarefas. Permite ainda seu uso tanto como auxílio ao ensino, em que estudantes podem tentar um escalonamento e verificar se está correto, como ferramenta de avaliação, quando o usuário pode comparar a eficiência de um dado algoritmo de escalonamento quando aplicado a um conjunto específico de tarefas.
+                    <td><li>Em caminho diferente estamos estudando tÃ©cnicas para a geraÃ§Ã£o personalizada de simuladores a partir de caracterÃ­sticas comportamentais definidas pelo usuÃ¡rio. Atualmente estamos interessados em simuladores de eventos discretos e as ferramentas a serem geradas devem ser precisas e fÃ¡ceis de usar, com interface grÃ¡fica para a modelagem do sistema.
+                    </td>
+                  </tr>
+                  <tr>
+                    <td>&nbsp;</td>
+                    <td>
+                    </td>
+                  </tr>
+                  <tr>
+                    <td>&nbsp;</td>
+                    <td>	Outro simulador Ã© o RTsim (Real-Time simulator), que estÃ¡ em desenvolvimento hÃ¡ bastante tempo e simula algoritmos de escalonamento de tempo-real. Ele tem interfaces grÃ¡ficas para modelar novos escalonadores e tambÃ©m dependÃªncias entre tarefas. Permite ainda seu uso tanto como auxÃ­lio ao ensino, em que estudantes podem tentar um escalonamento e verificar se estÃ¡ correto, como ferramenta de avaliaÃ§Ã£o, quando o usuÃ¡rio pode comparar a eficiÃªncia de um dado algoritmo de escalonamento quando aplicado a um conjunto especÃ­fico de tarefas.
                     </td>
                   </tr>
                   <tr>
@@ -125,7 +125,7 @@ conceito  CAPES, mestrado credenciado">
                     </td>
                   <tr>
                     <td>&nbsp;</td>
-                    <td><li>Trabalhos recentes envolveram o uso de GPUs, alocação de tarefas, meta-escalonadores, escalonamento baseado em energia, tolerancia a falhas, avaliação de microsserviços, avaliação de cargas workflow, e algoritmos paralelos para aplicações específicas.
+                    <td><li>Trabalhos recentes envolveram o uso de GPUs, alocaÃ§Ã£o de tarefas, meta-escalonadores, escalonamento baseado em energia, tolerancia a falhas, avaliaÃ§Ã£o de microsserviÃ§os, avaliaÃ§Ã£o de cargas workflow, e algoritmos paralelos para aplicaÃ§Ãµes especÃ­ficas.
                     </td>
                   </tr>
                   <tr>
@@ -152,9 +152,9 @@ conceito  CAPES, mestrado credenciado">
       </td>
     </tr>
 </table>
-  <!-- TROQUE O CAMINHO DE ACESSO CONFORME A LOCALIZAÇÃO DO SEU ARQUIVO - INFORME-SE COM O ADMINISTRADOR DA REDE -->
+  <!-- TROQUE O CAMINHO DE ACESSO CONFORME A LOCALIZAÃ‡ÃƒO DO SEU ARQUIVO - INFORME-SE COM O ADMINISTRADOR DA REDE -->
 <?php include "rodape.php"; ?>
-<!-- PARA A CORRETA IMPRESSÃO DA PÁGINA NÃO APAGUE O CÓDIGO ABAIXO -->
+<!-- PARA A CORRETA IMPRESSÃƒO DA PÃGINA NÃƒO APAGUE O CÃ“DIGO ABAIXO -->
 <link href="imprimir.css" rel="stylesheet" media="print" type="text/css"></body>
 </html>
 

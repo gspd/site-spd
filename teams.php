@@ -3,14 +3,14 @@
     <head>
         <title>:: GSPD's Homepage ::</title>
         <meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
-        <meta name="Keywords" content="mestrado computa��o, p�s gradua��o computa��o, 
-              p�s gradua��o stricto senso, mestrado gratuito, ci�ncia da computa��o, UNESP, 
-              mestrado sistemas distribu�dos, mestrado seguran�a, mestrado redes, mestrado banco dados, 
-              mestrado processamento imagens,  mestrado sistemas inteligentes,  mestrado
-              computa��o cient�fica, mestrado arquitetura computadores, mestrado sistemas
-              inteligentes, mestrado engenharia software,  mestrado UNESP Rio Preto, mestrado UNESP Bauru, 
-              mestrado UNESP Rio  Claro, mestrado UNESP Prudente, estado S�o Paulo, mestrado
-              conceito  CAPES, mestrado credenciado">
+        <meta name="Keywords" content="mestrado computação, pós graduação computação, 
+pós graduação stricto senso, mestrado gratuito, ciência da computação, UNESP, 
+mestrado sistemas distribuídos, mestrado segurança, mestrado redes, mestrado banco dados, 
+mestrado processamento imagens,  mestrado sistemas inteligentes,  mestrado
+computação científica, mestrado arquitetura computadores, mestrado sistemas
+inteligentes, mestrado engenharia software,  mestrado UNESP Rio Preto, mestrado UNESP Bauru, 
+mestrado UNESP Rio  Claro, mestrado UNESP Prudente, estado São Paulo, mestrado
+conceito  CAPES, mestrado credenciado">
 
         <script language="JavaScript" type="text/JavaScript">
             <!--
