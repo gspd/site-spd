@@ -1,0 +1,132 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 3.2 Final//BR">
+
+<!--Converted with jLaTeX2HTML 2002 (1.62) JA patch-1.4
+patched version by:  Kenshi Muto, Debian Project.
+LaTeX2HTML 2002 (1.62),
+original version by:  Nikos Drakos, CBLU, University of Leeds
+* revised and updated by:  Marcus Hennecke, Ross Moore, Herb Swan
+* with significant contributions from:
+  Jens Lippmann, Marek Rouchal, Martin Wilck and others -->
+<HTML>
+<HEAD>
+<TITLE>Estudo de casos de ``prefetching'' de instru&ccedil;&#245;es em ``cache''</TITLE>
+<META NAME="description" CONTENT="Estudo de casos de ``prefetching'' de instru&ccedil;&#245;es em ``cache''">
+<META NAME="keywords" CONTENT="index">
+<META NAME="resource-type" CONTENT="document">
+<META NAME="distribution" CONTENT="global">
+
+<META HTTP-EQUIV="Content-Type" CONTENT="text/html; charset=iso-8859-1">
+<META NAME="Generator" CONTENT="jLaTeX2HTML v2002 JA patch-1.4">
+<META HTTP-EQUIV="Content-Style-Type" CONTENT="text/css">
+
+<LINK REL="STYLESHEET" HREF="index.css">
+
+<LINK REL="next" HREF="node8.html">
+<LINK REL="previous" HREF="node6.html">
+<LINK REL="up" HREF="node2.html">
+<LINK REL="next" HREF="node8.html">
+</HEAD>
+
+<BODY >
+<!--Navigation Panel-->
+<A NAME="tex2html177"
+  HREF="node8.html">
+<IMG WIDTH="37" HEIGHT="24" ALIGN="BOTTOM" BORDER="0" ALT="next"
+ SRC="file:/usr/share/latex2html/icons/next.png"></A> 
+<A NAME="tex2html175"
+  HREF="node2.html">
+<IMG WIDTH="26" HEIGHT="24" ALIGN="BOTTOM" BORDER="0" ALT="up"
+ SRC="file:/usr/share/latex2html/icons/up.png"></A> 
+<A NAME="tex2html169"
+  HREF="node6.html">
+<IMG WIDTH="63" HEIGHT="24" ALIGN="BOTTOM" BORDER="0" ALT="previous"
+ SRC="file:/usr/share/latex2html/icons/prev.png"></A>   
+<BR>
+<B> Next:</B> <A NAME="tex2html178"
+  HREF="node8.html">Paraleliza&ccedil;&#227;o do benchmark STAP</A>
+<B> Up:</B> <A NAME="tex2html176"
+  HREF="node2.html">T&#233;cnicas aplic&#225;veis a sistemas</A>
+<B> Previous:</B> <A NAME="tex2html170"
+  HREF="node6.html">Caracteriza&ccedil;&#227;o do desempenho de</A>
+<BR>
+<BR>
+<!--End of Navigation Panel-->
+
+<H2><A NAME="SECTION00115000000000000000">
+Estudo de casos de ``prefetching'' de instru&#231;&#245;es em ``cache''</A>
+</H2> 
+<BR>
+[<A
+ HREF="node34.html#hsu:98">Hsu, 1998</A>]
+
+<BR><P></P>
+<DIV ALIGN="CENTER"><A NAME="82"></A>
+<TABLE>
+<CAPTION><STRONG>Tabela 1.5:</STRONG>
+Caracter&#237;sticas da t&#233;cnica de an&#225;lise de m&#233;todos de ``prefetching''.</CAPTION>
+<TR><TD>
+	<DIV ALIGN="CENTER">
+<TABLE CELLPADDING=3 BORDER="1" ALIGN="CENTER">
+<TR><TD ALIGN="LEFT" VALIGN="TOP" WIDTH=170>Nome</TD>
+<TD ALIGN="LEFT" VALIGN="TOP" WIDTH=227>Estudo de casos de ``prefetching'' de instru&#231;&#245;es em ``cache''</TD>
+</TR>
+<TR><TD ALIGN="LEFT" VALIGN="TOP" WIDTH=170>Sistema aplicado</TD>
+<TD ALIGN="LEFT" VALIGN="TOP" WIDTH=227>hardware</TD>
+</TR>
+<TR><TD ALIGN="LEFT" VALIGN="TOP" WIDTH=170>Abordagem para obten&#231;&#227;o dos resultados</TD>
+<TD ALIGN="LEFT" VALIGN="TOP" WIDTH=227>simula&#231;&#227;o <BR>
+benchmarking</TD>
+</TR>
+<TR><TD ALIGN="LEFT" VALIGN="TOP" WIDTH=170>Forma de medi&#231;&#227;o ou instrumenta&#231;&#227;o</TD>
+<TD ALIGN="LEFT" VALIGN="TOP" WIDTH=227>monitora&#231;&#227;o por hardware</TD>
+</TR>
+<TR><TD ALIGN="LEFT" VALIGN="TOP" WIDTH=170>Tipos de dados gerados pela an&#225;lise</TD>
+<TD ALIGN="LEFT" VALIGN="TOP" WIDTH=227>medi&#231;&#227;o de intervalo de tempos <BR>
+extra&#231;&#227;o de tra&#231;os de eventos</TD>
+</TR>
+<TR><TD ALIGN="LEFT" VALIGN="TOP" WIDTH=170>Arquitetura</TD>
+<TD ALIGN="LEFT" VALIGN="TOP" WIDTH=227>n&#227;o se aplica</TD>
+</TR>
+<TR><TD ALIGN="LEFT" VALIGN="TOP" WIDTH=170>Informa&#231;&#245;es fornecidas</TD>
+<TD ALIGN="LEFT" VALIGN="TOP" WIDTH=227>efici&#234;ncia da t&#233;cnica, taxa de erro de prefetch, tr&#225;fego para mem&#243;ria</TD>
+</TR>
+<TR><TD ALIGN="LEFT" VALIGN="TOP" WIDTH=170>An&#225;lise (sistema alvo)</TD>
+<TD ALIGN="LEFT" VALIGN="TOP" WIDTH=227>subsistema de mem&#243;ria (cache)</TD>
+</TR>
+</TABLE>
+</DIV>
+	
+	<A NAME="tab4:prefetch"></A>
+</TD></TR>
+</TABLE>
+</DIV><P></P>
+<BR>
+Os procedimentos na t&#233;cnica s&#227;o divididos em dois blocos. No primeiro os dez ``benchmarks'' s&#227;o executados em um computador real, com o monitor de desempenho de hardware<A NAME="tex2html6"
+  HREF="footnode.html#foot85"><SUP>A1</SUP></A>. No outro bloco s&#227;o realizadas simula&#231;&#245;es tomando como fonte tra&#231;os das instru&#231;&#245;es de um computador Cray Y-MP, utilizando a organiza&#231;&#227;o original da mem&#243;ria cache e outras situa&#231;&#245;es consideradas importantes pelos analistas. 
+
+Como o desempenho da a&#231;&#227;o de ``prefetching'' n&#227;o pode ser obtido de uma forma exata, os autores apresentam uma medida chamada <I>efici&#234;ncia de prefetching</I>, baseada em alguns valores m&#233;dios. Para cada linha de instru&#231;&#227;o levada ao cache, o monitor &#233; acessado e dados s&#227;o colhidos no in&#237;cio do processo e no momento em que pela primeira vez a linha &#233; referenciada; o n&#250;mero de erros &#233; ent&#227;o calculado e dividido por um valor m&#233;dio de pulsos de rel&#243;gio gastos por instru&#231;&#227;o, resultando na <I>efici&#234;ncia de prefetching</I>.
+
+<HR>
+<!--Navigation Panel-->
+<A NAME="tex2html177"
+  HREF="node8.html">
+<IMG WIDTH="37" HEIGHT="24" ALIGN="BOTTOM" BORDER="0" ALT="next"
+ SRC="file:/usr/share/latex2html/icons/next.png"></A> 
+<A NAME="tex2html175"
+  HREF="node2.html">
+<IMG WIDTH="26" HEIGHT="24" ALIGN="BOTTOM" BORDER="0" ALT="up"
+ SRC="file:/usr/share/latex2html/icons/up.png"></A> 
+<A NAME="tex2html169"
+  HREF="node6.html">
+<IMG WIDTH="63" HEIGHT="24" ALIGN="BOTTOM" BORDER="0" ALT="previous"
+ SRC="file:/usr/share/latex2html/icons/prev.png"></A>   
+<BR>
+<B> Next:</B> <A NAME="tex2html178"
+  HREF="node8.html">Paraleliza&ccedil;&#227;o do benchmark STAP</A>
+<B> Up:</B> <A NAME="tex2html176"
+  HREF="node2.html">T&#233;cnicas aplic&#225;veis a sistemas</A>
+<B> Previous:</B> <A NAME="tex2html170"
+  HREF="node6.html">Caracteriza&ccedil;&#227;o do desempenho de</A>
+<!--End of Navigation Panel-->
+</BODY>
+</HTML>

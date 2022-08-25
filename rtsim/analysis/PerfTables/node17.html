@@ -1,0 +1,129 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 3.2 Final//BR">
+
+<!--Converted with jLaTeX2HTML 2002 (1.62) JA patch-1.4
+patched version by:  Kenshi Muto, Debian Project.
+LaTeX2HTML 2002 (1.62),
+original version by:  Nikos Drakos, CBLU, University of Leeds
+* revised and updated by:  Marcus Hennecke, Ross Moore, Herb Swan
+* with significant contributions from:
+  Jens Lippmann, Marek Rouchal, Martin Wilck and others -->
+<HTML>
+<HEAD>
+<TITLE>PAWS - Parallel Assessment Window System</TITLE>
+<META NAME="description" CONTENT="PAWS - Parallel Assessment Window System">
+<META NAME="keywords" CONTENT="index">
+<META NAME="resource-type" CONTENT="document">
+<META NAME="distribution" CONTENT="global">
+
+<META HTTP-EQUIV="Content-Type" CONTENT="text/html; charset=iso-8859-1">
+<META NAME="Generator" CONTENT="jLaTeX2HTML v2002 JA patch-1.4">
+<META HTTP-EQUIV="Content-Style-Type" CONTENT="text/css">
+
+<LINK REL="STYLESHEET" HREF="index.css">
+
+<LINK REL="next" HREF="node18.html">
+<LINK REL="previous" HREF="node16.html">
+<LINK REL="up" HREF="node14.html">
+<LINK REL="next" HREF="node18.html">
+</HEAD>
+
+<BODY >
+<!--Navigation Panel-->
+<A NAME="tex2html283"
+  HREF="node18.html">
+<IMG WIDTH="37" HEIGHT="24" ALIGN="BOTTOM" BORDER="0" ALT="next"
+ SRC="file:/usr/share/latex2html/icons/next.png"></A> 
+<A NAME="tex2html281"
+  HREF="node14.html">
+<IMG WIDTH="26" HEIGHT="24" ALIGN="BOTTOM" BORDER="0" ALT="up"
+ SRC="file:/usr/share/latex2html/icons/up.png"></A> 
+<A NAME="tex2html275"
+  HREF="node16.html">
+<IMG WIDTH="63" HEIGHT="24" ALIGN="BOTTOM" BORDER="0" ALT="previous"
+ SRC="file:/usr/share/latex2html/icons/prev.png"></A>   
+<BR>
+<B> Next:</B> <A NAME="tex2html284"
+  HREF="node18.html">PDL - Performance Description</A>
+<B> Up:</B> <A NAME="tex2html282"
+  HREF="node14.html">Ferramentas aplic&#225;veis a sistemas</A>
+<B> Previous:</B> <A NAME="tex2html276"
+  HREF="node16.html">Linpack e varia&ccedil;&#245;es</A>
+<BR>
+<BR>
+<!--End of Navigation Panel-->
+
+<H2><A NAME="SECTION00133000000000000000">
+PAWS - Parallel Assessment Window System</A>
+</H2> 
+<BR>
+[<A
+ HREF="node34.html#pease:91">Pease, 1991</A>]
+
+<BR><P></P>
+<DIV ALIGN="CENTER"><A NAME="195"></A>
+<TABLE>
+<CAPTION><STRONG>Tabela 1.13:</STRONG>
+Caracter&#237;sticas da ferramenta PAWS.</CAPTION>
+<TR><TD>
+	<DIV ALIGN="CENTER">
+<TABLE CELLPADDING=3 BORDER="1" ALIGN="CENTER">
+<TR><TD ALIGN="LEFT" VALIGN="TOP" WIDTH=170>Nome</TD>
+<TD ALIGN="LEFT" VALIGN="TOP" WIDTH=227>PAWS</TD>
+</TR>
+<TR><TD ALIGN="LEFT" VALIGN="TOP" WIDTH=170>Sistema aplicado</TD>
+<TD ALIGN="LEFT" VALIGN="TOP" WIDTH=227>hardware, software, ambos</TD>
+</TR>
+<TR><TD ALIGN="LEFT" VALIGN="TOP" WIDTH=170>Abordagem para obten&#231;&#227;o dos resultados</TD>
+<TD ALIGN="LEFT" VALIGN="TOP" WIDTH=227>simula&#231;&#227;o</TD>
+</TR>
+<TR><TD ALIGN="LEFT" VALIGN="TOP" WIDTH=170>Forma de medi&#231;&#227;o ou instrumenta&#231;&#227;o</TD>
+<TD ALIGN="LEFT" VALIGN="TOP" WIDTH=227>n&#227;o se aplica</TD>
+</TR>
+<TR><TD ALIGN="LEFT" VALIGN="TOP" WIDTH=170>Tipos de dados gerados pela an&#225;lise</TD>
+<TD ALIGN="LEFT" VALIGN="TOP" WIDTH=227>profiling, medi&#231;&#227;o de intervalo de tempos</TD>
+</TR>
+<TR><TD ALIGN="LEFT" VALIGN="TOP" WIDTH=170>Arquitetura</TD>
+<TD ALIGN="LEFT" VALIGN="TOP" WIDTH=227>SISD, SIMD, MISD, MIMD (de acordo com os autores)</TD>
+</TR>
+<TR><TD ALIGN="LEFT" VALIGN="TOP" WIDTH=170>Informa&#231;&#245;es fornecidas</TD>
+<TD ALIGN="LEFT" VALIGN="TOP" WIDTH=227>curvas sobre speedup, perfil do paralelismo, perfil da execu&#231;&#227;o dos programas</TD>
+</TR>
+<TR><TD ALIGN="LEFT" VALIGN="TOP" WIDTH=170>An&#225;lise (sistema alvo)</TD>
+<TD ALIGN="LEFT" VALIGN="TOP" WIDTH=227>sistema completo ou subsistemas</TD>
+</TR>
+</TABLE>
+</DIV>
+	
+	<A NAME="tab4:paws"></A>
+</TD></TR>
+</TABLE>
+</DIV><P></P>
+<BR>
+Um fator interessante do PAWS reside na abordagem usada no sistema, que separa os modelos de arquiteturas da m&#225;quina dos modelos de programa, abordagem utilizada em grande parte das ferramentas de an&#225;lise de desempenho, permitindo que m&#225;quinas diferentes e algoritmos diferentes sejam analisados.
+
+Para analisar os sistemas de hardware (computadores), a ferramenta de caracteriza&#231;&#227;o de arquitetura divide a arquitetura de um tipo espec&#237;fico de sistema em quatro categorias: computa&#231;&#227;o, transporte de dados e comunica&#231;&#227;o, entrada/sa&#237;da e controle. Cada categoria pode ser reparticionada em subsistemas repetidamente at&#233; que seja t&#227;o pequeno que possa ser temporizada.
+
+<HR>
+<!--Navigation Panel-->
+<A NAME="tex2html283"
+  HREF="node18.html">
+<IMG WIDTH="37" HEIGHT="24" ALIGN="BOTTOM" BORDER="0" ALT="next"
+ SRC="file:/usr/share/latex2html/icons/next.png"></A> 
+<A NAME="tex2html281"
+  HREF="node14.html">
+<IMG WIDTH="26" HEIGHT="24" ALIGN="BOTTOM" BORDER="0" ALT="up"
+ SRC="file:/usr/share/latex2html/icons/up.png"></A> 
+<A NAME="tex2html275"
+  HREF="node16.html">
+<IMG WIDTH="63" HEIGHT="24" ALIGN="BOTTOM" BORDER="0" ALT="previous"
+ SRC="file:/usr/share/latex2html/icons/prev.png"></A>   
+<BR>
+<B> Next:</B> <A NAME="tex2html284"
+  HREF="node18.html">PDL - Performance Description</A>
+<B> Up:</B> <A NAME="tex2html282"
+  HREF="node14.html">Ferramentas aplic&#225;veis a sistemas</A>
+<B> Previous:</B> <A NAME="tex2html276"
+  HREF="node16.html">Linpack e varia&ccedil;&#245;es</A>
+<!--End of Navigation Panel-->
+</BODY>
+</HTML>

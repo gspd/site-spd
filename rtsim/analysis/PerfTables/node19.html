@@ -1,0 +1,133 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 3.2 Final//BR">
+
+<!--Converted with jLaTeX2HTML 2002 (1.62) JA patch-1.4
+patched version by:  Kenshi Muto, Debian Project.
+LaTeX2HTML 2002 (1.62),
+original version by:  Nikos Drakos, CBLU, University of Leeds
+* revised and updated by:  Marcus Hennecke, Ross Moore, Herb Swan
+* with significant contributions from:
+  Jens Lippmann, Marek Rouchal, Martin Wilck and others -->
+<HTML>
+<HEAD>
+<TITLE>RSim - The Rice Simulator for ILP Multiprocessors</TITLE>
+<META NAME="description" CONTENT="RSim - The Rice Simulator for ILP Multiprocessors">
+<META NAME="keywords" CONTENT="index">
+<META NAME="resource-type" CONTENT="document">
+<META NAME="distribution" CONTENT="global">
+
+<META HTTP-EQUIV="Content-Type" CONTENT="text/html; charset=iso-8859-1">
+<META NAME="Generator" CONTENT="jLaTeX2HTML v2002 JA patch-1.4">
+<META HTTP-EQUIV="Content-Style-Type" CONTENT="text/css">
+
+<LINK REL="STYLESHEET" HREF="index.css">
+
+<LINK REL="next" HREF="node20.html">
+<LINK REL="previous" HREF="node18.html">
+<LINK REL="up" HREF="node14.html">
+<LINK REL="next" HREF="node20.html">
+</HEAD>
+
+<BODY >
+<!--Navigation Panel-->
+<A NAME="tex2html303"
+  HREF="node20.html">
+<IMG WIDTH="37" HEIGHT="24" ALIGN="BOTTOM" BORDER="0" ALT="next"
+ SRC="file:/usr/share/latex2html/icons/next.png"></A> 
+<A NAME="tex2html301"
+  HREF="node14.html">
+<IMG WIDTH="26" HEIGHT="24" ALIGN="BOTTOM" BORDER="0" ALT="up"
+ SRC="file:/usr/share/latex2html/icons/up.png"></A> 
+<A NAME="tex2html295"
+  HREF="node18.html">
+<IMG WIDTH="63" HEIGHT="24" ALIGN="BOTTOM" BORDER="0" ALT="previous"
+ SRC="file:/usr/share/latex2html/icons/prev.png"></A>   
+<BR>
+<B> Next:</B> <A NAME="tex2html304"
+  HREF="node20.html">Simics</A>
+<B> Up:</B> <A NAME="tex2html302"
+  HREF="node14.html">Ferramentas aplic&#225;veis a sistemas</A>
+<B> Previous:</B> <A NAME="tex2html296"
+  HREF="node18.html">PDL - Performance Description</A>
+<BR>
+<BR>
+<!--End of Navigation Panel-->
+
+<H2><A NAME="SECTION00135000000000000000">
+RSim - The Rice Simulator for ILP Multiprocessors</A>
+</H2> 
+<BR>
+[<A
+ HREF="node34.html#hughes:02">Hughes, 2002</A>]
+
+<BR><P></P>
+<DIV ALIGN="CENTER"><A NAME="221"></A>
+<TABLE>
+<CAPTION><STRONG>Tabela:</STRONG>
+Caracter&#237;sticas da ferramenta de simula&#231;&#227;o RSim.</CAPTION>
+<TR><TD>
+	<DIV ALIGN="CENTER">
+<TABLE CELLPADDING=3 BORDER="1" ALIGN="CENTER">
+<TR><TD ALIGN="LEFT" VALIGN="TOP" WIDTH=170>Nome</TD>
+<TD ALIGN="LEFT" VALIGN="TOP" WIDTH=227>RSim</TD>
+</TR>
+<TR><TD ALIGN="LEFT" VALIGN="TOP" WIDTH=170>Sistema aplicado</TD>
+<TD ALIGN="LEFT" VALIGN="TOP" WIDTH=227>hardware (software)</TD>
+</TR>
+<TR><TD ALIGN="LEFT" VALIGN="TOP" WIDTH=170>Abordagem para obten&#231;&#227;o dos resultados</TD>
+<TD ALIGN="LEFT" VALIGN="TOP" WIDTH=227>simula&#231;&#227;o</TD>
+</TR>
+<TR><TD ALIGN="LEFT" VALIGN="TOP" WIDTH=170>Forma de medi&#231;&#227;o ou instrumenta&#231;&#227;o</TD>
+<TD ALIGN="LEFT" VALIGN="TOP" WIDTH=227>n&#227;o se aplica</TD>
+</TR>
+<TR><TD ALIGN="LEFT" VALIGN="TOP" WIDTH=170>Tipos de dados gerados pela an&#225;lise</TD>
+<TD ALIGN="LEFT" VALIGN="TOP" WIDTH=227>n&#227;o se aplica</TD>
+</TR>
+<TR><TD ALIGN="LEFT" VALIGN="TOP" WIDTH=170>Arquitetura</TD>
+<TD ALIGN="LEFT" VALIGN="TOP" WIDTH=227>SIMD, MIMD</TD>
+</TR>
+<TR><TD ALIGN="LEFT" VALIGN="TOP" WIDTH=170>Informa&#231;&#245;es fornecidas</TD>
+<TD ALIGN="LEFT" VALIGN="TOP" WIDTH=227>estat&#237;sticas sobre o processador (utiliza&#231;&#227;o, tempo de uso, etc.), mem&#243;ria, ``cache'' e rede de conex&#227;o</TD>
+</TR>
+<TR><TD ALIGN="LEFT" VALIGN="TOP" WIDTH=170>An&#225;lise (sistema alvo)</TD>
+<TD ALIGN="LEFT" VALIGN="TOP" WIDTH=227>sistemas de hardware (computador e subsistemas), sistemas de software</TD>
+</TR>
+</TABLE>
+</DIV>
+	
+	<A NAME="tab4:RSim"></A>
+</TD></TR>
+</TABLE>
+</DIV><P></P>
+<BR>
+O ambiente RSim consiste de dois elementos: a aplica&#231;&#227;o paralela a ser simulada e o simulador. O simulador &#233; composto de tr&#234;s m&#243;dulos: os m&#243;dulos de processador, sistema de mem&#243;ria e rede de conex&#227;o. O m&#243;dulo de processador simula as fases de decodifica&#231;&#227;o, edi&#231;&#227;o, execu&#231;&#227;o e sa&#237;da do pipeline para cada instru&#231;&#227;o. O m&#243;dulo de sistema de mem&#243;ria simula o comportamento do subsistema de mem&#243;ria incluindo ``cache'', ``buffers'', protocolo de coer&#234;ncia, e a mem&#243;ria principal. J&#225; o m&#243;dulo de rede &#233; usado para simular a rede de conex&#227;o atrav&#233;s de topologias definidas pelo usu&#225;rio e algoritmos de roteamento.
+
+Em rela&#231;&#227;o &#224;s estat&#237;sticas de desempenho, o simulador apresenta tanto m&#233;tricas de desempenho global, como o n&#250;mero total de ciclos de execu&#231;&#227;o e n&#250;mero de instru&#231;&#245;es por ciclo que um programa atinge no sistema simulado, quanto m&#233;tricas particulares, como a utiliza&#231;&#227;o de unidades funcionais no processador e comportamento na predi&#231;&#227;o de la&#231;os.
+
+Outras m&#233;tricas apresentadas pela ferramenta s&#227;o atraso m&#233;dio das v&#225;rias classes de opera&#231;&#245;es de mem&#243;ria, utiliza&#231;&#227;o de barramento, utiliza&#231;&#227;o do ``buffer'' de escrita e tr&#225;fego nos canais de comunica&#231;&#227;o.
+
+Para v&#225;rias m&#233;tricas o simulador ainda disponibiliza outras funcionalidades, incluindo valores m&#233;dios, desvios padr&#227;o e histogramas sobre o comportamento das medidas durante a execu&#231;&#227;o de programas.
+
+<HR>
+<!--Navigation Panel-->
+<A NAME="tex2html303"
+  HREF="node20.html">
+<IMG WIDTH="37" HEIGHT="24" ALIGN="BOTTOM" BORDER="0" ALT="next"
+ SRC="file:/usr/share/latex2html/icons/next.png"></A> 
+<A NAME="tex2html301"
+  HREF="node14.html">
+<IMG WIDTH="26" HEIGHT="24" ALIGN="BOTTOM" BORDER="0" ALT="up"
+ SRC="file:/usr/share/latex2html/icons/up.png"></A> 
+<A NAME="tex2html295"
+  HREF="node18.html">
+<IMG WIDTH="63" HEIGHT="24" ALIGN="BOTTOM" BORDER="0" ALT="previous"
+ SRC="file:/usr/share/latex2html/icons/prev.png"></A>   
+<BR>
+<B> Next:</B> <A NAME="tex2html304"
+  HREF="node20.html">Simics</A>
+<B> Up:</B> <A NAME="tex2html302"
+  HREF="node14.html">Ferramentas aplic&#225;veis a sistemas</A>
+<B> Previous:</B> <A NAME="tex2html296"
+  HREF="node18.html">PDL - Performance Description</A>
+<!--End of Navigation Panel-->
+</BODY>
+</HTML>

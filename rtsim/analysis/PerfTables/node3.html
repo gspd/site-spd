@@ -1,0 +1,134 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 3.2 Final//BR">
+
+<!--Converted with jLaTeX2HTML 2002 (1.62) JA patch-1.4
+patched version by:  Kenshi Muto, Debian Project.
+LaTeX2HTML 2002 (1.62),
+original version by:  Nikos Drakos, CBLU, University of Leeds
+* revised and updated by:  Marcus Hennecke, Ross Moore, Herb Swan
+* with significant contributions from:
+  Jens Lippmann, Marek Rouchal, Martin Wilck and others -->
+<HTML>
+<HEAD>
+<TITLE>An&#225;lise de subsistema de Entrada/Sa&#237;da</TITLE>
+<META NAME="description" CONTENT="An&#225;lise de subsistema de Entrada/Sa&#237;da">
+<META NAME="keywords" CONTENT="index">
+<META NAME="resource-type" CONTENT="document">
+<META NAME="distribution" CONTENT="global">
+
+<META HTTP-EQUIV="Content-Type" CONTENT="text/html; charset=iso-8859-1">
+<META NAME="Generator" CONTENT="jLaTeX2HTML v2002 JA patch-1.4">
+<META HTTP-EQUIV="Content-Style-Type" CONTENT="text/css">
+
+<LINK REL="STYLESHEET" HREF="index.css">
+
+<LINK REL="next" HREF="node4.html">
+<LINK REL="previous" HREF="node2.html">
+<LINK REL="up" HREF="node2.html">
+<LINK REL="next" HREF="node4.html">
+</HEAD>
+
+<BODY >
+<!--Navigation Panel-->
+<A NAME="tex2html137"
+  HREF="node4.html">
+<IMG WIDTH="37" HEIGHT="24" ALIGN="BOTTOM" BORDER="0" ALT="next"
+ SRC="file:/usr/share/latex2html/icons/next.png"></A> 
+<A NAME="tex2html135"
+  HREF="node2.html">
+<IMG WIDTH="26" HEIGHT="24" ALIGN="BOTTOM" BORDER="0" ALT="up"
+ SRC="file:/usr/share/latex2html/icons/up.png"></A> 
+<A NAME="tex2html129"
+  HREF="node2.html">
+<IMG WIDTH="63" HEIGHT="24" ALIGN="BOTTOM" BORDER="0" ALT="previous"
+ SRC="file:/usr/share/latex2html/icons/prev.png"></A>   
+<BR>
+<B> Next:</B> <A NAME="tex2html138"
+  HREF="node4.html">An&#225;lise do desempenho da</A>
+<B> Up:</B> <A NAME="tex2html136"
+  HREF="node2.html">T&#233;cnicas aplic&#225;veis a sistemas</A>
+<B> Previous:</B> <A NAME="tex2html130"
+  HREF="node2.html">T&#233;cnicas aplic&#225;veis a sistemas</A>
+<BR>
+<BR>
+<!--End of Navigation Panel-->
+
+<H2><A NAME="SECTION00111000000000000000">
+An&#225;lise de subsistema de Entrada/Sa&#237;da</A>
+</H2> 
+<BR>
+[<A
+ HREF="node34.html#ganger:98">Ganger, 1998</A>] 
+
+<BR><P></P>
+<DIV ALIGN="CENTER"><A NAME="30"></A>
+<TABLE>
+<CAPTION><STRONG>Tabela 1.1:</STRONG>
+Caracter&#237;sticas da t&#233;cnica de an&#225;lise de subsistema de E/S.</CAPTION>
+<TR><TD>
+	<DIV ALIGN="CENTER">
+<TABLE CELLPADDING=3 BORDER="1" ALIGN="CENTER">
+<TR><TD ALIGN="LEFT" VALIGN="TOP" WIDTH=170>Nome</TD>
+<TD ALIGN="LEFT" VALIGN="TOP" WIDTH=227>An&#225;lise de subsistema de E/S</TD>
+</TR>
+<TR><TD ALIGN="LEFT" VALIGN="TOP" WIDTH=170>Sistema aplicado</TD>
+<TD ALIGN="LEFT" VALIGN="TOP" WIDTH=227>hardware</TD>
+</TR>
+<TR><TD ALIGN="LEFT" VALIGN="TOP" WIDTH=170>Abordagem para obten&#231;&#227;o dos resultados</TD>
+<TD ALIGN="LEFT" VALIGN="TOP" WIDTH=227>simula&#231;&#227;o (cria&#231;&#227;o do subsistema) <BR>
+benchmarking (coleta dos dados)</TD>
+</TR>
+<TR><TD ALIGN="LEFT" VALIGN="TOP" WIDTH=170>Forma de medi&#231;&#227;o ou instrumenta&#231;&#227;o</TD>
+<TD ALIGN="LEFT" VALIGN="TOP" WIDTH=227>n&#227;o se aplica na etapa de simula&#231;&#227;o <BR>
+monitora&#231;&#227;o por software (coleta dos dados)</TD>
+</TR>
+<TR><TD ALIGN="LEFT" VALIGN="TOP" WIDTH=170>Tipos de dados gerados pela an&#225;lise</TD>
+<TD ALIGN="LEFT" VALIGN="TOP" WIDTH=227>n&#227;o se aplica na etapa de simula&#231;&#227;o <BR>
+extra&#231;&#227;o de tra&#231;os de eventos (coleta dos dados)</TD>
+</TR>
+<TR><TD ALIGN="LEFT" VALIGN="TOP" WIDTH=170>Arquitetura</TD>
+<TD ALIGN="LEFT" VALIGN="TOP" WIDTH=227>-</TD>
+</TR>
+<TR><TD ALIGN="LEFT" VALIGN="TOP" WIDTH=170>Informa&#231;&#245;es fornecidas</TD>
+<TD ALIGN="LEFT" VALIGN="TOP" WIDTH=227>n&#250;mero de requisi&#231;&#245;es de E/S, utiliza&#231;&#227;o da CPU, tempo m&#233;dio de opera&#231;&#227;o, tempos m&#233;dios de espera, acesso e resposta nos processos de E/S</TD>
+</TR>
+<TR><TD ALIGN="LEFT" VALIGN="TOP" WIDTH=170>An&#225;lise (sistema alvo)</TD>
+<TD ALIGN="LEFT" VALIGN="TOP" WIDTH=227>subsistema de E/S, isolado e em contato com o sistema completo</TD>
+</TR>
+</TABLE>
+</DIV>
+	
+	<A NAME="tab4:ganger"></A>
+</TD></TR>
+</TABLE>
+</DIV><P></P>
+<BR>
+Esta t&#233;cnica pode ser dividida em duas etapas distintas: a primeira consiste na coleta dos dados contendo os tra&#231;os dos eventos, realizada atrav&#233;s da instrumenta&#231;&#227;o do sistema operacional e conseq&#252;ente monitora&#231;&#227;o por software. A segunda &#233; a simula&#231;&#227;o dos eventos propriamente dita.
+
+Na primeira fase s&#227;o coletados os tra&#231;os da atividade do sistema, atrav&#233;s da monitora&#231;&#227;o realizada pelo sistema operacional. Essa extra&#231;&#227;o de tra&#231;os n&#227;o altera significativamente o desempenho do sistema (chegando a, no m&#225;ximo, 0,1% de degrada&#231;&#227;o). Ap&#243;s a extra&#231;&#227;o dos tra&#231;os um p&#243;s-processador escolhe quais os dados ser&#227;o utilizados na etapa de simula&#231;&#227;o; para que isso seja poss&#237;vel, a ferramenta utilizada captura tamb&#233;m eventos auxiliares do sistema.
+
+Nesta fase o simulador &#233; utilizado para fornecer as medidas de desempenho. &#201; realizada a simula&#231;&#227;o tanto do dispositivo isolado (direcionado por eventos de E/S) quanto do dispositivo conectado a um sistema completo (direcionado por eventos de sistemas).
+
+<HR>
+<!--Navigation Panel-->
+<A NAME="tex2html137"
+  HREF="node4.html">
+<IMG WIDTH="37" HEIGHT="24" ALIGN="BOTTOM" BORDER="0" ALT="next"
+ SRC="file:/usr/share/latex2html/icons/next.png"></A> 
+<A NAME="tex2html135"
+  HREF="node2.html">
+<IMG WIDTH="26" HEIGHT="24" ALIGN="BOTTOM" BORDER="0" ALT="up"
+ SRC="file:/usr/share/latex2html/icons/up.png"></A> 
+<A NAME="tex2html129"
+  HREF="node2.html">
+<IMG WIDTH="63" HEIGHT="24" ALIGN="BOTTOM" BORDER="0" ALT="previous"
+ SRC="file:/usr/share/latex2html/icons/prev.png"></A>   
+<BR>
+<B> Next:</B> <A NAME="tex2html138"
+  HREF="node4.html">An&#225;lise do desempenho da</A>
+<B> Up:</B> <A NAME="tex2html136"
+  HREF="node2.html">T&#233;cnicas aplic&#225;veis a sistemas</A>
+<B> Previous:</B> <A NAME="tex2html130"
+  HREF="node2.html">T&#233;cnicas aplic&#225;veis a sistemas</A>
+<!--End of Navigation Panel-->
+</BODY>
+</HTML>

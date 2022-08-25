@@ -1,0 +1,5 @@
+AuthName "Tabelas do RTbugs"
+AuthType Basic
+AuthUserFile "/export/home/beast/dcce/guindo/public_html/rtsim/tabelas/.mytabs"
+require user alisson
+

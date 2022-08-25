@@ -1,0 +1,140 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 3.2 Final//BR">
+
+<!--Converted with jLaTeX2HTML 2002 (1.62) JA patch-1.4
+patched version by:  Kenshi Muto, Debian Project.
+LaTeX2HTML 2002 (1.62),
+original version by:  Nikos Drakos, CBLU, University of Leeds
+* revised and updated by:  Marcus Hennecke, Ross Moore, Herb Swan
+* with significant contributions from:
+  Jens Lippmann, Marek Rouchal, Martin Wilck and others -->
+<HTML>
+<HEAD>
+<TITLE>Paradyn</TITLE>
+<META NAME="description" CONTENT="Paradyn">
+<META NAME="keywords" CONTENT="index">
+<META NAME="resource-type" CONTENT="document">
+<META NAME="distribution" CONTENT="global">
+
+<META HTTP-EQUIV="Content-Type" CONTENT="text/html; charset=iso-8859-1">
+<META NAME="Generator" CONTENT="jLaTeX2HTML v2002 JA patch-1.4">
+<META HTTP-EQUIV="Content-Style-Type" CONTENT="text/css">
+
+<LINK REL="STYLESHEET" HREF="index.css">
+
+<LINK REL="next" HREF="node29.html">
+<LINK REL="previous" HREF="node27.html">
+<LINK REL="up" HREF="node22.html">
+<LINK REL="next" HREF="node29.html">
+</HEAD>
+
+<BODY >
+<!--Navigation Panel-->
+<A NAME="tex2html400"
+  HREF="node29.html">
+<IMG WIDTH="37" HEIGHT="24" ALIGN="BOTTOM" BORDER="0" ALT="next"
+ SRC="file:/usr/share/latex2html/icons/next.png"></A> 
+<A NAME="tex2html398"
+  HREF="node22.html">
+<IMG WIDTH="26" HEIGHT="24" ALIGN="BOTTOM" BORDER="0" ALT="up"
+ SRC="file:/usr/share/latex2html/icons/up.png"></A> 
+<A NAME="tex2html392"
+  HREF="node27.html">
+<IMG WIDTH="63" HEIGHT="24" ALIGN="BOTTOM" BORDER="0" ALT="previous"
+ SRC="file:/usr/share/latex2html/icons/prev.png"></A>   
+<BR>
+<B> Next:</B> <A NAME="tex2html401"
+  HREF="node29.html">PAT - Performance Analysis</A>
+<B> Up:</B> <A NAME="tex2html399"
+  HREF="node22.html">Ferramentas aplic&#225;veis a sistemas</A>
+<B> Previous:</B> <A NAME="tex2html393"
+  HREF="node27.html">Pablo Performance Analysis Environment</A>
+<BR>
+<BR>
+<!--End of Navigation Panel-->
+
+<H2><A NAME="SECTION00146000000000000000">
+Paradyn</A>
+</H2> 
+<BR>
+[<A
+ HREF="node34.html#miller:95">Miller, 1995</A>]
+
+<BR><P></P>
+<DIV ALIGN="CENTER"><A NAME="329"></A>
+<TABLE>
+<CAPTION><STRONG>Tabela 1.23:</STRONG>
+Caracter&#237;sticas da ferramenta Paradyn.</CAPTION>
+<TR><TD>
+	<DIV ALIGN="CENTER">
+<TABLE CELLPADDING=3 BORDER="1" ALIGN="CENTER">
+<TR><TD ALIGN="LEFT" VALIGN="TOP" WIDTH=170>Nome</TD>
+<TD ALIGN="LEFT" VALIGN="TOP" WIDTH=227>Paradyn</TD>
+</TR>
+<TR><TD ALIGN="LEFT" VALIGN="TOP" WIDTH=170>Sistema aplicado</TD>
+<TD ALIGN="LEFT" VALIGN="TOP" WIDTH=227>software</TD>
+</TR>
+<TR><TD ALIGN="LEFT" VALIGN="TOP" WIDTH=170>Abordagem para obten&#231;&#227;o dos resultados</TD>
+<TD ALIGN="LEFT" VALIGN="TOP" WIDTH=227>benchmarking</TD>
+</TR>
+<TR><TD ALIGN="LEFT" VALIGN="TOP" WIDTH=170>Forma de medi&#231;&#227;o ou instrumenta&#231;&#227;o</TD>
+<TD ALIGN="LEFT" VALIGN="TOP" WIDTH=227>modifica&#231;&#227;o do c&#243;digo execut&#225;vel</TD>
+</TR>
+<TR><TD ALIGN="LEFT" VALIGN="TOP" WIDTH=170>Tipos de dados gerados pela an&#225;lise</TD>
+<TD ALIGN="LEFT" VALIGN="TOP" WIDTH=227>extra&#231;&#227;o de tra&#231;os de eventos</TD>
+</TR>
+<TR><TD ALIGN="LEFT" VALIGN="TOP" WIDTH=170>Arquitetura</TD>
+<TD ALIGN="LEFT" VALIGN="TOP" WIDTH=227>todas</TD>
+</TR>
+<TR><TD ALIGN="LEFT" VALIGN="TOP" WIDTH=170>Informa&#231;&#245;es fornecidas</TD>
+<TD ALIGN="LEFT" VALIGN="TOP" WIDTH=227>tempo de CPU, barreira, informa&#231;&#245;es sobre quantidades de E/S, comunica&#231;&#227;o e sincronismo</TD>
+</TR>
+<TR><TD ALIGN="LEFT" VALIGN="TOP" WIDTH=170>An&#225;lise (sistema alvo)</TD>
+<TD ALIGN="LEFT" VALIGN="TOP" WIDTH=227>sistema completo, subsistemas de E/S, sincronismo e comunica&#231;&#227;o, CPU</TD>
+</TR>
+</TABLE>
+</DIV>
+	
+	<A NAME="tab4:Paradyn"></A>
+</TD></TR>
+</TABLE>
+</DIV><P></P>
+<BR>
+A ferramenta, que realiza a instrumenta&#231;&#227;o atrav&#233;s da adi&#231;&#227;o de contadores e da utiliza&#231;&#227;o de temporizadores, tem como objetivo principal identificar os pontos do programa em que o desempenho sofre degrada&#231;&#227;o. Para isso utiliza o modelo de pesquisa <IMG
+ WIDTH="26" HEIGHT="20" ALIGN="BOTTOM" BORDER="0"
+ SRC="img1.png"
+ ALT="$w^{3}$"> (de <EM>why-where-when</EM>), que busca localizar problemas de desempenho respondendo a tr&#234;s perguntas, que geram os seguintes eixos:
+
+1. ``Por que'' a aplica&#231;&#227;o executa de uma forma ruim? 
+<BR>
+2. ``Onde'' o problema de desempenho ocorre? 
+<BR>
+3. ``Quando'' o problema ocorre?
+
+Atrav&#233;s desses tr&#234;s eixos, a ferramenta busca apresentar os locais exatos em que ocorre a degrada&#231;&#227;o do desempenho dos programas. Ap&#243;s a instrumenta&#231;&#227;o e a execu&#231;&#227;o do programa, quando usado o Performance Consultant, a ferramenta apresenta ao usu&#225;rio um histograma sobre o comportamento do sistema, as caracter&#237;sticas do par ordenado selecionado pelo usu&#225;rio (se houver) e uma estrutura como uma &#225;rvore contendo os poss&#237;veis motivos para os problemas de desempenho. O comportamento da ferramenta pode ser alterado pelo usu&#225;rio, atrav&#233;s do ajuste das vari&#225;veis (limiares) utilizadas na cria&#231;&#227;o das hip&#243;teses de teste.
+
+Para usu&#225;rios avan&#231;ados existe a possibilidade de especificar quais dados de desempenho o Paradyn dever&#225; coletar. Esse processo &#233; realizado em duas etapas: sele&#231;&#227;o do tipo de dado a ser coletado e escolha de quais partes do programa esses dados ser&#227;o coletados. Os tipos de dados de desempenho que podem ser coletados incluem medidas como tempo de CPU, tempo de barreira, e informa&#231;&#245;es sobre quantidades relevantes de E/S, comunica&#231;&#227;o e opera&#231;&#245;es de sincronismo. Os dados do desempenho da aplica&#231;&#227;o podem ser apresentados de v&#225;rias formas, incluindo gr&#225;fico de barras, histogramas e tabelas.
+
+<HR>
+<!--Navigation Panel-->
+<A NAME="tex2html400"
+  HREF="node29.html">
+<IMG WIDTH="37" HEIGHT="24" ALIGN="BOTTOM" BORDER="0" ALT="next"
+ SRC="file:/usr/share/latex2html/icons/next.png"></A> 
+<A NAME="tex2html398"
+  HREF="node22.html">
+<IMG WIDTH="26" HEIGHT="24" ALIGN="BOTTOM" BORDER="0" ALT="up"
+ SRC="file:/usr/share/latex2html/icons/up.png"></A> 
+<A NAME="tex2html392"
+  HREF="node27.html">
+<IMG WIDTH="63" HEIGHT="24" ALIGN="BOTTOM" BORDER="0" ALT="previous"
+ SRC="file:/usr/share/latex2html/icons/prev.png"></A>   
+<BR>
+<B> Next:</B> <A NAME="tex2html401"
+  HREF="node29.html">PAT - Performance Analysis</A>
+<B> Up:</B> <A NAME="tex2html399"
+  HREF="node22.html">Ferramentas aplic&#225;veis a sistemas</A>
+<B> Previous:</B> <A NAME="tex2html393"
+  HREF="node27.html">Pablo Performance Analysis Environment</A>
+<!--End of Navigation Panel-->
+</BODY>
+</HTML>

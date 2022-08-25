@@ -1,0 +1,105 @@
+<html>
+
+<h4>
+<center>
+<font size=+3> Proposta para re-adequaqua&ccedil;&atilde;o do Laborat&oacute;rio 
+de Computa&ccedil;&atilde;o Cient&iacute;fica do DCCE </font>
+<font size=+2> <p> Adriano M. Cansian </font>
+
+<p><img SRC="bl_bar.gif" ></h4></center>
+
+<font size=+1>
+<p>1. O Laboratorio tem um switch de rede de alta velocidade
+(fast ethernet 100 mbps), o qual esta' sendo usado somente com
+uma porta em fibra otica, para nos ligar  ate'  a rede do campus.
+Quando eu projetei os switches, eu  previ *dois*  equipamentos
+destes, para ampliar a velocidade da  nossa rede local no DCCE, por
+um fator de 10. O primeiro  passo e'  o STI (ex-Polo Computacional)
+instalar o  outro switch  que foi comprado dentro do projeto (que eu defini)
+e que  esta'  de posse deles. Por favor, alguem solicite isso.
+A implantacao deste switch e'  a base fundamental para a ideia que
+vou apresentar.
+
+<p>2. Ligar as estacoes de trabalho mais usadas diretamente nos switches.
+Apesar das estacoes nao possuirem placas de 100 MBPS, isso
+ira'  reduzir drasticamente as colisoes na rede local, e agilizar *muito* o
+mounting  de disco do NFS. Aos poucos podemos ter mais micros em
+100 mbps ligados no switch.
+
+<p>3. Encadear uma ligacao do switch para o hub que faz a conexao da rede
+local com os gabinetes e os micros dos docentes.  Vai reduzir as
+colisoes tambem e dar ganho na performance da rede.
+
+<p>4. Eliminar o servidor Netware, transformando-o num servidor Linux, e 
+ligando-o diretamente no switch. Vou explicar melhor esta ideia abaixo.
+
+<p>4.1. O servidor Novell com Linux, com uso do Samba (software free, para
+servidor de disco compativel com Windows NT) deve passar a ser um servidor
+de disco e de impressao, do mesmo modo que e'  o NIMITZ. Os micros dos
+docentes, e outros, passam a montar o disco via protocolo NETBUI do Windows.
+
+<p>4.2. O Samba faz a validacao de senhas e usuarios por intermedio do NIS
+que esta'  rodando no conjunto de maquinas UNIX. O "login"  e'  feito na
+  tela de abertura do Windows. O logout pelo botao "start". A senha fica
+unica no UNIX e na rede de micros.
+
+<p>4.3. Os mail-boxes passam a ficar localizados no UNIX. Quem usa micro,
+com Pegasus Mail, ao inves de usar POP3, passa a usar um novo protocolo
+chamado <a href="http://www.imap.org/"> IMAP </a> . Neste protocolo as
+mensagens nao sao "baixadas" para o micro, e ficam na
+maquina UNIX. A validacao de senha e usario fica
+sendo feita pelo UNIX. Resultado: o sistema de mail-box fica unificado,
+ou seja, voce pode acessar de qualquer micro do DCCE, das maquinas UNIX
+com pine, ou da sua casa com dial-up, sem precisar baixar as mensagens para
+micro. As mensagens ficam unificadas no servidor UNIX. Se voce viaja, pode
+fazer ssh para o servidor UNIX, e ter acesso a suas mensagens. Eu uso isso
+ja'  ha'  uns 2 anos, e e'  otimo. Softwares gratis em Windows que conversam
+com IMAP: <a href="http://www.pmail.com/"> Pegasus Mail </a> for Windows V.3.12c, 
+<a href="http://www.eudora.com"> Eudora Pro 4.3 </a>, Netscape e Internet 
+Explorer.Ninguem precisa trocar de software ou aprender alguma coisa nova.
+
+<p>4.3.1 O endereco de e-mail de quem usa micro,  passa a ser
+usuario@dcce.ibilce.unesp.br (pode eliminar o NIMITZ do endereco).
+O endereco antigo (com o NIMITZ) pode continuar a ser recebido indefinidamente
+pelo sistema UNIX, com um ajuste muito simples no servidor de e-mail.
+
+<p>4.4. O IMAP e'  um protocolo free, 
+existente em todos os UNIX. E'  muito melhor que o POP. Alguns problemas de 
+seguranca existem nas primeiras versoes, mas atualmente esta'  estavel. Estamos 
+usando em SP/Reitoria ha'  um bom tempo, sem problemas. Insisto, diferentemente 
+do POP, o IMAP mantem as mensagens na estacoes de trabalho, sem fazer o 
+download. 
+
+<p>4.5. Unificacao da area de disco: os diretorios do usuario no UNIX e na rede
+de micros ficam tambem unificados com o uso do NIS e NFS junto com
+o Samba. A area de disco dos usuarios ficaria toda no servidor ex-NIMITZ
+(ou qualquer outro). Que usa os micros ou UNIX, ou ambos, passa a "ver"
+sempre a mesma area de disco, que fica na maquina servidora.
+
+<p>5. Eliminar o telnet e passar a usar somente ssh. <a href="http://www.ssh.org"> 
+Ssh </a> e' exatamente igual ao telnet, mas a conexao e'  segura/criptografada e nao 
+pode ser grampeada. Pode ser configurado para que todos possam acessar de casa. 
+
+<p>6. Tempo para adaptacao: QUERENDO FAZER, DE VERDADE, e
+tendo uma posicao definida sobre os ajustes, com um bom planejamento,
+estimo que de 4 a 5 dias, com duas pessoas  trabalhando, seja possivel
+configurar tudo. Nao ha'  grandes mudancas. Apenas alguns ajustes.
+
+<p>7. Nao ha'  impacto no ambiente atual. Ninguem precisa aprender a usar
+nada de novo. Apenas configurar algumas maquinas e mudar uns
+ajustes no Windows. Quem usa e-mail em casa, e/ou em viagem, e'
+beneficiado com a unificacao dos mail-boxes (desde que o sistema
+de seguranca esteja ajustado para o acesso). A unificacao das areas
+de disco racionaliza os recursos. A implantacao dos switches vai acelerar
+o acesso aa rede local. O ambiente fica preparado para um projeto mais
+amplo, para estacoes e servidores mais rapidos.
+
+<p>8. Unifica e facilita o gerenciamento do ambiente. E'  verdade que o 
+laboratorio
+nao tem gerenciamento atualmente, mas pelo menos fica pronto para um
+gerenciamento mais eficiente.
+
+<p>9. Praticamente custo zero para as adequacoes.
+
+
+</html>

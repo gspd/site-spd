@@ -1,0 +1,20 @@
+Para Cadastrar alguem nesta area siga os seguintes passos:
+
+1- edite o arquivo ./.htaccess, adcionando ao final a seguinte linha:
+require user nomeusuario
+2- Saia e salve;
+3- Logado na maquina que tem o Apache instalado (Beast):
+$htpasswd ./.password nomeusuario
+-->digite a senha
+-->confirme a senha
+
+4- Pronto o usuario foi adcionado, tente abrir a pagina no browser;
+
+--------------------------------------------------------------------
+O arquivo .htaccess salva a senha no arquivo .password
+as configuracoes estao no arquivo .htaccess, para criar um novo 
+arquivo .password, faca: htpasswd -c ./.password nomeusuario
+
+Veja mais detalhes no arquivo "pontohtaccess.txt" ou leia a
+documentacao do Apache.
+---------------------------------------------------------------------
