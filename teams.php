@@ -195,7 +195,11 @@ conceito  CAPES, mestrado credenciado">
                                     </tr>
                                     <tr>
                                       <td >&nbsp;</td>
-                                        <td><li> Gustavo Tomaello Juiza</td>
+                                        <td><li>Gustavo Tomaello Juiz</td>
+                                    </tr>
+                                    <tr>
+                                      <td >&nbsp;</td>
+                                        <td><li>João Pedro Resende Barroso</td>
                                     </tr>
                                     <tr>
                                         <td>&nbsp;</td>
@@ -212,6 +216,9 @@ conceito  CAPES, mestrado credenciado">
                                     <tr>
                                         <td>&nbsp;</td>
                                         <td><li>Matheus Santi dos Santos</td>
+                                    </tr>                                    <tr>
+                                        <td>&nbsp;</td>
+                                        <td><li>Ricardo Trivizan Fares</td>
                                     </tr>
 
                         <tr><td>&nbsp;</td></tr>
@@ -274,7 +281,7 @@ conceito  CAPES, mestrado credenciado">
                                     </tr>
                                     <tr>
                                         <td width="10mm">&nbsp;</td>
-                                        <td><li> Daniel Cardoso de Le�o (Undergrad), left in 2011
+                                        <td><li> Daniel Cardoso de Leão (Undergrad), left in 2011
                                         </td>
                                     </tr>
                                     <tr>

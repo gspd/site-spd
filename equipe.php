@@ -199,6 +199,10 @@
                                         <td><li> Gustavo Tomaello Juiza</td>
                                     </tr>
                                     <tr>
+                                    <td >&nbsp;</td>
+                                        <td><li>João Pedro Resende Barroso</td>
+                                    </tr>
+                                    <tr>
                                         <td>&nbsp;</td>
                                         <td><li> Lucas Afonso Cazarote </td>
                                     </tr>
@@ -213,6 +217,10 @@
                                     <tr>
                                         <td>&nbsp;</td>
                                         <td><li>Matheus Santi dos Santos</td>
+                                    </tr>
+                                    </tr>                                    <tr>
+                                        <td>&nbsp;</td>
+                                        <td><li>Ricardo Trivizan Fares</td>
                                     </tr>
 
                         <tr><td>&nbsp;</td></tr>
