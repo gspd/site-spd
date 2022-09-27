@@ -1,0 +1,29 @@
+As images foram feitas 
+no GIMP, em RGB e
+depois indexadas (indexacao 50)
+e salvas em .gif
+
+O arquivo original usado eh, original.xcf 
+que se encontra neste diretorio.
+
+A fonte usada para texto foi 
+courier(adobe), medium[M],
+tamanho 18
+
+A largura dos botoes e' 138 pixels
+e a altura e' 20 pixels 
+
+para fazer isso eu 
+coloquei os botoes no canto superior
+esquerdo e mudei o tamanho do 
+canvas para este tamanho.
+
+Lembre-se de criar um novo Layout antes
+de alterar qualquer coisa para nao
+estragar a figura.  
+
+A opcao Merge down pode ser usada para
+juntar o texto com o botao.
+
+
+

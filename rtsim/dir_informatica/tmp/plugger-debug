@@ -1,0 +1,168 @@
+------------
+PID17025: do_read_config
+PID17025: /export/home/beast/www/Data/informatica/.netscape/pluggerrc=(nil)
+PID17025: read_config
+PID17025: ::: # Configure file for plugger version 3.0
+PID17025: ::: # Commands which are not installed on your system will not
+PID17025: ::: # be used.
+PID17025: ::: #
+PID17025: ::: video/mpeg: mpeg, mpg, mpe: MPEG animation
+PID17025: New handle
+PID17025: New mimetype
+PID17025: ::: video/x-mpeg: mpeg, mpg, mpe: MPEG animation
+PID17025: New mimetype
+PID17025: ::: 	stream: mtvp -W$window - 2>/dev/null 1>/dev/null
+PID17025: New command
+PID17025: ::: 	loop:mtvp -l -W$window $file
+PID17025: New command
+PID17025: ::: 	:mtvp -W$window $file
+PID17025: New command
+PID17025: ::: 	loop: xanim -Zr +W$window +q +f $file
+PID17025: New command
+PID17025: ::: 	many: xanim -Zr +W$window +q +Ze +f $file
+PID17025: New command
+PID17025: ::: 
+PID17025: ::: video/quicktime: mov,qt: Quicktime animation
+PID17025: New handle
+PID17025: Commandp=(nil)
+PID17025: New mimetype
+PID17025: ::: video/x-quicktime: mov,qt: Quicktime animation
+PID17025: New mimetype
+PID17025: ::: video/dl: dl: DL animation
+PID17025: New mimetype
+PID17025: ::: video/x-dl: dl: DL animation
+PID17025: New mimetype
+PID17025: ::: video/sgi-movie: movie,movi,mv: SGI animation
+PID17025: New mimetype
+PID17025: ::: video/x-sgi-movie: movie,movi,mv: SGI animation
+PID17025: New mimetype
+PID17025: ::: video/anim: iff,anim5,anim3,anim7: IFF animation
+PID17025: New mimetype
+PID17025: ::: video/x-anim: iff,anim5,anim3,anim7: IFF animation
+PID17025: New mimetype
+PID17025: ::: video/msvideo: avi: AVI animation
+PID17025: New mimetype
+PID17025: ::: video/x-msvideo: avi: AVI animation
+PID17025: New mimetype
+PID17025: ::: video/fli: fli, flc: FLI animation
+PID17025: New mimetype
+PID17025: ::: video/x-fli: fli, flc: FLI animation
+PID17025: New mimetype
+PID17025: ::: 	loop:xanim -Zr +W$window +q +f $file
+PID17025: New command
+PID17025: ::: 	many:xanim -Zr +W$window +q +Ze +f $file
+PID17025: New command
+PID17025: ::: 
+PID17025: ::: audio/midi: midi,mid: MIDI audio file
+PID17025: New handle
+PID17025: Commandp=(nil)
+PID17025: New mimetype
+PID17025: ::: audio/x-midi: midi,mid: MIDI audio file
+PID17025: New mimetype
+PID17025: ::: 	many: timidity -s 44100 -a -idqqqqqqq $file
+PID17025: New command
+PID17025: ::: 	: playmidi $file
+PID17025: New command
+PID17025: ::: 
+PID17025: ::: audio/mod: mod: Soundracker audio Module
+PID17025: New handle
+PID17025: Commandp=(nil)
+PID17025: New mimetype
+PID17025: ::: audio/x-mod: mod: Soundracker audio Module
+PID17025: New mimetype
+PID17025: ::: 	loop: xmp -l --nocmd $file 2>/dev/null
+PID17025: New command
+PID17025: ::: 	: xmp --nocmd $file 2>/dev/null
+PID17025: New command
+PID17025: ::: 	loop: mikmod -i -r $file 2>/dev/null 1>/dev/null
+PID17025: New command
+PID17025: ::: 	: mikmod -i $file 2>/dev/null 1>/dev/null
+PID17025: New command
+PID17025: ::: 
+PID17025: ::: audio/mpeg2: mp2: MPEG audio
+PID17025: New handle
+PID17025: Commandp=(nil)
+PID17025: New mimetype
+PID17025: ::: audio/x-mpeg2: mp2: MPEG audio
+PID17025: New mimetype
+PID17025: ::: audio/mpeg3: mp3: MPEG audio
+PID17025: New mimetype
+PID17025: ::: audio/x-mpeg3: mp3: MPEG audio
+PID17025: New mimetype
+PID17025: ::: audio/mpeg: mpa,abs,mpega: MPEG audio
+PID17025: New mimetype
+PID17025: ::: audio/x-mpeg: mpa,abs,mpega: MPEG audio
+PID17025: New mimetype
+PID17025: ::: 	stream, preload: mpg123 -q -b 128 -
+PID17025: New command
+PID17025: ::: 	many: mpg123 -q -b 128 $file
+PID17025: New command
+PID17025: ::: 
+PID17025: ::: audio/basic: au,snd: Basic audio file
+PID17025: New handle
+PID17025: Commandp=(nil)
+PID17025: New mimetype
+PID17025: ::: audio/x-basic: au,snd: Basic audio file
+PID17025: New mimetype
+PID17025: ::: 	loop: xanim -Zr +W$window +q +f $file
+PID17025: New command
+PID17025: :::  	many: xanim -Zr +W$window +q +f +Ze $file
+PID17025: New command
+PID17025: ::: 
+PID17025: ::: audio/wav:wav:Microsoft wave file
+PID17025: New handle
+PID17025: Commandp=(nil)
+PID17025: New mimetype
+PID17025: ::: audio/x-wav:wav:Microsoft wave file
+PID17025: New mimetype
+PID17025: ::: 	: play $file
+PID17025: New command
+PID17025: ::: 	
+PID17025: Empty line.
+PID17025: ::: image/tiff: tiff,tif: TIFF image
+PID17025: New handle
+PID17025: Commandp=(nil)
+PID17025: New mimetype
+PID17025: ::: image/x-tiff: tiff,tif: TIFF image
+PID17025: New mimetype
+PID17025: ::: #image/png: png: PNG image
+PID17025: ::: #image/x-png: png: PNG image
+PID17025: ::: image/sun-raster: rs: SUN raster image
+PID17025: New mimetype
+PID17025: ::: image/x-sun-raster: rs: SUN raster image
+PID17025: New mimetype
+PID17025: ::: 	exits: xloadimage -quiet -windowid $window $file
+PID17025: New command
+PID17025: ::: 	exits: display -window $window -backdrop $file
+PID17025: New command
+PID17025: ::: 
+PID17025: ::: audio/mpeg-url: m3u: MPEG music resource locator
+PID17025: New handle
+PID17025: Commandp=(nil)
+PID17025: New mimetype
+PID17025: ::: audio/x-mpeg-url: m3u: MPEG music resource locator
+PID17025: New mimetype
+PID17025: ::: audio/mpegurl: m3u: MPEG music resource locator
+PID17025: New mimetype
+PID17025: ::: audio/x-mpegurl: m3u: MPEG music resource locator
+PID17025: New mimetype
+PID17025: ::: 	:internal:url
+PID17025: New command
+PID17025: ::: 
+PID17025: ::: #audio/pn-realaudio-plugin::Realaudio-plugin resource locator
+PID17025: ::: #	daemon, exits, swallow: raplayer $file
+PID17025: ::: #	daemon, exits, swallow: raplayer $file
+PID17025: do_read_config done
+PID17025: Getmimedescription
+PID17025: Size required=1426
+PID17025: Malloc did not fail
+PID17025: Foo: 0x8093318
+PID17025: Foo: 0x80936d0
+PID17025: Foo: 0x80937d0
+PID17025: Foo: 0x8094188
+PID17025: Foo: 0x80945d0
+PID17025: Foo: 0x80946b8
+PID17025: Foo: 0x80947a8
+PID17025: Foo: 0x80948c8
+PID17025: Foo: 0x8094a78
+PID17025: Getmimedescription done: video/mpeg: mpeg, mpg, mpe: MPEG animation;video/x-mpeg: mpeg, mpg, mpe: MPEG animation;video/quicktime: mov,qt: Quicktime animation;video/x-quicktime: mov,qt: Quicktime animation;video/dl: dl: DL animation;video/x-dl: dl: DL animation;video/sgi-movie: movie,movi,mv: SGI animation;video/x-sgi-movie: movie,movi,mv: SGI animation;video/anim: iff,anim5,anim3,anim7: IFF animation;video/x-anim: iff,anim5,anim3,anim7: IFF animation;video/msvideo: avi: AVI animation;video/x-msvideo: avi: AVI animation;video/fli: fli, flc: FLI animation;video/x-fli: fli, flc: FLI animation;audio/midi: midi,mid: MIDI audio file;audio/x-midi: midi,mid: MIDI audio file;audio/mod: mod: Soundracker audio Module;audio/x-mod: mod: Soundracker audio Module;audio/mpeg2: mp2: MPEG audio;audio/x-mpeg2: mp2: MPEG audio;audio/mpeg3: mp3: MPEG audio;audio/x-mpeg3: mp3: MPEG audio;audio/mpeg: mpa,abs,mpega: MPEG audio;audio/x-mpeg: mpa,abs,mpega: MPEG audio;audio/basic: au,snd: Basic audio file;audio/x-basic: au,snd: Basic audio file;audio/wav:wav:Microsoft wave file;audio/x-wav:wav:Microsoft wave file;image/tiff: tiff,tif: TIFF image;image/x-tiff: tiff,tif: TIFF image;image/sun-raster: rs: SUN raster image;image/x-sun-raster: rs: SUN raster image;audio/mpeg-url: m3u: MPEG music resource locator;audio/x-mpeg-url: m3u: MPEG music resource locator;audio/mpegurl: m3u: MPEG music resource locator;audio/x-mpegurl: m3u: MPEG music resource locator;

@@ -1,0 +1,129 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 3.2 Final//BR">
+
+<!--Converted with jLaTeX2HTML 2002 (1.62) JA patch-1.4
+patched version by:  Kenshi Muto, Debian Project.
+LaTeX2HTML 2002 (1.62),
+original version by:  Nikos Drakos, CBLU, University of Leeds
+* revised and updated by:  Marcus Hennecke, Ross Moore, Herb Swan
+* with significant contributions from:
+  Jens Lippmann, Marek Rouchal, Martin Wilck and others -->
+<HTML>
+<HEAD>
+<TITLE>An&#225;lise do tempo de comunica&ccedil;&#227;o e determina&ccedil;&#227;o do caminho baseada em desempenho</TITLE>
+<META NAME="description" CONTENT="An&#225;lise do tempo de comunica&ccedil;&#227;o e determina&ccedil;&#227;o do caminho baseada em desempenho">
+<META NAME="keywords" CONTENT="index">
+<META NAME="resource-type" CONTENT="document">
+<META NAME="distribution" CONTENT="global">
+
+<META HTTP-EQUIV="Content-Type" CONTENT="text/html; charset=iso-8859-1">
+<META NAME="Generator" CONTENT="jLaTeX2HTML v2002 JA patch-1.4">
+<META HTTP-EQUIV="Content-Style-Type" CONTENT="text/css">
+
+<LINK REL="STYLESHEET" HREF="index.css">
+
+<LINK REL="next" HREF="node6.html">
+<LINK REL="previous" HREF="node4.html">
+<LINK REL="up" HREF="node2.html">
+<LINK REL="next" HREF="node6.html">
+</HEAD>
+
+<BODY >
+<!--Navigation Panel-->
+<A NAME="tex2html157"
+  HREF="node6.html">
+<IMG WIDTH="37" HEIGHT="24" ALIGN="BOTTOM" BORDER="0" ALT="next"
+ SRC="file:/usr/share/latex2html/icons/next.png"></A> 
+<A NAME="tex2html155"
+  HREF="node2.html">
+<IMG WIDTH="26" HEIGHT="24" ALIGN="BOTTOM" BORDER="0" ALT="up"
+ SRC="file:/usr/share/latex2html/icons/up.png"></A> 
+<A NAME="tex2html149"
+  HREF="node4.html">
+<IMG WIDTH="63" HEIGHT="24" ALIGN="BOTTOM" BORDER="0" ALT="previous"
+ SRC="file:/usr/share/latex2html/icons/prev.png"></A>   
+<BR>
+<B> Next:</B> <A NAME="tex2html158"
+  HREF="node6.html">Caracteriza&ccedil;&#227;o do desempenho de</A>
+<B> Up:</B> <A NAME="tex2html156"
+  HREF="node2.html">T&#233;cnicas aplic&#225;veis a sistemas</A>
+<B> Previous:</B> <A NAME="tex2html150"
+  HREF="node4.html">An&#225;lise do desempenho da</A>
+<BR>
+<BR>
+<!--End of Navigation Panel-->
+
+<H2><A NAME="SECTION00113000000000000000">
+An&#225;lise do tempo de comunica&#231;&#227;o e determina&#231;&#227;o do caminho baseada em desempenho</A>
+</H2>
+<BR>
+[<A
+ HREF="node34.html#kim:99">Kim, 1999</A>]
+
+<BR><P></P>
+<DIV ALIGN="CENTER"><A NAME="56"></A>
+<TABLE>
+<CAPTION><STRONG>Tabela:</STRONG>
+Caracter&#237;sticas da t&#233;cnica de determina&#231;&#227;o do caminho de comunica&#231;&#227;o.</CAPTION>
+<TR><TD>
+	<DIV ALIGN="CENTER">
+<TABLE CELLPADDING=3 BORDER="1" ALIGN="CENTER">
+<TR><TD ALIGN="LEFT" VALIGN="TOP" WIDTH=170>Nome</TD>
+<TD ALIGN="LEFT" VALIGN="TOP" WIDTH=227>An&#225;lise do tempo de comunica&#231;&#227;o</TD>
+</TR>
+<TR><TD ALIGN="LEFT" VALIGN="TOP" WIDTH=170>Sistema aplicado</TD>
+<TD ALIGN="LEFT" VALIGN="TOP" WIDTH=227>hardware</TD>
+</TR>
+<TR><TD ALIGN="LEFT" VALIGN="TOP" WIDTH=170>Abordagem para obten&#231;&#227;o dos resultados</TD>
+<TD ALIGN="LEFT" VALIGN="TOP" WIDTH=227>benchmarking</TD>
+</TR>
+<TR><TD ALIGN="LEFT" VALIGN="TOP" WIDTH=170>Forma de medi&#231;&#227;o ou instrumenta&#231;&#227;o</TD>
+<TD ALIGN="LEFT" VALIGN="TOP" WIDTH=227>n&#227;o se aplica</TD>
+</TR>
+<TR><TD ALIGN="LEFT" VALIGN="TOP" WIDTH=170>Tipos de dados gerados pela an&#225;lise</TD>
+<TD ALIGN="LEFT" VALIGN="TOP" WIDTH=227>medi&#231;&#227;o de intervalo de tempos</TD>
+</TR>
+<TR><TD ALIGN="LEFT" VALIGN="TOP" WIDTH=170>Arquitetura</TD>
+<TD ALIGN="LEFT" VALIGN="TOP" WIDTH=227>-</TD>
+</TR>
+<TR><TD ALIGN="LEFT" VALIGN="TOP" WIDTH=170>Informa&#231;&#245;es fornecidas</TD>
+<TD ALIGN="LEFT" VALIGN="TOP" WIDTH=227>atraso no tempo de comunica&#231;&#227;o, speedup para diversos tamanhos de mensagens</TD>
+</TR>
+<TR><TD ALIGN="LEFT" VALIGN="TOP" WIDTH=170>An&#225;lise (sistema alvo)</TD>
+<TD ALIGN="LEFT" VALIGN="TOP" WIDTH=227>subsistema de comunica&#231;&#227;o (v&#225;rias formas de comunica&#231;&#227;o)</TD>
+</TR>
+</TABLE>
+</DIV>
+	
+	<A NAME="tab4:kim"></A>
+</TD></TR>
+</TABLE>
+</DIV><P></P>
+<BR>
+Nesta t&#233;cnica v&#225;rios ``benchmarks'' diferentes s&#227;o utilizados na an&#225;lise do desempenho do subsistema de comunica&#231;&#227;o. A sele&#231;&#227;o do melhor caminho (meio f&#237;sico de comunica&#231;&#227;o) a ser seguido &#233; realizada dinamicamente tendo como base o comportamento do subsistema de comunica&#231;&#227;o durante a execu&#231;&#227;o dos programas. 
+
+Tr&#234;s s&#227;o as op&#231;&#245;es de sele&#231;&#227;o dos caminhos a serem percorridos durante a execu&#231;&#227;o dos programas: a manuten&#231;&#227;o do caminho original, a sele&#231;&#227;o de um &#250;nico caminho, quando esse &#233; sempre o de melhor desempenho, e a agrega&#231;&#227;o de meios, quando o desempenho deles varia durante a execu&#231;&#227;o.
+
+<HR>
+<!--Navigation Panel-->
+<A NAME="tex2html157"
+  HREF="node6.html">
+<IMG WIDTH="37" HEIGHT="24" ALIGN="BOTTOM" BORDER="0" ALT="next"
+ SRC="file:/usr/share/latex2html/icons/next.png"></A> 
+<A NAME="tex2html155"
+  HREF="node2.html">
+<IMG WIDTH="26" HEIGHT="24" ALIGN="BOTTOM" BORDER="0" ALT="up"
+ SRC="file:/usr/share/latex2html/icons/up.png"></A> 
+<A NAME="tex2html149"
+  HREF="node4.html">
+<IMG WIDTH="63" HEIGHT="24" ALIGN="BOTTOM" BORDER="0" ALT="previous"
+ SRC="file:/usr/share/latex2html/icons/prev.png"></A>   
+<BR>
+<B> Next:</B> <A NAME="tex2html158"
+  HREF="node6.html">Caracteriza&ccedil;&#227;o do desempenho de</A>
+<B> Up:</B> <A NAME="tex2html156"
+  HREF="node2.html">T&#233;cnicas aplic&#225;veis a sistemas</A>
+<B> Previous:</B> <A NAME="tex2html150"
+  HREF="node4.html">An&#225;lise do desempenho da</A>
+<!--End of Navigation Panel-->
+</BODY>
+</HTML>

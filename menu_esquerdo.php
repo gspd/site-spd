@@ -40,7 +40,7 @@ MM_reloadPage(true);
 //-->
 </script>
 
-<!-- DEPENDENDO DA LOCALIZAÇÃO DO SEU ARQUIVO DENTRO DA HIERARQUIA DAS PASTAS DO SEU SITE, A FOLHA DE ESTILOS PODE NÃO ENCONTRAR O CAMINHO CORRETO, SE DER ERRO AO VISUALIZAR O ARQUIVO, VERIFIQUE O CAMINHO QUE DEVE SER COLOCADO NA SUA PÁGINA (SOMENTE A PÁGINA QUE ESTÁ COM ERRO) PARA SOLUCIONAR O PROBLEMA - ENTRE EM CONTATO COM O ADMINISTRADOR DE REDES LOCAL PARA IDENTIFICAR O CAMINHO  -->
+<!-- DEPENDENDO DA LOCALIZAÃ‡ÃƒO DO SEU ARQUIVO DENTRO DA HIERARQUIA DAS PASTAS DO SEU SITE, A FOLHA DE ESTILOS PODE NÃƒO ENCONTRAR O CAMINHO CORRETO, SE DER ERRO AO VISUALIZAR O ARQUIVO, VERIFIQUE O CAMINHO QUE DEVE SER COLOCADO NA SUA PÃGINA (SOMENTE A PÃGINA QUE ESTÃ COM ERRO) PARA SOLUCIONAR O PROBLEMA - ENTRE EM CONTATO COM O ADMINISTRADOR DE REDES LOCAL PARA IDENTIFICAR O CAMINHO  -->
 <link href="folha.css" rel="stylesheet" type="text/css">
 <!-- MANTER OS CAMINHOS DAS FOLHAS ABAIXO (FOLHADESTAQUE e IMPRIMIR) GRATO  -->
 <!-- <link href="folhaDESTAQUE.css" rel="stylesheet" type="text/css"> --> 
@@ -53,7 +53,7 @@ function MM_jumpMenu(targ,selObj,restore){ //v3.0
 //-->
 </script>
 
-<!-- INÍCIO - PARA RODAR O MENU COM ROLAGEM VERTICAL -->
+<!-- INÃCIO - PARA RODAR O MENU COM ROLAGEM VERTICAL -->
 <script language="JavaScript" type="text/javascript" src="menu_esq/menu_rodar_win.js"></script>
 <!-- FIM -->
 <link href="http://www.dcce.ibilce.unesp.br/~aleardo/menu_dd01.css" rel="stylesheet" type="text/css">
@@ -97,7 +97,7 @@ window.onload=startList;
 
 </script>
 
-<!-- PARTE 1 PHP: CRIAR FORMATO DE APRESENTAÇÃO DO SUBMENU - NÃO MEXER NESSE CÓDIGO -->
+<!-- PARTE 1 PHP: CRIAR FORMATO DE APRESENTAÃ‡Ã‚O DO SUBMENU - NÃƒO MEXER NESSE CÃ“DIGO -->
 <form action="<? echo $PATH_INFO; ?>"  name="formmenu_esq" method="post">
 <input name="menu_ancora" type="hidden" value="">
 <input name="menu_esq1" type="text" style="display:none" value="">
@@ -115,7 +115,7 @@ window.onload=startList;
     <td><! valign="top" class="MenuEsqDetalhe">
       <table width="100%" border="0" align="center" cellpadding="0" cellspacing="0">
         <tr> 
-          <td><!-- SE SUA IMAGEM NÃO APARECE NA VISUALIZAÇÃO DA SUA PÁGINA, VERIFIQUE SE O CAMINHO PARA A IMAGEM ESTÁ CORRETO, SE PREFERIR,  PROCURE UTILIZAR O CAMINHO ABSOLUTO PARA LOCALIZAÇÃO DESSA IMAGEM, POIS DESSA FORMA, MESMO ESTANDO EM NÍVEIS DIFERENTES NA HIERARQUIA DAS PASTAS DO SEU SITE A IMAGEM SEMPRE SERÁ EXIBIDA NA VISUALIZAÇÃO NO NAVEGADOR (EXEMPLO: HTTP://WWW.UNESP.BR/PADRAO/IMAGENS/SPACER.GIF) - NA DÚVIDA, ENTRE EM CONTATO COM O ADMINISTRADOR DE REDE --><img src="imagens/spacer.gif" width="50" height="2"></td>
+          <td><!-- SE SUA IMAGEM NÃƒO APARECE NA VISUALIZAÃ‡ÃƒO DA SUA PÃGINA, VERIFIQUE SE O CAMINHO PARA A IMAGEM ESTÃ CORRETO, SE PREFERIR,  PROCURE UTILIZAR O CAMINHO ABSOLUTO PARA LOCALIZAÃ‡ÃƒO DESSA IMAGEM, POIS DESSA FORMA, MESMO ESTANDO EM NÃVEIS DIFERENTES NA HIERARQUIA DAS PASTAS DO SEU SITE A IMAGEM SEMPRE SERÃ EXIBIDA NA VISUALIZAÃ‡ÃƒO NO NAVEGADOR (EXEMPLO: HTTP://WWW.UNESP.BR/PADRAO/IMAGENS/SPACER.GIF) - NA DÃšVIDA, ENTRE EM CONTATO COM O ADMINISTRADOR DE REDE --><img src="imagens/spacer.gif" width="50" height="2"></td>
         </tr>
         <tr> 
           <td>
@@ -154,10 +154,10 @@ window.onload=startList;
         <li><a href="internals.php" class="COMdestaque"  >Internal Sources</a>
         </li>
         <li>&nbsp;</li>
-        <li><a href="pindex.php" class="COMdestaque"  ><img src="wbrazil.gif"> Esta página em português</a>
+        <li><a href="pindex.php" class="COMdestaque"  ><img src="wbrazil.gif"> Esta pÃ¡gina em portuguÃªs</a>
         </li>
         <li>&nbsp;</li>
-        <li><div align="center"><a href="http://www.erad-sp.org/" target="_blank" class="RodapeTexto"><font size=+0><img src="logo-erad-sp.png"></font></a></div></li>
+        <li><div align="center"><a href="http://cradsp.sbc.org.br/eradsp" target="_blank" class="RodapeTexto"><font size=+0><img src="logo-erad-sp.png"></font></a></div></li>
       </ul>
     </td>
   </tr>

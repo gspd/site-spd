@@ -3,14 +3,14 @@
   <head>
     <title>:: GSPD's Homepage ::</title>
     <meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
-    <meta name="Keywords" content="mestrado computação, pós graduação computação, 
-      pós graduação stricto senso, mestrado gratuito, ciência da computação, UNESP, 
-      mestrado sistemas distribuídos, mestrado segurança, mestrado redes, mestrado banco dados, 
-      mestrado processamento imagens,  mestrado sistemas inteligentes,  mestrado
-      computação científica, mestrado arquitetura computadores, mestrado sistemas
-      inteligentes, mestrado engenharia software,  mestrado UNESP Rio Preto, mestrado UNESP Bauru, 
-      mestrado UNESP Rio  Claro, mestrado UNESP Prudente, estado São Paulo, mestrado
-      conceito  CAPES, mestrado credenciado">
+    <meta name="Keywords" content="mestrado computaÃ§Ã£o, pÃ³s graduaÃ§Ã£o computaÃ§Ã£o, 
+pÃ³s graduaÃ§Ã£o stricto senso, mestrado gratuito, ciÃªncia da computaÃ§Ã£o, UNESP, 
+mestrado sistemas distribuÃ­dos, mestrado seguranÃ§a, mestrado redes, mestrado banco dados, 
+mestrado processamento imagens,  mestrado sistemas inteligentes,  mestrado
+computaÃ§Ã£o cientÃ­fica, mestrado arquitetura computadores, mestrado sistemas
+inteligentes, mestrado engenharia software,  mestrado UNESP Rio Preto, mestrado UNESP Bauru, 
+mestrado UNESP Rio  Claro, mestrado UNESP Prudente, estado SÃ£o Paulo, mestrado
+conceito  CAPES, mestrado credenciado">
     <script language="JavaScript" type="text/JavaScript">
       <!--
       function MM_jumpMenu(targ,selObj,restore) { //v3.0
@@ -29,13 +29,13 @@
       MM_reloadPage(true);
       //-->
     </script>
-    <!-- DEPENDENDO DA LOCALIZAÇÃO DO SEU ARQUIVO DENTRO DA HIERARQUIA DAS PASTAS DO SEU SITE, A FOLHA DE ESTILOS PODE NÃO ENCONTRAR O CAMINHO CORRETO, SE DER ERRO AO VISUALIZAR O ARQUIVO, VERIFIQUE O CAMINHO QUE DEVE SER COLOCADO NA SUA PÁGINA (SOMENTE A PÁGINA QUE ESTÁ COM ERRO) PARA SOLUCIONAR O PROBLEMA - ENTRE EM CONTATO COM O ADMINISTRADOR DE REDES LOCAL PARA IDENTIFICAR O CAMINHO  --><link href="folha.css" rel="stylesheet" type="text/css">
+    <!-- DEPENDENDO DA LOCALIZAï¿½ï¿½O DO SEU ARQUIVO DENTRO DA HIERARQUIA DAS PASTAS DO SEU SITE, A FOLHA DE ESTILOS PODE Nï¿½O ENCONTRAR O CAMINHO CORRETO, SE DER ERRO AO VISUALIZAR O ARQUIVO, VERIFIQUE O CAMINHO QUE DEVE SER COLOCADO NA SUA Pï¿½GINA (SOMENTE A Pï¿½GINA QUE ESTï¿½ COM ERRO) PARA SOLUCIONAR O PROBLEMA - ENTRE EM CONTATO COM O ADMINISTRADOR DE REDES LOCAL PARA IDENTIFICAR O CAMINHO  --><link href="folha.css" rel="stylesheet" type="text/css">
     <!-- MANTER OS CAMINHOS DAS FOLHAS ABAIXO (FOLHADESTAQUE e IMPRIMIR) GRATO  -->
     <!-- <link href="folhaDESTAQUE.css" rel="stylesheet" type="text/css"> -->
     <link href="folha.css" rel="stylesheet" type="text/css">
   </head>
 
-  <body leftmargin="0" topmargin="0" marginwidth="0" marginheight="0" class="FundoPaginaInterna"><!-- TROQUE O CAMINHO DE ACESSO CONFORME A LOCALIZAÇÃO DO SEU ARQUIVO - INFORME-SE COM O ADMINISTRADOR DA REDE -->
+  <body leftmargin="0" topmargin="0" marginwidth="0" marginheight="0" class="FundoPaginaInterna"><!-- TROQUE O CAMINHO DE ACESSO CONFORME A LOCALIZAï¿½ï¿½O DO SEU ARQUIVO - INFORME-SE COM O ADMINISTRADOR DA REDE -->
   
     <?php include "head.php"; ?>
     <table width="900" border="0" cellspacing="0" cellpadding="0">
@@ -47,7 +47,7 @@
         </tr>  
         <tr>
           <td width="200" valign="top" class="MenuEsqFundo04"> 
-            <!-- TROQUE O CAMINHO DE ACESSO CONFORME A LOCALIZAÇÃO DO SEU ARQUIVO - INFORME-SE COM O ADMINISTRADOR DA REDE -->
+            <!-- TROQUE O CAMINHO DE ACESSO CONFORME A LOCALIZAï¿½ï¿½O DO SEU ARQUIVO - INFORME-SE COM O ADMINISTRADOR DA REDE -->
             <?php include "menu_esquerdo.php"; ?>
           </td>
           <td width="20">&nbsp;</td>
@@ -74,7 +74,134 @@
           	      <table width="100%"  border="0" cellpadding="0" cellspacing="0" id="conteudo">
                     <tr class="tabela-linha4"><td><b>Authors</b></td><td width="3mm">&nbsp;</td><td><b>Title</b></td><td>&nbsp;</td><td><b>Where</b></td></tr>
 	            <tr class="tabela-linha4"><td>&nbsp;</td></tr>
+
+              <tr class="tabela-linha4"><td><font size=+1>2022</font></td></tr>
+
+              <tr class="tabela-linha5">
+          <td>SANTI, M.    MANACERO, A. PERONAGLIO, F. F. LOBATO, R. S. SPOLON, R.    CAVENAGHI, M. A.</td><td>&nbsp;</td>
+		      <td><a href=""><u>  Training transformers for question generation task in intelligent tutoring systems.</u></a></td><td>&nbsp;</td>
+		      <td>in <i>17th Iberian Conference on Information Systems and Technologies (CISTI). Annals of 17th Iberian Conference on Information Systems and Technologies (CISTI), 2022. v. 1. p. 1-6.</i>, 2022, Madrid, Espanha</td>
+	            </tr>
+        <tr class="tabela-linha4"><td>&nbsp;</td></tr>
+
+
+        
+        <tr class="tabela-linha4"><td><font size=+1>2021</font></td></tr>
+
+        <tr class="tabela-linha5">
+                      <td>LOBATO, RENATA SPOLON   SPOLON, ROBERTA   SIMIONI, BRUNO   Manacero, Aleardo   CAVENAGHI, MARCOS ANTONIO .</td><td>&nbsp;</td>
+		      <td><a href=""><u> Simulation Platform on Distributed Shared Memory. </u></a></td><td>&nbsp;</td>
+		      <td>in <i>16th Iberian Conference on Information Systems and Technologies (CISTI). 2021 16th Iberian Conference on Information Systems and Technologies (CISTI), 2021. p. 1.</i>, 2021, Chaves</td>
+	            </tr>
+        <tr class="tabela-linha4"><td>&nbsp;</td></tr>
+
+        <tr class="tabela-linha5">
+                      <td>LOBATO, RENATA SPOLON   AMORIM DA SILVA, FABIO   SPOLON, ROBERTA   Manacero, Aleardo   BALEIRO OKADO TAMASHIRO, CAMILA ; CAVENAGHI, MARCOS ANTONIO .</td><td>&nbsp;</td>
+		      <td><a href=""><u> Faults in Cloud Environment. </u></a></td><td>&nbsp;</td>
+		      <td>in <i>16th Iberian Conference on Information Systems and Technologies (CISTI). 2021 16th Iberian Conference on Information Systems and Technologies (CISTI), 2021. p. 1.</i>, 2021, Chaves</td>
+	            </tr>
+        <tr class="tabela-linha4"><td>&nbsp;</td></tr>
+
+        <tr class="tabela-linha5">
+                      <td>COLOMBO, ALEXANDRE   SPOLON, ROBERTA   LOBATO, RENATA SPOLON   Manacero, Aleardo   CAVENAGHI, MARCOS ANTONIO .</td><td>&nbsp;</td>
+		      <td><a href=""><u> Mining negative rules: a literature review focusing on performance.</u></a></td><td>&nbsp;</td>
+		      <td>in <i>16th Iberian Conference on Information Systems and Technologies (CISTI). 2021 16th Iberian Conference on Information Systems and Technologies (CISTI), 2021. p. 1.</i>, 2021, Chaves</td>
+	            </tr>
+        <tr class="tabela-linha4"><td>&nbsp;</td></tr>
+
+
+        <tr class="tabela-linha5">
+                      <td>PERONAGLIO, FERNANDA F.   Manacero, Aleardo    LOBATO, RENATA S.    SPOLON, ROBERTA   CAVENAGHI, MARCOS A.</td><td>&nbsp;</td>
+		      <td><a href=""><u> Modeling and simulation of tasks interactions using graphical interface</u></a></td><td>&nbsp;</td>
+		      <td>in <i>16th Iberian Conference on Information Systems and Technologies (CISTI). 2021 16th Iberian Conference on Information Systems and Technologies (CISTI), 2021. p. 1.</i>, 2021, Chaves</td>
+	            </tr>
+        <tr class="tabela-linha4"><td>&nbsp;</td></tr>
+
+
+        <tr class="tabela-linha5">
+                      <td>COLOMBO, ALEXANDRE   SPOLON, ROBERTA   LOBATO, RENATA SPOLON   Manacero, Aleardo   CAVENAGHI, MARCOS ANTONIO</td><td>&nbsp;</td>
+		      <td><a href=""><u>Apriori-Roaring-Parallel: Frequent pattern mining based on compressed bitmaps with OpenMP. </u></a></td><td>&nbsp;</td>
+		      <td>in <i>IEEE Symposium on Computers and Communications (ISCC). 2021 IEEE Symposium on Computers and Communications (ISCC), 2021. p. 1.</i>, 2021, Athens</td>
+	            </tr>
+        <tr class="tabela-linha4"><td>&nbsp;</td></tr>
+
+        <tr class="tabela-linha4"><td><font size=+1>2020</font></td></tr>
+       
+        <tr class="tabela-linha5">
+                      <td>DE SILVA, WELLINGTON FRANCISCO   SPOLON, ROBERTA ; LOBATO, RENATA SPOLON   JUNIOR, ALEARDO MANACERO   HUMBER, MARCOS ANTONIO CAVENAGHI . </td><td>&nbsp;</td>
+		      <td><a href=""><u>Particle Swarm Algorithm Parameters Analysis for Scheduling Virtual Machines in Cloud Computing.</u></a></td><td>&nbsp;</td>
+		      <td>in <i> 15th Iberian Conference on Information Systems and Technologies (CISTI). 2020 15th Iberian Conference on Information Systems and Technologies (CISTI). p. 1.</i>, 2020, Sevilla</td>
+	            </tr>
+        <tr class="tabela-linha4"><td>&nbsp;</td></tr>
+
+
+        <tr class="tabela-linha5">
+                      <td>SANTOS, VINICIUS ANDRADE DOS   Manacero, Aleardo   LOBATO, RENATA S.   SPOLON, ROBERTA   CAVENAGHI, MARCOS A.</td><td>&nbsp;</td>
+		      <td><a href=""><u>  A systematic review of fault tolerance solutions for communication errors in open source cloud computing.</u></a></td><td>&nbsp;</td>
+		      <td>in <i> 15th Iberian Conference on Information Systems and Technologies (CISTI). 2020 15th Iberian Conference on Information Systems and Technologies (CISTI). p. 1.</i>, 2020, Sevilla</td>
+	            </tr>
+        <tr class="tabela-linha4"><td>&nbsp;</td></tr>
+          
+
+        <tr class="tabela-linha5">
+                      <td>TAMASHIRO, CAMILA BALEIRO OKADO   SPOLON, ROBERTA   LOBATO, RENATA SPOLON   JUNIOR, ALEARDO MANACERO   CAVENAGHI, MARCOS ANTONIO . </td><td>&nbsp;</td>
+		      <td><a href=""><u>  Modelagem de falhas em nuvem Cloud Fault Modeling.</u></a></td><td>&nbsp;</td>
+		      <td>in <i> 15th Iberian Conference on Information Systems and Technologies (CISTI). 2020 15th Iberian Conference on Information Systems and Technologies (CISTI). p. 1.</i>, 2020, Sevilla</td>
+	            </tr>
+        <tr class="tabela-linha4"><td>&nbsp;</td></tr>
+
+
+        <tr class="tabela-linha4"><td><font size=+1>2019</font></td></tr>
+
+
+        <tr class="tabela-linha5">
+                      <td>RODRIGUES, J. A. M.   OLIVEIRA, F. M. C.   MANACERO, A.   LOBATO, R. S.   SPOLON, R.   BORIN, E.  </td><td>&nbsp;</td>
+		      <td><a href=""><u>  Improving virtual machine consolidation for heterogeneous cloud computing datacenters.</u></a></td><td>&nbsp;</td>
+		      <td>in <i>: International Symposium on Computer Architecture and High Performance Computing (SBAC-PAD) - MS. Proc. of International Symposium on Computer Architecture and High Performance Computing (SBAC-PAD), 2019. v. 1. p. 1-8.</i>, 2019, Campo Grande.</td>
+	            </tr>
+        <tr class="tabela-linha4"><td>&nbsp;</td></tr>
+
+        <tr class="tabela-linha4"><td><font size=+1>2018</font></td></tr>
+
+
+        <tr class="tabela-linha5">
+                      <td>FORTE, C. H. V.   MANACERO, A.   LOBATO, R. S.   SPOLON, R. </td><td>&nbsp;</td>
+		      <td><a href=""><u>  An Energy-aware Task Scheduler Based in Ownership Fairness Applied to Federated Grids</u></a></td><td>&nbsp;</td>
+		      <td>in <i>IEEE International Symposium on Computers and Communications - ISCC, 2018, Natal, Brazil. Proc. of IEEE International Symposium on Computers and Communications - ISCC. Piscataway</i>, EUA: IEEE, 2018. v. 1.</td>
+	            </tr>
+        <tr class="tabela-linha4"><td>&nbsp;</td></tr>
+
+        <tr class="tabela-linha5">
+                      <td>RIBEIRO, H. N.   SPOLON, R.   LOBATO, R. S.   MANACERO, A. </td><td>&nbsp;</td>
+		      <td><a href=""><u> Parallelization of the DIANA algorithm in OpenMP. In: International Conference on Parallel and Distributed Computing, Applications and Technologies</u></a></td><td>&nbsp;</td>
+		      <td>in <i>Proceedings of PDCAT-18, 2018. v. cdrom. p. 1-8.</i>2018, Jeju. </td>
+	            </tr>
+        <tr class="tabela-linha4"><td>&nbsp;</td></tr>
+        
+        <tr class="tabela-linha5">
+                      <td>PAURO, L. L.   SPOLON, R.   BRUSCHI, G. C.   MANACERO, A.   LOBATO, R. S.   CAVENAGHI, M. A. .</td><td>&nbsp;</td>
+		      <td><a href=""><u>AMFC Tool: Auditing and Monitoring for Cloud Computing</u></a></td><td>&nbsp;</td>
+		      <td>in <i> International Conference on Economics of Grids, Clouds, Systems & Services, 2018, Pisa. Proc. of the 15th International Conference on Economics of Grids, Clouds, Systems & Services - GECON, 2018. v. cdrom.</i>, Virginia Beach, USA</td>
+	            </tr>
+              <tr class="tabela-linha4"><td>&nbsp;</td></tr>
+
+
 		    <tr class="tabela-linha4"><td><font size=+1>2017</font></td></tr>
+
+        <tr class="tabela-linha5">
+                      <td>CONCEICAO, R. M.   LOBATO, R. S.   MANACERO, A.   SPOLON, R.   CAVENAGHI, M. A.</td><td>&nbsp;</td>
+		      <td><a href=""><u> Î¼tesla Protocol In Vehicular Networks.</u></a></td><td>&nbsp;</td>
+		      <td>in <i> CISTI, 2017, Lisboa. Anais da 12Âª ConferÃªncia IbÃ©rica de Sistemas e Tecnologias de InformaÃ§Ã£o, 2017. v. cdrom. p. 1-8.</i>, Virginia Beach, USA</td>
+	            </tr>
+              <tr class="tabela-linha4"><td>&nbsp;</td></tr>
+
+        <tr class="tabela-linha5">
+                      <td>CAMARA NETO, M.   LOBATO, R. S.   MANACERO, A.  SPOLON, R.   CAVENAGHI, M. A.</td><td>&nbsp;</td>
+		      <td><a href=""><u>Authentication And Availability In A Flexible And Adaptable Distributed File System.</u></a></td><td>&nbsp;</td>
+		      <td>in <i> CISTI, 2017, Lisboa. Anais da 12Âª ConferÃªncia IbÃ©rica de Sistemas e Tecnologias de InformaÃ§Ã£o, 2017. v. cdrom. p. 1-8.</i>, Virginia Beach, USA</td>
+	            </tr>
+              <tr class="tabela-linha4"><td>&nbsp;</td></tr>
+
 		    <tr class="tabela-linha5">
                       <td>F.F. Peronaglio, A. Manacero, R.S. Lobato, R. Spolon</td><td>&nbsp;</td>
 		      <td><a href="http://www.dcce.ibilce.unesp.br/spd/pubs/ANSS_Fernanda_2017.pdf"><u>Modeling real-time schedulers for use in simulations through a graphical interface</u></a></td><td>&nbsp;</td>
@@ -82,7 +209,7 @@
 	            </tr>
                     <tr class="tabela-linha4"><td>&nbsp;</td></tr>
 		    <tr class="tabela-linha5">
-                      <td>F.K.C. Ota, M. Roland, M. Hölzl, R. Mayrhofer, A. Manacero</td><td>&nbsp;</td>
+                      <td>F.K.C. Ota, M. Roland, M. Hï¿½lzl, R. Mayrhofer, A. Manacero</td><td>&nbsp;</td>
 		      <td><a href="http://www.dcce.ibilce.unesp.br/spd/pubs/Information_Kaway_2017.pdf"><u>Protecting Touch: Authenticated App-To-Server Channels for Mobile Devices Using NFC Tags</u></a></td><td>&nbsp;</td>
 		      <td>in <i>Information</i>, v. 8, n. 3, p. 84-89</td>
 	            </tr>
@@ -103,8 +230,8 @@
                     <tr class="tabela-linha4"><td>&nbsp;</td></tr>
 		    <tr class="tabela-linha5">
                       <td>C.H.V. Forte, A. Manacero, R.S. Lobato, R. Spolon, J.N. Falavinha-Jr.</td><td>&nbsp;</td>
-		      <td><!a href="http://www.dcce.ibilce.unesp.br/spd/pubs/paper_Diogo_SPRINGSIM_2014.pdf"><u>Política de escalonamento Owner-Share para sistemas de grades heterogêneas</u></a></td><td>&nbsp;</td>
-		      <td>in <i>WSCAD 2016 - XVII Simpósio em Sistemas Computacionais de Alto Desempenho</i>, Aracaju, SE</td>
+		      <td><!a href="http://www.dcce.ibilce.unesp.br/spd/pubs/paper_Diogo_SPRINGSIM_2014.pdf"><u>PolÃ­tica de escalonamento Owner-Share para sistemas de grades heterogÃªneas</u></a></td><td>&nbsp;</td>
+		      <td>in <i>WSCAD 2016 - XVII SimpÃ³sio em Sistemas Computacionais de Alto Desempenho</i>, Aracaju, SE</td>
 	            </tr>
                     <tr class="tabela-linha4"><td>&nbsp;</td></tr>
 	            <tr class="tabela-linha4"><td>&nbsp;</td></tr>
@@ -123,14 +250,14 @@
                     <tr class="tabela-linha4"><td>&nbsp;</td></tr>
 		    <tr class="tabela-linha5">
                       <td>D.T. Silva, A. Manacero, D. Menezes, A. Jorge, R.S. Lobato, R. Spolon</td><td>&nbsp;</td>
-		      <td><!a href="http://www.dcce.ibilce.unesp.br/spd/pubs/flexa_ispdc.pdf"><u>Simulação de Sistemas de computação em nuvem para o iSPD</u></a></td><td>&nbsp;</td>
-		      <td>in <i>Interciência e Sociedade</i>, v. 4, p. 86-95</td>
+		      <td><!a href="http://www.dcce.ibilce.unesp.br/spd/pubs/flexa_ispdc.pdf"><u>SimulaÃ§Ã£o de Sistemas de computaÃ§Ã£o em nuvem para o iSPD</u></a></td><td>&nbsp;</td>
+		      <td>in <i>InterciÃªncia e Sociedade</i>, v. 4, p. 86-95</td>
 	            </tr>
                     <tr class="tabela-linha4"><td>&nbsp;</td></tr>
 		    <tr class="tabela-linha5">
-                      <td>R.M. Conceição, R.S. Lobato, A. Manacero, R. Spolon</td><td>&nbsp;</td>
+                      <td>R.M. ConceiÃ§Ã£o, R.S. Lobato, A. Manacero, R. Spolon</td><td>&nbsp;</td>
 		      <td><!a href="http://www.dcce.ibilce.unesp.br/spd/pubs/paper_Diogo_SPRINGSIM_2014.pdf"><u>Viabilidade do protocolo uTesla em redes veiculares.</u></a></td><td>&nbsp;</td>
-		      <td>in <i>Interciência e Sociedade</i>, v. 4, p. 105-115</td>
+		      <td>in <i>InterciÃªncia e Sociedade</i>, v. 4, p. 105-115</td>
 	            </tr>
                     <tr class="tabela-linha4"><td>&nbsp;</td></tr>
 	            <tr class="tabela-linha4"><td>&nbsp;</td></tr>
@@ -142,13 +269,13 @@
 	            </tr>
                     <tr class="tabela-linha4"><td>&nbsp;</td></tr>
 		    <tr class="tabela-linha5">
-                      <td>C.O. Gonçalves, R. Spolon, A. Manacero, R.S. Lobato</td><td>&nbsp;</td>
+                      <td>C.O. GonÃ§alves, R. Spolon, A. Manacero, R.S. Lobato</td><td>&nbsp;</td>
 		      <td><a href="http://www.dcce.ibilce.unesp.br/spd/pubs/looppar.pdf"><u>Automatic loops parallelization</u></a></td><td>&nbsp;</td>
 		      <td>in <i>9th Iberian Conference on Information Systems and Technologies (CISTI)</i>, Barcelona, Spain</td>
 	            </tr>
                     <tr class="tabela-linha4"><td>&nbsp;</td></tr>
 		    <tr class="tabela-linha5">
-                      <td>M.C. Bidóia, R. Spolon, R.S. Lobato, A. Manacero, D.C. Lobato</td><td>&nbsp;</td>
+                      <td>M.C. Bidï¿½ia, R. Spolon, R.S. Lobato, A. Manacero, D.C. Lobato</td><td>&nbsp;</td>
 		      <td><!a href="http://www.dcce.ibilce.unesp.br/spd/pubs/paper_Diogo_SPRINGSIM_2014.pdf"><u>Simulation of a Centralized Reputation System for VANETS</u></a></td><td>&nbsp;</td>
 		      <td>in <i>Proc. of Intl Conf. on Parallel and Distributed Processing Techniques (PDPTA'14)</i>, Las Vegas, USA</td>
 	            </tr>
@@ -214,32 +341,32 @@
                     <tr class="tabela-linha5">
                       <td>E.A. Marucci, G.F.D. Zafalon, A. Manacero, L.M. Sato, J.M. Machado</td><td>&nbsp;</td>
                       <td><a href="http://www.dcce.ibilce.unesp.br/spd/pubs/Geraldo_ERAD.pdf"><u>Finding Fractional Identities in Multiple Sequences Using a Fast Parallel Algorithm</u></a></td><td>&nbsp;</td>
-                      <td>in <i>I Escola de Regional de Alto Desempenho de São Paulo - ERAD-SP</i>São Paulo, CD-ROM</td>
+                      <td>in <i>I Escola de Regional de Alto Desempenho de SÃ£o Paulo - ERAD-SP</i>SÃ£o Paulo, CD-ROM</td>
                     </tr>
                     <tr class="tabela-linha4"><td>&nbsp;</td></tr>
                       <tr class="tabela-linha5">
                         <td>V. Aoqui, A.I. Guerra, M.A.B.A. Garcia, P.H.M.A. Oliveira, R.S. Lobato, A. Manacero Jr. </td><td>&nbsp;</td>
                         <td><a href="http://www.dcce.ibilce.unesp.br/spd/pubs/Victor_ERAD.pdf"><u>Interpretador de Modelos Externos Para Simulador de Grades Computacionais</u></a></td><td>&nbsp;</td>
-                        <td>in <i>I Escola de Regional de Alto Desempenho de São Paulo - ERAD-SP</i>São Paulo, CD-ROM</td>
+                        <td>in <i>I Escola de Regional de Alto Desempenho de SÃ£o Paulo - ERAD-SP</i>SÃ£o Paulo, CD-ROM</td>
                       </tr>
                     <tr class="tabela-linha4"><td>&nbsp;</td></tr>
                     <tr class="tabela-linha5">
                       <td>A.I. Guerra, P.H.M.A. Oliveira, M.A.B.A. Garcia, V. Aoqui, A. Manacero Jr, R.S. Lobato </td><td>&nbsp;</td>
-                      <td><a href="http://www.dcce.ibilce.unesp.br/spd/pubs/Aldo_ERAD.pdf"><u>Plataforma de Simulação de Grades Computacionais: Interface Icônica</u></a></td><td>&nbsp;</td>
-                      <td>in <i>I Escola de Regional de Alto Desempenho de São Paulo - ERAD-SP</i>São Paulo, CD-ROM</td>
+                      <td><a href="http://www.dcce.ibilce.unesp.br/spd/pubs/Aldo_ERAD.pdf"><u>Plataforma de SimulaÃ§Ã£o de Grades Computacionais: Interface Icï¿½nica</u></a></td><td>&nbsp;</td>
+                      <td>in <i>I Escola de Regional de Alto Desempenho de SÃ£o Paulo - ERAD-SP</i>SÃ£o Paulo, CD-ROM</td>
                     </tr>
                     <tr class="tabela-linha4"><td>&nbsp;</td></tr>
                     <tr class="tabela-linha5">
                       <td>P.H.M.A. Oliveira, A.I. Guerra, M.A.B.A. Garcia, V. Aoqui, R.S. Lobato, A. Manacero Jr</td><td>&nbsp;</td>
-                      <td><a href="http://www.dcce.ibilce.unesp.br/spd/pubs/Paulo_ERAD.pdf"><u>O Motor de uma Plataforma de Simulação de Grades Computacionais</u></a></td><td>&nbsp;</td>
-                      <td>in <i>I Escola de Regional de Alto Desempenho de São Paulo - ERAD-SP</i>São Paulo, CD-ROM</td>
+                      <td><a href="http://www.dcce.ibilce.unesp.br/spd/pubs/Paulo_ERAD.pdf"><u>O Motor de uma Plataforma de SimulaÃ§Ã£o de Grades Computacionais</u></a></td><td>&nbsp;</td>
+                      <td>in <i>I Escola de Regional de Alto Desempenho de SÃ£o Paulo - ERAD-SP</i>SÃ£o Paulo, CD-ROM</td>
                     </tr>
                     <tr class="tabela-linha4"><td>&nbsp;</td></tr>
                     <tr class="tabela-linha4"><td><font size=+1>2009</font></td></tr>
                     <tr class="tabela-linha5">
                       <td>Boccardo, D.R., Manacero Jr., A., Lakhotia, A., Venable, M.</td><td>&nbsp;</td>
                       <td><a href="http://www.dcce.ibilce.unesp.br/spd/pubs/SBSeg2009.pdf"><u>Adapting Call-string Approach for x86 Obfuscated Binaries</u></a></td><td>&nbsp;</td>
-                      <td>in <i>Anais do IX Simpósio Brasileiro em Segurança da Informação e de Sistemas Computacionais, </i>Campinas, pp 145-158, CD-ROM</td>
+                      <td>in <i>Anais do IX SimpÃ³sio Brasileiro em SeguranÃ§a da InformaÃ§Ã£o e de Sistemas Computacionais, </i>Campinas, pp 145-158, CD-ROM</td>
                     </tr>
                     <tr class="tabela-linha4"><td>&nbsp;</td></tr>
                     <tr class="tabela-linha5">
@@ -295,21 +422,21 @@
                     <tr class="tabela-linha4"><td><font size=+1>2006</font></td></tr>
                     <tr class="tabela-linha5">
                       <td>Martins, C.P., Manacero Jr., A.;</td><td>&nbsp;</td>             
-                      <td><a href="http://www.dcce.ibilce.unesp.br/spd/pubs/stern.pdf"><u>Comparação de Técnicas de Redes de Petri na Descrição de um Pipeline</u></a></td><td>&nbsp;</td>
-                      <td>in <i>Anais do  Seminário Integrado de Software e Hardware - SEMISH</i>, Campo Grande, CD-ROM, pp 97-110.</td>
+                      <td><a href="http://www.dcce.ibilce.unesp.br/spd/pubs/stern.pdf"><u>ComparaÃ§Ã£o de TÃ©cnicas de Redes de Petri na DescriÃ§Ã£o de um Pipeline</u></a></td><td>&nbsp;</td>
+                      <td>in <i>Anais do  SeminÃ¡rio Integrado de Software e Hardware - SEMISH</i>, Campo Grande, CD-ROM, pp 97-110.</td>
                     </tr>
                     <tr class="tabela-linha4"><td>&nbsp;</td></tr>
                     <tr class="tabela-linha5">
                       <td>Zafalon, G.F.D., Manacero Jr, A.;</td><td>&nbsp;</td>
-                      <td><a href="http://www.dcce.ibilce.unesp.br/spd/pubs/wcompa.pdf"><u>Construção de geradores independentes de números aleatórios para diferentes distribuições probabilísticas</u></a></td><td>&nbsp;</td>
-                      <td>in <i>Anais do Workshop em Computação e Aplicações - WCOMPA</i>, Campo Grande, CD-ROM, pp 16-21</td>
+                      <td><a href="http://www.dcce.ibilce.unesp.br/spd/pubs/wcompa.pdf"><u>ConstruÃ§Ã£o de geradores independentes de nÃºmeros aleatÃ³rios para diferentes distribuiÃ§Ãµes probabilÃ­sticas</u></a></td><td>&nbsp;</td>
+                      <td>in <i>Anais do Workshop em ComputaÃ§Ã£o e AplicaÃ§Ãµes - WCOMPA</i>, Campo Grande, CD-ROM, pp 16-21</td>
                     </tr>
                     <tr class="tabela-linha4"><td>&nbsp;</td></tr>
                     <tr class="tabela-linha4"><td><font size=+1>2003</font></td></tr>
                     <tr class="tabela-linha5">
                       <td>Tronco, M.L., Manacero Jr., A., Porto, A.J.V.</td><td>&nbsp;</td>
-                      <td><a href="pubs/sbai.pdf"><u>Sistema de reconhecimento de imagens para robô de montagem: implementação e estudo de caso</u></a></td><td>&nbsp;</td>
-                      <td>in <i>Anais do VI Simpósio Brasileiro de Automação Inteligente</i>, Bauru,  CD-ROM</td>
+                      <td><a href="pubs/sbai.pdf"><u>Sistema de reconhecimento de imagens para robÃ´ de montagem: implementaÃ§Ã£o e estudo de caso</u></a></td><td>&nbsp;</td>
+                      <td>in <i>Anais do VI SimpÃ³sio Brasileiro de AutomaÃ§Ã£o Inteligente</i>, Bauru,  CD-ROM</td>
                     </tr>
                     <tr class="tabela-linha4"><td>&nbsp;</td></tr>
                     <tr class="tabela-linha4"><td><font size=+1>2001</font></td></tr>
@@ -338,66 +465,66 @@
                     <tr class="tabela-linha5">
                       <td>Forte, C.H.V.; </td><td>&nbsp;</td>
                       <td><!a href="pubs/Diss_denison.pdf"><u>Energy-aware Scheduler in Federate Grid Computing environments using ownership fairness</u></a></td><td>&nbsp;</td>
-                      <td><i>MSc Dissertation </i>(in Portuguese), IBILCE - Unesp, São José do Rio Preto</td>
+                      <td><i>MSc Dissertation </i>(in Portuguese), IBILCE - Unesp, SÃ£o JosÃ© do Rio Preto</td>
                     </tr>
                     <tr class="tabela-linha4"><td>&nbsp;</td></tr>
                     <tr class="tabela-linha4"><td><font size=+1>2017</font></td></tr>
                     <tr class="tabela-linha5">
                       <td>Souza, T.A.D.; </td><td>&nbsp;</td>
                       <td><a href="pubs/diss_Thiago.pdf"><u>A parallel solution for data clustering using GPU</u></a></td><td>&nbsp;</td>
-                      <td><i>MSc Dissertation </i>(in Portuguese), IBILCE - Unesp, São José do Rio Preto</td>
+                      <td><i>MSc Dissertation </i>(in Portuguese), IBILCE - Unesp, SÃ£o JosÃ© do Rio Preto</td>
                     </tr>
                     <tr class="tabela-linha4"><td>&nbsp;</td></tr>
                     <tr class="tabela-linha4"><td><font size=+1>2016</font></td></tr>
                     <tr class="tabela-linha5">
                       <td>Furlanetto, G.C.; </td><td>&nbsp;</td>
                       <td><a href="pubs/diss_Covello.pdf"><u>Generation of general context queue-based simulators with a case study over computer network simulation</u></a></td><td>&nbsp;</td>
-                      <td><i>MSc Dissertation </i>(in Portuguese), IBILCE - Unesp, São José do Rio Preto</td>
+                      <td><i>MSc Dissertation </i>(in Portuguese), IBILCE - Unesp, SÃ£o JosÃ© do Rio Preto</td>
                     </tr>
                     <tr class="tabela-linha4"><td>&nbsp;</td></tr>
                     <tr class="tabela-linha5">
                       <td>Ota, F.K.C.; </td><td>&nbsp;</td>
                       <td><a href="pubs/diss_Kaway.pdf"><u>Criptography and digital signatures for mobile applications using NFC tags</u></a></td><td>&nbsp;</td>
-                      <td><i>MSc Dissertation </i>(in Portuguese), IBILCE - Unesp, São José do Rio Preto</td>
+                      <td><i>MSc Dissertation </i>(in Portuguese), IBILCE - Unesp, SÃ£o JosÃ© do Rio Preto</td>
                     </tr>
                     <tr class="tabela-linha4"><td>&nbsp;</td></tr>
                     <tr class="tabela-linha4"><td><font size=+1>2015</font></td></tr>
                     <tr class="tabela-linha5">
                       <td>Silva, D.T.; </td><td>&nbsp;</td>
                       <td><a href="pubs/diss_Diogo.pdf"><u>Iconic approach to modeling and simulation of cloud computing environments</u></a></td><td>&nbsp;</td>
-                      <td><i>MSc Dissertation </i>(in Portuguese), IBILCE - Unesp, São José do Rio Preto</td>
+                      <td><i>MSc Dissertation </i>(in Portuguese), IBILCE - Unesp, SÃ£o JosÃ© do Rio Preto</td>
                     </tr>
                     <tr class="tabela-linha4"><td>&nbsp;</td></tr>
                     <tr class="tabela-linha4"><td><font size=+1>2014</font></td></tr>
                     <tr class="tabela-linha5">
                       <td>Carvalho, L.R.; </td><td>&nbsp;</td>
                       <td><!a href="pubs/Diss_denison.pdf"><u>Availability in a Flexible and Adaptable Distributed File System</u></a></td><td>&nbsp;</td>
-                      <td><i>MSc Dissertation </i>(in Portuguese), IBILCE - Unesp, São José do Rio Preto</td>
+                      <td><i>MSc Dissertation </i>(in Portuguese), IBILCE - Unesp, SÃ£o JosÃ© do Rio Preto</td>
                     </tr>
                     <tr class="tabela-linha4"><td>&nbsp;</td></tr>
                     <tr class="tabela-linha5">
-                      <td>Conceição, R.M.; </td><td>&nbsp;</td>
+                      <td>ConceiÃ§Ã£o, R.M.; </td><td>&nbsp;</td>
                       <td><!a href="pubs/dissertacaoSilas.pdf"><u>uTesla Protocol: Evaluation of its application to vehicular networks</u></a></td><td>&nbsp;</td>
-                      <td><i>MSc Dissertation </i>(in Portuguese), IBILCE - Unesp, São José do Rio Preto</td>
+                      <td><i>MSc Dissertation </i>(in Portuguese), IBILCE - Unesp, SÃ£o JosÃ© do Rio Preto</td>
                     </tr>
                     <tr class="tabela-linha4"><td>&nbsp;</td></tr>
                     <tr class="tabela-linha4"><td><font size=+1>2012</font></td></tr>
                     <tr class="tabela-linha5">
                       <td>Menezes, D.; </td><td>&nbsp;</td>
                       <td><a href="pubs/Diss_denison.pdf"><u>Scheduler generation for computer grid simulation</u></a></td><td>&nbsp;</td>
-                      <td><i>MSc Dissertation </i>(in Portuguese), IBILCE - Unesp, São José do Rio Preto</td>
+                      <td><i>MSc Dissertation </i>(in Portuguese), IBILCE - Unesp, SÃ£o JosÃ© do Rio Preto</td>
                     </tr>
                     <tr class="tabela-linha4"><td>&nbsp;</td></tr>
                     <tr class="tabela-linha5">
                       <td>Fernandes, S.E.N.; </td><td>&nbsp;</td>
                       <td><a href="pubs/dissertacaoSilas.pdf"><u>User-space distributed file-system</u></a></td><td>&nbsp;</td>
-                      <td><i>MSc Dissertation </i>(in Portuguese), IBILCE - Unesp, São José do Rio Preto</td>
+                      <td><i>MSc Dissertation </i>(in Portuguese), IBILCE - Unesp, SÃ£o JosÃ© do Rio Preto</td>
                     </tr>
                     <tr class="tabela-linha4"><td>&nbsp;</td></tr>
                     <tr class="tabela-linha5">
                       <td>Simioni, B.; </td><td>&nbsp;</td>
                       <td><!a href="pubs/dissertacaoSilas.pdf"><u>Framework for parallel simulation based in logical clocks and virtual time concepts</u></a></td><td>&nbsp;</td>
-                      <td><i>MSc Dissertation </i>(in Portuguese), IBILCE - Unesp, São José do Rio Preto</td>
+                      <td><i>MSc Dissertation </i>(in Portuguese), IBILCE - Unesp, SÃ£o JosÃ© do Rio Preto</td>
                     </tr>
                     <tr class="tabela-linha4"><td>&nbsp;</td></tr>
                     <tr class="tabela-linha4"><td>&nbsp;</td></tr>
@@ -417,13 +544,13 @@
                     <tr class="tabela-linha5">
                       <td>Lima, W.S.; </td><td>&nbsp;</td>
                       <td><a href="pubs/Diss-10-WLima.pdf"><u>Java bytecodes compilation for a reconfigurable architecture environment</u></a></td><td>&nbsp;</td>
-                      <td><i>MSc Dissertation </i>(in Portuguese), IBILCE - Unesp, São José do Rio Preto</td>
+                      <td><i>MSc Dissertation </i>(in Portuguese), IBILCE - Unesp, SÃ£o JosÃ© do Rio Preto</td>
                     </tr>
                     <tr class="tabela-linha4"><td>&nbsp;</td></tr>
                     <tr class="tabela-linha5">
                       <td>Silva, A.C.F.; </td><td>&nbsp;</td>
                       <td><a href="pubs/Diss-12-AntonioCarlos.pdf"><u>Compiling for a reconfigurable architecture</u></a></td><td>&nbsp;</td>
-                      <td><i>MSc Dissertation </i>(in Portuguese), IBILCE - Unesp, São José do Rio Preto</td>
+                      <td><i>MSc Dissertation </i>(in Portuguese), IBILCE - Unesp, SÃ£o JosÃ© do Rio Preto</td>
                     </tr>
                     <tr class="tabela-linha4"><td>&nbsp;</td></tr>
                     <tr class="tabela-linha4"><td><font size=+1>2005</font></td></tr>
@@ -479,7 +606,7 @@
 	    	  <tr class="tabela-linha4"><td>&nbsp;</td></tr>
        		  <tr class="tabela-linha5">
 		    <td>de Paulo, G.P.; </td><td>&nbsp;</td>
-		    <td><!a href="pubs/mono_Cassio_2014.pdf"><u>Simulação de falhas no iSPD</u></a></td><td>&nbsp;</td>
+		    <td><!a href="pubs/mono_Cassio_2014.pdf"><u>SimulaÃ§Ã£o de falhas no iSPD</u></a></td><td>&nbsp;</td>
 		    <td>----</td>
    		  </tr>
 	    	  <tr class="tabela-linha4"><td>&nbsp;</td><td colspan="3"><u>Description:</u> <i>Implements the simulation of hardware components into iSPD</i></td></tr>
@@ -487,14 +614,14 @@
 	    	  <tr class="tabela-linha4"><td><font size=+1>2016</font></td></tr>
        		  <tr class="tabela-linha5">
 		    <td>Peronaglio, F.F.; </td><td>&nbsp;</td>
-		    <td><a href="pubs/mono_Fernanda.pdf"><u>Módulo de inserção de escalonadores no RTsim</u></a></td><td>&nbsp;</td>
+		    <td><a href="pubs/mono_Fernanda.pdf"><u>MÃ³dulo de inserÃ§Ã£o de escalonadores no RTsim</u></a></td><td>&nbsp;</td>
 		    <td>PIBIC/CNPq</td>
    		  </tr>
 	    	  <tr class="tabela-linha4"><td>&nbsp;</td><td colspan="3"><u>Description:</u> <i>Implements a task scheduling modeler into RTsim</i></td></tr>
 	    	  <tr class="tabela-linha4"><td>&nbsp;</td></tr>
        		  <tr class="tabela-linha5">
 		    <td>Alboy, R.G.; </td><td>&nbsp;</td>
-		    <td><a href="pubs/mono_Alboy.pdf"><u>Geração de simulador de eventos discretos aplicado a circuitos sequenciais</u></a></td><td>&nbsp;</td>
+		    <td><a href="pubs/mono_Alboy.pdf"><u>GeraÃ§Ã£o de simulador de eventos discretos aplicado a circuitos sequenciais</u></a></td><td>&nbsp;</td>
 		    <td>CAPES/Procad</td>
    		  </tr>
 	    	  <tr class="tabela-linha4"><td>&nbsp;</td><td colspan="3"><u>Description:</u> <i>Implements a prototype of a simulator's generator for transition-based systems</i></td></tr>
@@ -502,21 +629,21 @@
 	    	  <tr class="tabela-linha4"><td><font size=+1>2015</font></td></tr>
        		  <tr class="tabela-linha5">
 		    <td>Oliveira, V.H.C.; </td><td>&nbsp;</td>
-		    <td><!a href="pubs/mono_Arthur_2014.pdf"><u>Histórico de Versões em um Sistema de Arquivos Distribuídos Flexível e Adaptável</u></a></td><td>&nbsp;</td>
+		    <td><!a href="pubs/mono_Arthur_2014.pdf"><u>HistÃ³rico de VersÃµes em um Sistema de Arquivos DistribuÃ­dos FlexÃ­vel e AdaptÃ¡vel</u></a></td><td>&nbsp;</td>
 		    <td>PIBIC/CNPq</td>
    		  </tr>
 	    	  <tr class="tabela-linha4"><td>&nbsp;</td><td colspan="3"><u>Description:</u> <i>Implements file's versioning into FlexA DFS</i></td></tr>
 	    	  <tr class="tabela-linha4"><td>&nbsp;</td></tr>
        		  <tr class="tabela-linha5">
 		    <td>Rodrigues, J.A.M.; </td><td>&nbsp;</td>
-		    <td><a href="pubs/mono_Joao.pdf"><u>Simulação de PaaS no iSPD</u></a></td><td>&nbsp;</td>
+		    <td><a href="pubs/mono_Joao.pdf"><u>SimulaÃ§Ã£o de PaaS no iSPD</u></a></td><td>&nbsp;</td>
 		    <td>PIBIC/CNPq</td>
    		  </tr>
 	    	  <tr class="tabela-linha4"><td>&nbsp;</td><td colspan="3"><u>Description:</u> <i>Implements PaaS simulations into iSPD</i></td></tr>
 	    	  <tr class="tabela-linha4"><td>&nbsp;</td></tr>
        		  <tr class="tabela-linha5">
 		    <td>Camara Neto, M.; </td><td>&nbsp;</td>
-		    <td><!a href="pubs/mono_Cassio_2014.pdf"><u>Reengenharia de Funcionalidades de Autenticação e Disponibilidade no FlexA</u></a></td><td>&nbsp;</td>
+		    <td><!a href="pubs/mono_Cassio_2014.pdf"><u>Reengenharia de Funcionalidades de AutenticaÃ§Ã£o e Disponibilidade no FlexA</u></a></td><td>&nbsp;</td>
 		    <td>PIBIC/CNPq</td>
    		  </tr>
 	    	  <tr class="tabela-linha4"><td>&nbsp;</td><td colspan="3"><u>Description:</u> <i>Improves authentication and availability features into FlexA DFS</i></td></tr>
@@ -538,7 +665,7 @@
 	    	  <tr class="tabela-linha4"><td>&nbsp;</td></tr>
 	    		 				<tr class="tabela-linha5">
 		    <td>Saraiva, G.H.M.; </td><td>&nbsp;</td>
-		    <td><!a href="pubs/mono_Gabriel_2014.pdf"><u>Implementa&ccedil;&atilde;o e Adapta&ccedil;&atilde;o de um Sistema de Arquivos Distribuídos Adaptável e Flexível para Dispositivos Móveis</u></a></td><td>&nbsp;</td>
+		    <td><!a href="pubs/mono_Gabriel_2014.pdf"><u>Implementa&ccedil;&atilde;o e Adapta&ccedil;&atilde;o de um Sistema de Arquivos DistribuÃ­dos AdaptÃ¡vel e FlexÃ­vel para Dispositivos MÃ³veis</u></a></td><td>&nbsp;</td>
 		    <td><center>----</center></td>
    		  </tr>
 	    	  <tr class="tabela-linha4"><td>&nbsp;</td><td colspan="3"><u>Description:</u> <i>Develops a mobile version for the FlexA DFS</i></td></tr>
@@ -560,14 +687,14 @@
 	    	  <tr class="tabela-linha4"><td><font size=+1>2013</font></td></tr>
        		  <tr class="tabela-linha5">
 		    <td>Furlanetto, G.C.; </td><td>&nbsp;</td>
-		    <td><a href="pubs/mono_Gabriel_2013.pdf"><u>Módulo para Importa&ccedil;&atilde;o de Modelos GridSim pelo iSPD</u></a></td><td>&nbsp;</td>
+		    <td><a href="pubs/mono_Gabriel_2013.pdf"><u>MÃ³dulo para Importa&ccedil;&atilde;o de Modelos GridSim pelo iSPD</u></a></td><td>&nbsp;</td>
 		    <td>PIBIC/CNPq</td>
    		  </tr>
 	    	  <tr class="tabela-linha4"><td>&nbsp;</td><td colspan="3"><u>Description:</u> <i>Implements a module to import GridSim models to the iSPD's iconic models</i></td></tr>
 	    	  <tr class="tabela-linha4"><td>&nbsp;</td></tr>
 	    		 				<tr class="tabela-linha5">
 		    <td>Stabile, R.S.; </td><td>&nbsp;</td>
-		    <td><a href="pubs/mono_Rafael_2013.pdf"><u>Módulo do iSPD para a Exporta&ccedil;&atilde;o de Modelos para o GridSim</u></a></td><td>&nbsp;</td>
+		    <td><a href="pubs/mono_Rafael_2013.pdf"><u>MÃ³dulo do iSPD para a Exporta&ccedil;&atilde;o de Modelos para o GridSim</u></a></td><td>&nbsp;</td>
 		    <td>PIBIC/CNPq</td>
    		  </tr>
 	    	  <tr class="tabela-linha4"><td>&nbsp;</td><td colspan="3"><u>Description:</u> <i>Implements a module to export iSPD's iconic models to C-like models used by GridSim</i></td></tr>
@@ -605,14 +732,14 @@
                     <tr class="tabela-linha4"><td><font size=+1>2011</font></td></tr>
                     <tr class="tabela-linha5">
                       <td>Martins, R.D.;</td><td>&nbsp;</td>
-                      <td><a href="pubs/Mono_Renato.pdf"><u>Avaliação de desempenho de sistemas de arquivos distribuídos</u></a></td><td>&nbsp;</td>
+                      <td><a href="pubs/Mono_Renato.pdf"><u>AvaliaÃ§Ã£o de desempenho de sistemas de arquivos distribuÃ­dos</u></a></td><td>&nbsp;</td>
                       <td><center>----</center></td>
                     </tr>
                     <tr class="tabela-linha4"><td>&nbsp;</td><td colspan="3"><u> Description:</u><i>This work shows a thorough set of performance measurements over some of available distributed file systems, including a DFS proposed in GSPD.</i></td></tr>
                     <tr class="tabela-linha4"><td>&nbsp;</td></tr>
                     <tr class="tabela-linha5">
-                      <td>Leão, D.C. de;</td><td>&nbsp;</td>
-                      <td><a href="pubs/Mono_Daniel.pdf"><u>Implementação do paradigma SPMD em ferramenta para avaliação de desempenho de programas paralelos</u></a></td><td>&nbsp;</td>
+                      <td>Leï¿½o, D.C. de;</td><td>&nbsp;</td>
+                      <td><a href="pubs/Mono_Daniel.pdf"><u>ImplementaÃ§Ã£o do paradigma SPMD em ferramenta para avaliaÃ§Ã£o de desempenho de programas paralelos</u></a></td><td>&nbsp;</td>
                       <td><center>----</center></td>
                     </tr>
                     <tr class="tabela-linha4"><td>&nbsp;</td><td colspan="3"><u>Description:</u><i>This work shows the development of the simulation engine and its respective tuning for peer-computing (SPMD model) for Grasptool.</i></td></tr>
@@ -620,7 +747,7 @@
                     <tr class="tabela-linha4"><td>&nbsp;</td></tr>
                     <tr class="tabela-linha5">
                       <td>Hirata, H.V.;</td><td>&nbsp;</td>
-                      <td><a href="pubs/Mono_Hector.pdf"><u>Investigando o uso de GPUs para aplicações de bioinformática</u></a></td><td>&nbsp;</td>
+                      <td><a href="pubs/Mono_Hector.pdf"><u>Investigando o uso de GPUs para aplicaÃ§Ãµes de bioinformÃ¡tica</u></a></td><td>&nbsp;</td>
                       <td><center>----</center></td>
                     </tr>
                     <tr class="tabela-linha4"><td>&nbsp;</td><td colspan="3"><u>Description:</u><i>This work provides some insights on performance gains when applying GPU computing in sequence alignments, comparing speedups from traditional algorithms.</i></td></tr>
@@ -628,28 +755,28 @@
                     <tr class="tabela-linha4"><td><font size=+1>2010</font></td></tr>
                     <tr class="tabela-linha5">
                       <td>Guerra, A.I., Aoki, V.;</td><td>&nbsp;</td>
-                      <td><a href="pubs/Mono_Victor_Aldo.pdf"><u>Plataforma de Simulação de Grades Computacionais: Interface Icônica e Interpretador de Modelos Externos</u></a></td><td>&nbsp;</td>
+                      <td><a href="pubs/Mono_Victor_Aldo.pdf"><u>Plataforma de SimulaÃ§Ã£o de Grades Computacionais: Interface IcÃ´nica e Interpretador de Modelos Externos</u></a></td><td>&nbsp;</td>
                       <td><center>Fapesp</center></td>
                     </tr>
                     <tr class="tabela-linha4"><td>&nbsp;</td><td colspan="3"><u> Description:</u><i>This work shows the development of the iconic-based modeling interface and the external models interpreter for iSPD, the Iconic Grid Simulator developed in GSPD's lab.</i></td></tr>
                     <tr class="tabela-linha4"><td>&nbsp;</td></tr>
                     <tr class="tabela-linha5">
                       <td>Garcia, M.A.B.A., Oliveira,, P.H.M.A.;</td><td>&nbsp;</td>
-                      <td><a href="pubs/Mono_Paulo_Marco.pdf"><u>Motor de Simulação e Geração de Métricas para Avaliação de Desempenho para o Simulador de Grades Computacionais iSPD</u></a></td><td>&nbsp;</td>
+                      <td><a href="pubs/Mono_Paulo_Marco.pdf"><u>Motor de SimulaÃ§Ã£o e GeraÃ§Ã£o de MÃ©tricas para AvaliaÃ§Ã£o de Desempenho para o Simulador de Grades Computacionais iSPD</u></a></td><td>&nbsp;</td>
                       <td><center>Fapesp</center></td>
                     </tr>
                     <tr class="tabela-linha4"><td>&nbsp;</td><td colspan="3"><u>Description:</u><i>This work shows the development of the simulation engine and performance metrics evaluator for iSPD, the Iconic Grid Simulator developed in GSPD's lab.</i></td></tr>
                     <tr class="tabela-linha4"><td>&nbsp;</td></tr>
                     <tr class="tabela-linha5">
                       <td>Detomini, R.C.;</td><td>&nbsp;</td>
-                      <td><a href="pubs/mono_Renan.pdf"><u>Exploração de paralelismo em criptografia utilizando GPUs</u></a></td><td>&nbsp;</td>
+                      <td><a href="pubs/mono_Renan.pdf"><u>ExploraÃ§Ã£o de paralelismo em criptografia utilizando GPUs</u></a></td><td>&nbsp;</td>
                       <td><center>----</center></td>
                     </tr>
                     <tr class="tabela-linha4"><td>&nbsp;</td><td colspan="3"><u>Description:</u> <i>implements and evaluates a cypher breaking code using GPU-provided parallelism. </i></td></tr>
                     <tr class="tabela-linha4"><td>&nbsp;</td></tr>
                     <tr class="tabela-linha5">
                       <td>Yano, L.G.A.;<td>&nbsp;</td>
-                      <td><a href="pubs/mono_Yano.pdf"><u>Avaliação e comparação de desempenho utilizando tecnologia CUDA</u></a></td><td>&nbsp;</td>
+                      <td><a href="pubs/mono_Yano.pdf"><u>AvaliaÃ§Ã£o e comparaÃ§Ã£o de desempenho utilizando tecnologia CUDA</u></a></td><td>&nbsp;</td>
                       <td><center>----</center></td>
                     </tr>
                     <tr class="tabela-linha4"><td>&nbsp;</td><td colspan="3"><u>Description:</u> <i>implements and evaluates some representative applications in a GPU using CUDA library.</i></td></tr>
@@ -664,14 +791,14 @@
                     <tr class="tabela-linha4"><td>&nbsp;</td></tr>
                     <tr class="tabela-linha5">
                       <td>Machado, D.J.; </td><td>&nbsp;</td>
-                      <td><a href="pubs/mono_Delcio.pdf"><u>algSim - Linguagem algor&iacute;tmica para simulação de Redes de filas</u></a></td><td>&nbsp;</td>
+                      <td><a href="pubs/mono_Delcio.pdf"><u>algSim - Linguagem algor&iacute;tmica para simulaÃ§Ã£o de Redes de filas</u></a></td><td>&nbsp;</td>
                       <td><center>----</center></td>
                     </tr>
                     <tr class="tabela-linha4"><td>&nbsp;</td><td colspan="3"><u>Description:</u> <i>implements new features in the simulation language proposed by Oliveira, V.G.</i></td></tr>
                     <tr class="tabela-linha4"><td>&nbsp;</td></tr>
                     <tr class="tabela-linha5">
                       <td>Oliveira, L.F.; </td><td>&nbsp;</td>
-                      <td><a href="pubs/mono_Lilian.pdf"><u>Ferramenta para simulação de escalonamento em grids computacionais</u></a></td><td>&nbsp;</td>
+                      <td><a href="pubs/mono_Lilian.pdf"><u>Ferramenta para simulaÃ§Ã£o de escalonamento em grids computacionais</u></a></td><td>&nbsp;</td>
                       <td><center>----</center></td>
                     </tr>
                     <tr class="tabela-linha4"><td>&nbsp;</td><td colspan="3"><u>Description:</u> <i>implements a very simple prototype of a grid task scheduling simulator</i></td></tr>
@@ -679,21 +806,21 @@
                     <tr class="tabela-linha4"><td><font size=+1>2006</font></td></tr>
                     <tr class="tabela-linha5">
                       <td>Marucci, E.A., Oliveira, L.J.; </td><td>&nbsp;</td>
-                      <td><a href="pubs/monoLuigiEvandro.pdf"><u>Investigando a otimização  automática de códigos através do Paradyn</u></a></td><td>&nbsp;</td>
+                      <td><a href="pubs/monoLuigiEvandro.pdf"><u>Investigando a otimizaÃ§Ã£o  automÃ¡tica de cÃ³digos atravÃ©s do Paradyn</u></a></td><td>&nbsp;</td>
                       <td>FAPESP</td>
                     </tr>
                     <tr class="tabela-linha4"><td>&nbsp;</td><td colspan="3"><u>Description:</u> <i>implements modules for automatic code optimization in program blocks tagged as bottlenecks by Paradyn</i></td></tr>
                     <tr class="tabela-linha4"><td>&nbsp;</td></tr>
                     <tr class="tabela-linha5">
                       <td>Oliveira, V.G.; </td><td>&nbsp;</td>
-                      <td><a href="pubs/monoVanessa.pdf"><u>Uma linguagem algorítmica para simulação de redes de filas</u></a></td><td>&nbsp;</td>
+                      <td><a href="pubs/monoVanessa.pdf"><u>Uma linguagem algorÃ­tmica para simulaÃ§Ã£o de redes de filas</u></a></td><td>&nbsp;</td>
                       <td><center>----</center></td>
                     </tr>
                     <tr class="tabela-linha4"><td>&nbsp;</td><td colspan="3"><u>Description:</u> <i>implements a algorithmic simulation language aimed to the queue simulation library developed by Di Chiachio</i></td></tr>
                     <tr class="tabela-linha4"><td>&nbsp;</td></tr>
                     <tr class="tabela-linha5">
                       <td>Zafalon, G.F.D.; </td><td>&nbsp;</td>
-                      <td><a href="pubs/monoGeraldo.pdf"><u>Interface gráfica, particionamento da aplicação e dispositivo gerador de arcabouços para a CMB-Simulation</u></a></td><td>&nbsp;</td>
+                      <td><a href="pubs/monoGeraldo.pdf"><u>Interface grÃ¡fica, particionamento da aplicaÃ§Ã£o e dispositivo gerador de arcabouï¿½os para a CMB-Simulation</u></a></td><td>&nbsp;</td>
                       <td>PIBIC/CNPq</td>
                     </tr>
                     <tr class="tabela-linha4"><td>&nbsp;</td><td colspan="3"><u>Description:</u> <i>implements an interface to model creation for distributed simulation using the CMB-Simulation tool</i></td></tr>
@@ -701,21 +828,21 @@
                     <tr class="tabela-linha4"><td><font size=+1>2005</font></td></tr>
                     <tr class="tabela-linha5">
                       <td>Maciel, F.M., Oliveira, N.A.; </td><td>&nbsp;</td>
-                      <td><a href="pubs/fmm.pdf"><u>Geração de um grafo de execução para códigos executando em plataformas baseadas na família x86</u></a></td><td>&nbsp;</td>
+                      <td><a href="pubs/fmm.pdf"><u>GeraÃ§Ã£o de um grafo de execuÃ§Ã£o para cÃ³digos executando em plataformas baseadas na famÃ­lia x86</u></a></td><td>&nbsp;</td>
                       <td><center>----</center></td>
                     </tr>
                     <tr class="tabela-linha4"><td>&nbsp;</td><td colspan="3"><u>Description:</u> <i>implements the graph generation modules (for Grasptool) for binary codes from the x86 family (Intel)</i></td></tr>
                     <tr class="tabela-linha4"><td>&nbsp;</td></tr>
                     <tr class="tabela-linha5">
                       <td>Correa Jr., D.; </td><td>&nbsp;</td>
-                      <td><a href="pubs/TutEditor.pdf"><u>Editor de conteúdos para o sistema de ensino baseado em computador RTTutor</u></a></td><td>&nbsp;</td>
+                      <td><a href="pubs/TutEditor.pdf"><u>Editor de conteÃºdos para o sistema de ensino baseado em computador RTTutor</u></a></td><td>&nbsp;</td>
                       <td><center>----</center></td>
                     </tr>
                     <tr class="tabela-linha4"><td>&nbsp;</td><td colspan="3"><u>Description:</u> <i>implements a prototype of a tool for content editing tool based on Kolb's learning inventory following RTTutor's XML specifications</i></td></tr>
                     <tr class="tabela-linha4"><td>&nbsp;</td></tr>
                     <tr class="tabela-linha5">
                       <td>Di Chiachio, R.L.C.; </td><td>&nbsp;</td>
-                      <td><a href="pubs/cardim.pdf"><u>Biblioteca orientada a objetos para simulação de redes de filas</u></a></td><td>&nbsp;</td>
+                      <td><a href="pubs/cardim.pdf"><u>Biblioteca orientada a objetos para simulaÃ§Ã£o de redes de filas</u></a></td><td>&nbsp;</td>
                       <td><center>----</center></td>
                     </tr>
                     <tr class="tabela-linha4"><td>&nbsp;</td><td colspan="3"><u>Description:</u> <i>implements an object-oriented library for systems simulation from queueing models</i></td></tr>
@@ -723,13 +850,13 @@
                     <tr class="tabela-linha4"><td><font size=+1>2004</font></td></tr>
                     <tr class="tabela-linha5">
                       <td>Boccardo, D.R., Casagrande, L.S., Falavinha JR., J.N. e Nakashima, H.J.; </td><td>&nbsp;</td>
-                      <td><a href="pubs/paradyn.pdf"><u>Medição de desempenho de programas paralelos - Estendendo o Paradyn</u></a></td><td>&nbsp;</td>
+                      <td><a href="pubs/paradyn.pdf"><u>MediÃ§Ã£o de desempenho de programas paralelos - Estendendo o Paradyn</u></a></td><td>&nbsp;</td>
                       <td>FAPESP</td>
                     </tr>
                     <tr class="tabela-linha4"><td>&nbsp;</td><td colspan="3"><u>Description:</u> <i>implements loop instrumentation into Paradyn, allowing a reduction in the measurements granularity</i></td></tr>
                     <tr class="tabela-linha4"><td>&nbsp;</td></tr>
                     <tr class="tabela-linha5">
-                      <td>Gonçalves, T.D.; </td><td>&nbsp;</td>
+                      <td>Gonï¿½alves, T.D.; </td><td>&nbsp;</td>
                       <td><a href="pubs/dioraci.pdf"><u>RTsim 2.0 - Reengenharia e novas funcionalidades</u></a></td><td>&nbsp;</td>
                       <td>PIBIC/CNPq</td>
                     </tr>
@@ -738,7 +865,7 @@
                     <tr class="tabela-linha4"><td><font size=+1>2003</font></td></tr>
                     <tr class="tabela-linha5">
                       <td>Oliveira, P.R.; </td><td>&nbsp;</td>
-                      <td><a href="pubs/mono_patricia.pdf"><u>Otimizador de um grafo de execução</u></a></td><td>&nbsp;</td>
+                      <td><a href="pubs/mono_patricia.pdf"><u>Otimizador de um grafo de execuï¿½ï¿½o</u></a></td><td>&nbsp;</td>
                       <td><center>----</center></td>
                     </tr>
                     <tr class="tabela-linha4"><td>&nbsp;</td><td colspan="3"><u>Description:</u> <i>implements the graph optimization modules in the Grasptool prototype</i></td></tr>
@@ -756,13 +883,13 @@
 
                     <FONT FACE="Arial,Helvetica"><FONT SIZE=-1>MIOLA, M.B.
                     Reengenharia do RTsim</b>. 2001. 
-                    <br><b>(Bolsa PIBIC/CNPq)</b>. Faz a reengenharia do RTsim, com a estabilização da versão quanto a
-                    falhas de execução e transformando as interfaces com o usuário para uma
+                    <br><b>(Bolsa PIBIC/CNPq)</b>. Faz a reengenharia do RTsim, com a estabilizaï¿½ï¿½o da versï¿½o quanto a
+                    falhas de execuï¿½ï¿½o e transformando as interfaces com o usuï¿½rio para uma
                     plataforma independente (Java).
 
                     <FONT FACE="Arial,Helvetica"><FONT SIZE=-1>TATSUMI, E.S.
-                    <b>Simulação Aplicada &agrave; Análise de desempenho de programas paralelos
-                    <br><b>(Bolsa PIBIC/CNPq)</b>. Implementa um simulador do grafo de execução de programas paralelos,
+                    <b>Simulaï¿½ï¿½o Aplicada &agrave; Anï¿½lise de desempenho de programas paralelos
+                    <br><b>(Bolsa PIBIC/CNPq)</b>. Implementa um simulador do grafo de execuï¿½ï¿½o de programas paralelos,
                     corrigindo problemas e ampliando o escopo do prot&oacute;tipo original
                     (tese de doutorado de Aleardo Manacero Jr.).
 
@@ -773,37 +900,37 @@
                     a aprendizagem de novos algoritmos de escalonamento pelo RTsim.
 
                     <FONT FACE="Arial,Helvetica"><FONT SIZE=-1>MIR, D.I.;
-                    <b>SMAD: Sistema Monitor para Avaliação de Desempenho</b>. 2000. 
-                    <br>Implementa uma ferramenta para a avaliação de desempenho de sistemas 
-                    executando o ambiente Solaris, com possibilidade de avaliação <i>on-line</i>
+                    <b>SMAD: Sistema Monitor para Avaliaï¿½ï¿½o de Desempenho</b>. 2000. 
+                    <br>Implementa uma ferramenta para a avaliaï¿½ï¿½o de desempenho de sistemas 
+                    executando o ambiente Solaris, com possibilidade de avaliaï¿½ï¿½o <i>on-line</i>
                     ou <i>off-line</i>.
 
                     <FONT FACE="Arial,Helvetica"><FONT SIZE=-1>KEHDY, R.B.;
-                    <b>Escalonamento de tarefas de tempo-real em sistemas distribuídos</b>. 1999. 
-                    <br><b>(Bolsa PIBIC/CNPq)</b>. Faz a inserção mo RTsim de um conjunto de algoritmos de escalonamento de
-                    tarefas de tempo-real para sistemas paralelos/distribuídos, incluindo os
-                    algoritmos míope, leilão e particionamento.
+                    <b>Escalonamento de tarefas de tempo-real em sistemas distribuï¿½dos</b>. 1999. 
+                    <br><b>(Bolsa PIBIC/CNPq)</b>. Faz a inserï¿½ï¿½o mo RTsim de um conjunto de algoritmos de escalonamento de
+                    tarefas de tempo-real para sistemas paralelos/distribuï¿½dos, incluindo os
+                    algoritmos mï¿½ope, leilï¿½o e particionamento.
 
                     <FONT FACE="Arial,Helvetica"><FONT SIZE=-1>MORAES, M.D.;
-                    <b>Análise de desempenho de programas paralelos</b>. 1999. 
-                    <br>Implementa o m&oacute;dulo de geração do grafo de execução para o 
+                    <b>Anï¿½lise de desempenho de programas paralelos</b>. 1999. 
+                    <br>Implementa o m&oacute;dulo de geraï¿½ï¿½o do grafo de execuï¿½ï¿½o para o 
                     processador SPARC, ampliando o contexto original do processador MIPS.
 
                     <FONT FACE="Arial,Helvetica"><FONT SIZE=-1>GELAMO, R.P.
-                    <b>Sistema de detecção de falhas em software</b>. 1999. 
-                    <br>Implementa uma ferramenta para a monitoração de atividades do sistema 
-                    operacional e de aplicativos críticos, de modo a permitir que o sistema se
-                    recupere automáticamente na ocorr&ecirc;ncia de eventuais falhas.
+                    <b>Sistema de detecï¿½ï¿½o de falhas em software</b>. 1999. 
+                    <br>Implementa uma ferramenta para a monitoraï¿½ï¿½o de atividades do sistema 
+                    operacional e de aplicativos crï¿½ticos, de modo a permitir que o sistema se
+                    recupere automï¿½ticamente na ocorr&ecirc;ncia de eventuais falhas.
 
                     <FONT FACE="Arial,Helvetica"><FONT SIZE=-1>BUENO, L.P.P.; 
-                    <b>Simulador de escalonadores de tempo-real - Uma expansão</b>. 1996. 
-                    <br>Trata-se da primeira versão do RTsim com a capacidade de interfaces 
-                    gráficas e com a inclusão de algoritmos para escalonamento de tarefas 
-                    aperi&oacute;dicas (ou esporádicas) e tarefas com disputa de recursos.
+                    <b>Simulador de escalonadores de tempo-real - Uma expansï¿½o</b>. 1996. 
+                    <br>Trata-se da primeira versï¿½o do RTsim com a capacidade de interfaces 
+                    grï¿½ficas e com a inclusï¿½o de algoritmos para escalonamento de tarefas 
+                    aperi&oacute;dicas (ou esporï¿½dicas) e tarefas com disputa de recursos.
 
                     <FONT FACE="Arial,Helvetica"><FONT SIZE=-1>MARTINS, V.F.
                     <b>Simulador de escalonadores de tempo-real</b>. 1995.  
-                    <br>Versão rudimentar do RTsim, com capacidade de simulação de tarefas
+                    <br>Versï¿½o rudimentar do RTsim, com capacidade de simulaï¿½ï¿½o de tarefas
                     peri&oacute;dicas independentes, usando o algoritmo Taxa Monot&ocirc;nica.
 
                     -->
@@ -830,7 +957,7 @@
                     <tr class="tabela-linha4"><td>&nbsp;</td></tr>
                     <tr class="tabela-linha5">
                       <td>Oliveira, L.J. </td><td>&nbsp;</td>
-                      <td><a href="pubs/gridsimulationtools.pdf"><u>Comparação de ferramentas de simula&ccedil;&atilde;o de grades computacionais</u></a></td><td>&nbsp;</td>
+                      <td><a href="pubs/gridsimulationtools.pdf"><u>Comparaï¿½ï¿½o de ferramentas de simula&ccedil;&atilde;o de grades computacionais</u></a></td><td>&nbsp;</td>
                       <td>2008</td>
                     </tr>
                     <tr class="tabela-linha4"><td>&nbsp;</td></tr>
@@ -859,9 +986,9 @@
           </td>
           </tr>
         </table>
-        <!-- TROQUE O CAMINHO DE ACESSO CONFORME A LOCALIZAÇÃO DO SEU ARQUIVO - INFORME-SE COM O ADMINISTRADOR DA REDE -->
+        <!-- TROQUE O CAMINHO DE ACESSO CONFORME A LOCALIZAï¿½ï¿½O DO SEU ARQUIVO - INFORME-SE COM O ADMINISTRADOR DA REDE -->
         <?php include "footnote.php"; ?>
-        <!-- PARA A CORRETA IMPRESSÃO DA PÁGINA NÃO APAGUE O CÓDIGO ABAIXO -->
+        <!-- PARA A CORRETA IMPRESSï¿½O DA Pï¿½GINA Nï¿½O APAGUE O Cï¿½DIGO ABAIXO -->
       <link href="imprimir.css" rel="stylesheet" media="print" type="text/css">
     </body>
 </html>

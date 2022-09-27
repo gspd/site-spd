@@ -1,0 +1,131 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 3.2 Final//BR">
+
+<!--Converted with jLaTeX2HTML 2002 (1.62) JA patch-1.4
+patched version by:  Kenshi Muto, Debian Project.
+LaTeX2HTML 2002 (1.62),
+original version by:  Nikos Drakos, CBLU, University of Leeds
+* revised and updated by:  Marcus Hennecke, Ross Moore, Herb Swan
+* with significant contributions from:
+  Jens Lippmann, Marek Rouchal, Martin Wilck and others -->
+<HTML>
+<HEAD>
+<TITLE>FTIO benchmark</TITLE>
+<META NAME="description" CONTENT="FTIO benchmark">
+<META NAME="keywords" CONTENT="index">
+<META NAME="resource-type" CONTENT="document">
+<META NAME="distribution" CONTENT="global">
+
+<META HTTP-EQUIV="Content-Type" CONTENT="text/html; charset=iso-8859-1">
+<META NAME="Generator" CONTENT="jLaTeX2HTML v2002 JA patch-1.4">
+<META HTTP-EQUIV="Content-Style-Type" CONTENT="text/css">
+
+<LINK REL="STYLESHEET" HREF="index.css">
+
+<LINK REL="next" HREF="node16.html">
+<LINK REL="previous" HREF="node14.html">
+<LINK REL="up" HREF="node14.html">
+<LINK REL="next" HREF="node16.html">
+</HEAD>
+
+<BODY >
+<!--Navigation Panel-->
+<A NAME="tex2html263"
+  HREF="node16.html">
+<IMG WIDTH="37" HEIGHT="24" ALIGN="BOTTOM" BORDER="0" ALT="next"
+ SRC="file:/usr/share/latex2html/icons/next.png"></A> 
+<A NAME="tex2html261"
+  HREF="node14.html">
+<IMG WIDTH="26" HEIGHT="24" ALIGN="BOTTOM" BORDER="0" ALT="up"
+ SRC="file:/usr/share/latex2html/icons/up.png"></A> 
+<A NAME="tex2html255"
+  HREF="node14.html">
+<IMG WIDTH="63" HEIGHT="24" ALIGN="BOTTOM" BORDER="0" ALT="previous"
+ SRC="file:/usr/share/latex2html/icons/prev.png"></A>   
+<BR>
+<B> Next:</B> <A NAME="tex2html264"
+  HREF="node16.html">Linpack e varia&ccedil;&#245;es</A>
+<B> Up:</B> <A NAME="tex2html262"
+  HREF="node14.html">Ferramentas aplic&#225;veis a sistemas</A>
+<B> Previous:</B> <A NAME="tex2html256"
+  HREF="node14.html">Ferramentas aplic&#225;veis a sistemas</A>
+<BR>
+<BR>
+<!--End of Navigation Panel-->
+
+<H2><A NAME="SECTION00131000000000000000">
+FTIO benchmark</A>
+</H2> 
+<BR>
+[<A
+ HREF="node34.html#fagerstrom:00">Fagerstrom, 2000</A>]
+
+<BR><P></P>
+<DIV ALIGN="CENTER"><A NAME="166"></A>
+<TABLE>
+<CAPTION><STRONG>Tabela 1.11:</STRONG>
+Caracter&#237;sticas do benchmark FTIO.</CAPTION>
+<TR><TD>
+	<DIV ALIGN="CENTER">
+<TABLE CELLPADDING=3 BORDER="1" ALIGN="CENTER">
+<TR><TD ALIGN="LEFT" VALIGN="TOP" WIDTH=170>Nome</TD>
+<TD ALIGN="LEFT" VALIGN="TOP" WIDTH=227>FTIO benchmark</TD>
+</TR>
+<TR><TD ALIGN="LEFT" VALIGN="TOP" WIDTH=170>Sistema aplicado</TD>
+<TD ALIGN="LEFT" VALIGN="TOP" WIDTH=227>hardware</TD>
+</TR>
+<TR><TD ALIGN="LEFT" VALIGN="TOP" WIDTH=170>Abordagem para obten&#231;&#227;o dos resultados</TD>
+<TD ALIGN="LEFT" VALIGN="TOP" WIDTH=227>benchmarking</TD>
+</TR>
+<TR><TD ALIGN="LEFT" VALIGN="TOP" WIDTH=170>Forma de medi&#231;&#227;o ou instrumenta&#231;&#227;o</TD>
+<TD ALIGN="LEFT" VALIGN="TOP" WIDTH=227>monitora&#231;&#227;o por software (perfex)</TD>
+</TR>
+<TR><TD ALIGN="LEFT" VALIGN="TOP" WIDTH=170>Tipos de dados gerados pela an&#225;lise</TD>
+<TD ALIGN="LEFT" VALIGN="TOP" WIDTH=227>medi&#231;&#227;o de intervalo de tempos e contagem de eventos (perfex)</TD>
+</TR>
+<TR><TD ALIGN="LEFT" VALIGN="TOP" WIDTH=170>Arquitetura</TD>
+<TD ALIGN="LEFT" VALIGN="TOP" WIDTH=227>-</TD>
+</TR>
+<TR><TD ALIGN="LEFT" VALIGN="TOP" WIDTH=170>Informa&#231;&#245;es fornecidas</TD>
+<TD ALIGN="LEFT" VALIGN="TOP" WIDTH=227>fra&#231;&#227;o do tempo total de execu&#231;&#227;o dispendido em E/S, ciclos gastos por opera&#231;&#227;o de ponto flutuante</TD>
+</TR>
+<TR><TD ALIGN="LEFT" VALIGN="TOP" WIDTH=170>An&#225;lise (sistema alvo)</TD>
+<TD ALIGN="LEFT" VALIGN="TOP" WIDTH=227>subsistema de Entrada/Sa&#237;da</TD>
+</TR>
+</TABLE>
+</DIV>
+	
+	<A NAME="tab4:ftio"></A>
+</TD></TR>
+</TABLE>
+</DIV><P></P>
+<BR>
+Este ``benchmark'' foi desenvolvido para analisar o subsistema de entrada e sa&#237;da. Um dos componentes da ferramenta, o utilit&#225;rio <I>perfex</I>, &#233; respons&#225;vel por duas caracter&#237;sticas na classifica&#231;&#227;o: a monitora&#231;&#227;o por software e a contagem de eventos. A ferramenta ainda realiza medi&#231;&#227;o de intervalo de tempos ao analisar o tempo dispendido com entrada/sa&#237;da.
+
+Os par&#226;metros de entrada da ferramenta, que &#233; disparada com aux&#237;lio do gerenciador de filas denominado PBS, determinam as dimens&#245;es da matriz usada como padr&#227;o de entrada da ferramenta. A distribui&#231;&#227;o dos dados entre os processadores &#233; realizada na fase inicial do ``benchmark'', sendo que cada processador envolvido na an&#225;lise recebe um bloco diferente da matriz.
+
+Durante a execu&#231;&#227;o da ferramenta existe uma redistribui&#231;&#227;o dos dados da matriz entre os processos. Isto faz com que ocorra uma grande troca de informa&#231;&#245;es entre os processadores, permitindo melhor an&#225;lise do sistema de entrada/sa&#237;da.
+
+<HR>
+<!--Navigation Panel-->
+<A NAME="tex2html263"
+  HREF="node16.html">
+<IMG WIDTH="37" HEIGHT="24" ALIGN="BOTTOM" BORDER="0" ALT="next"
+ SRC="file:/usr/share/latex2html/icons/next.png"></A> 
+<A NAME="tex2html261"
+  HREF="node14.html">
+<IMG WIDTH="26" HEIGHT="24" ALIGN="BOTTOM" BORDER="0" ALT="up"
+ SRC="file:/usr/share/latex2html/icons/up.png"></A> 
+<A NAME="tex2html255"
+  HREF="node14.html">
+<IMG WIDTH="63" HEIGHT="24" ALIGN="BOTTOM" BORDER="0" ALT="previous"
+ SRC="file:/usr/share/latex2html/icons/prev.png"></A>   
+<BR>
+<B> Next:</B> <A NAME="tex2html264"
+  HREF="node16.html">Linpack e varia&ccedil;&#245;es</A>
+<B> Up:</B> <A NAME="tex2html262"
+  HREF="node14.html">Ferramentas aplic&#225;veis a sistemas</A>
+<B> Previous:</B> <A NAME="tex2html256"
+  HREF="node14.html">Ferramentas aplic&#225;veis a sistemas</A>
+<!--End of Navigation Panel-->
+</BODY>
+</HTML>

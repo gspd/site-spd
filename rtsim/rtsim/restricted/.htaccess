@@ -1,0 +1,9 @@
+AuthName "Page Restricted"
+AuthType Basic
+AuthUserFile "/export/home/beast/www/Data/spd/rtsim/restricted/.password"
+require user aleardo
+require user alisson
+require user odnei
+require user tiago
+require user adriano
+require user ives

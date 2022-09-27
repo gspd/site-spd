@@ -1,0 +1,2547 @@
+/%% gspd.bib -- template file for \BibTeX
+%% $Id: gspd.bib,v 1.0 2011/04/29 03:35:41 aleardo manacero $
+%%
+%% NOTE: \LaTeX's comment character `%' is not a comment character in
+%% the database files.  \BibTeX allows in the database files any
+%% comment that's not within an entry.
+
+%% CONSTRUCTION OF CITATION REFERENCES:
+%%
+%% The references in this file are organized following a classification pattern.
+%% Therefore, there are several sections, where a given reference is written in
+%% a single section, following a adequacy match for it. For example, an article
+%% on performance analysis will be in the "Performance Analysis" section, while
+%% one about sequence alignment will be in the "Bioinformatics"section.
+%%
+%% The sections are marked by the comments BeginSection{xxxxx} and End{xxxxx}.
+%% 
+%% Please insert a new reference by the end of its respective section, but
+%% look for it using the author's last name as the search key before the insertion
+%% to avoid double instances of a reference.
+%% 
+%% The sections available, and their descriptions, are:
+%%
+%% general - for textbooks, such as Tanenbaum's books, or manuals
+%% performanceanalysis - for articles or books about performance analysis
+%% simulation - for articles or books about simulation (as a topic, not as
+%%                a tool for performance analysis) or grid simulators
+%% parallelprogramming - for articles or books about techniques, or 
+%%                        applications of parallel programming (cluster/grids)
+%% bioinformatics - for articles or books about bioinformatics
+%% virtualization - for articles or books about virtualization
+%% GSPDpub - for articles or reports produced by GSPD
+%%
+
+%% In order to use this file in your latex file include the following lines
+%% at the end of the file, just before the \end{document} command:
+%%    \bibliographystyle{a given reference style, such as "plain", "abnt", "ieee"} 
+%%    \bibliography{gspd}
+
+
+%% Begin{general}
+
+@BOOK{glover,
+  AUTHOR =       "Fred Glover and Manuel Laguna",
+  TITLE =        "Tabu Search",
+  PUBLISHER =    "Kluwer Academic Publishers",
+  YEAR =         "1997"
+  }
+
+@MANUAL{heuristics,
+  TITLE =        "Heuristics",
+  author =       "Wikipedia, the free encyclopedia",
+  address =      "http://en.wikipedia.org/wiki/Heuristics - acessado em
+20/01/2008"
+  }
+
+@MANUAL{pvm,
+  TITLE =        "PVM: Parallel Virtual Machine",
+  author =       "Oak Ridge National Laboratory - Computer Science and Mathematics Division",
+  address =      "http://www.csm.ornl.gov/pvm/ - acessado em 30/07/2008"
+  }
+
+@PROCEEDINGS{kranzlmuller,
+  TITLE =        "Recent Advances in Parallel Virtual Machine and Massage Passing Interface",
+  YEAR =         "2002",
+  editor =       "Dieter Kranzlmüller and Peter Kacsuk and Jack Dongarra and Jens Valkert",
+  publisher =    "Springer",
+  volume =       "2474",
+  series =       "Lecture Notes in Computer Science",
+  organization = "9th European PVM/MPI User's Group Meeting"
+  }
+
+@Book{IB-Man,
+  author =       "M.M. Mano",
+  title =        "Computer System Architecture",
+  edition =      "3nd ed",
+  publisher =    "Englewood Cliffs, NJ: Prentice Hall,p. 310-319",
+  address =      "",
+  year =         "1993",
+  ISBN =         "",
+}
+
+@Book{IB-Mip,
+  author =       "MIPS Computer Systems",
+  title =        "RISCompiler and C programmer's guide",
+  edition =      "",
+  publisher =    "MIPS Computer Systems",
+  address =      "Sunnyvale, CA, EUA",
+  year =         "1989",
+  ISBN =         "",
+}
+
+@Book{IB-Para,
+  author =       "Paradyn Researchers",
+  title =        "Paradyn Developer's Guide",
+  edition =      "Release 4.0",
+  publisher =    "Computer Sciences Department, University of Wisconsin",
+  address =      "Madison",
+  year =         "2003",
+  ISBN =         "",
+}
+
+@Book{IB-Parb,
+  author =       "Paradyn Researchers",
+  title =        "Paradyn User's Guide",
+  edition =      "Release 4.0",
+  publisher =    "Computer Sciences Department, University of Wisconsin",
+  address =      "Madison, download ftp.cs.wisc.edu/paradyn/releases/release4.1/doc/developerGuide.pdf",
+  year =         "2003",
+  ISBN =         "",
+}
+
+@Book{IB-Pau,
+  author =       "R.P. Paul",
+  title =        "Sparc Architecture, Assembly Language Programming, \& C",
+  edition =      "",
+  publisher =    "Prentice Hall",
+  address =      "",
+  year =         "1994",
+  ISBN =         "",
+}
+
+@Book{IB-Wea,
+  author =       "Weaver, D. L. and Germond T.",
+  title =        "The Sparc Architecture Manual",
+  edition =      "Version 9",
+  publisher =    "Englewood Cliffs, NJ: Prentice Hall",
+  address =      "",
+  year =         "1994",
+  ISBN =         "",
+}
+
+@Book{IB-Etn,
+  author =       "Etnus(2004)",
+  title =        "Totalview 6.6 multiprocess debugger",
+  edition =      "",
+  publisher =    "http://www.etnus.com",
+  address =      "Natick, MA, EUA",
+  year =         "2004",
+  ISBN =         "",
+}
+
+@Book{IB-Vamp,
+  author =       "Custom Solutions",
+  title =        "Vampir/Vampirtrace",
+  edition =      "",
+  publisher =    "http://www.cs-software.com/software/vampir/vampir.html",
+  address =      "Ladson, SC, EUA",
+  year =         "2005",
+  ISBN =         "",
+}
+
+@BOOK{pacheco,
+  AUTHOR =       "Peter S. Pacheco",
+  TITLE =        "Parallel Programming with MPI",
+  PUBLISHER =    "Morgan Kaufmann",
+  YEAR =         "1997"
+  }
+
+@Misc{desafios,
+  author =    {SBC},
+  title =     {Grandes Desafios da Pesquisa em Computa\c{c}\~{a}o no {Brasil} - 2006 - 2016},
+  howpublished = {http://www.sbc.org.br/},
+  year =      {2006},
+  month =     {},
+  note =      {},
+  annote =    {}
+}
+
+@BOOK{zomaya,
+  AUTHOR =       "Albert Y. Zomaya and Fikret Ercal and Stephan Olariu",
+  TITLE =        "Solutions to parallel and distributed computing problems - Lessons from biological sciences",
+  PUBLISHER =    "John Wiley \& Sons",
+  YEAR =         "2001"
+}
+
+@BOOK{quinn,
+  AUTHOR =       "Michael J. Quinn",
+  TITLE =        "Parallel Programming in C with MPI and OpenMP",
+  PUBLISHER =    "McGraw Hill",
+  YEAR =         "2004"
+}
+
+@MANUAL{otimizacao,
+  TITLE =        "Optimization - Computer Science",
+  author =       "Wikipedia, the free encyclopedia",
+  address =     
+"http://en.wikipedia.org/wiki/Optimization\_\%28computer\_science\%29 - acessado
+em 20/01/2008"
+}
+
+@INPROCEEDINGS{combs,
+  AUTHOR =       "William Combs and Robert Hawkins and Thomas Pore and Arik Schechet and Tim Wahls and Louis Ziantz",
+  TITLE =        "Tho course scheduling problem as a source of student project",
+  BOOKTITLE =    "Proceedings of the 36th SIGCSE Technical Symposium on Computer Science Education",
+  YEAR =         "2005"
+  }
+
+%% End{general}
+
+%% Begin{performanceanalysis}
+
+@InProceedings{IB-Cai,
+  author =       "H.W. Cain and B.P. Miller and B.J.N. Wylie",
+  title =        "A CALLgraph-based search  strategy for automated performance diagnosis",
+  edition =      "",
+  booktitle =    "Euro-Par 2000",
+  pages =        "108-122",
+  address =      "Munich",
+  year =         "2000",
+  ISBN =         "",
+}
+
+@Book{IB-Etnus,
+  author =       "Etnus",
+  title =        "Etnus Totalview 4.1 multiprocess debugger",
+  edition =      "",
+  publisher =    "",
+  address =      "http://www.etnus.com",
+  year =         "2002",
+  ISBN =         "",
+}
+
+@InProceedings{IB-Fah,
+  author =       "T. Fahringer and A. Pozgaj and J. Luitz and H. Moritsc",
+  title =        "Evaluation of P3T+: A performance estimator for distributed and parallel applications",
+  edition =      "",
+  booktitle =    "Proc. Of 14th International Parallel and Distributed Processing Symposium (IPDPS'00)",
+  pages =        "229-234",
+  address =      "Cancun",
+  year =         "2000",
+  ISBN =         "",
+}
+
+@inproceedings{Herzog,
+        author = "U. Herzog",
+        title = "Formal description, time and performance analysis",
+        year = 1990,
+        booktitle = "Entwurf und Betrieb Verteilter Systeme",
+        editor = "T. Harder, H. Wedekind and G. Zimmermann",
+        publisher = "Springer Verlag",
+}
+
+@Article{Graham,
+  author =       "S.L. Graham and P.B. Kessler and M.K. McKusick",
+  title =        "Gprof: a CALL graph execution profiler",
+  edition =      "",
+  journal =      "ACM Sigplan Notices", 
+  volume =       "17", 
+  number =       "6", 
+  pages =        "120-126",
+  address =      "",
+  year =         "1982",
+  ISBN =         "",
+}
+
+@Article{Hughes,
+  author =       "C. Hughes and V. Pai and P. Ranganathan and S. Adve",
+  title =        "Rsim: simulating shared-memory multiprocessors with ILP processors",
+  edition =      "",
+  journal =      "IEEE Computer", 
+  volume =       "35", 
+  number =       "2", 
+  pages =        "40-49",
+  address =      "",
+  year =         "2002",
+  ISBN =         "",
+}
+
+@Book{jain,
+  author =       "R. Jain",
+  title =        "The Art of Computer Systems Performance Analysis: Techniques for Experimental Design, Measurement, Simulation, and Modeling",
+  edition =      "2nd edition",
+  publisher =    "John Wiley \& Sons",
+  address =      "",
+  year =         "1991",
+  ISBN =         "",
+}
+
+@inproceedings{Trivedi,
+        author = "K.S. Trivedi and B.R. Haverkort and A. Rindos and V. Mainkar",
+        title = "Techniques and tools for reliability and performance evaluation: problems and perspectives",
+        year = 1994,
+        series = "Lecture Notes in Computer Science",
+        volume = 794,
+        booktitle = "Proc. of the 7th Int'l Conference on Computer Performance Evaluation: Modelling Techniques and Tools",
+        publisher = "Springer Verlag",
+        pages = "1-24"
+}
+
+@inproceedings{Sotz,
+        author = "F. Sotz",
+        title = "A method for performance prediction of parallel programs",
+        year = 1990,
+        series = "Lecture Notes in Computer Science",
+        volume = 457,
+        booktitle = "CONPAR 90-VAPP IV, Joint Intl. Conf. on Vector and Parallel Processing",
+        publisher = "Springer Verlag",
+        pages = "98-107"
+}
+
+@article{NASBench,
+ author = {Davd H. Bailey and Eric Barzcz and Leonardo Dagum and Horst D. Simon},
+ title = {NAS Parallel Benchmark Results},
+ journal = {IEEE Parallel Distrib. Technol.},
+ volume = {1},
+ number = {1},
+ year = {1993},
+ issn = {1063-6552},
+ pages = {43--51},
+ doi = {http://dx.doi.org/10.1109/88.219861},
+ publisher = {IEEE Computer Society Press},
+ address = {Los Alamitos, CA, USA},
+ }
+
+@article{NASGrid,
+ author = {Michael Frumkin and Rob F. Van der Wijngaart},
+ title = {NAS Grid Benchmarks: A Tool for Grid Space Exploration},
+ journal = {Cluster Computing},
+ volume = {5},
+ number = {3},
+ year = {2002},
+ issn = {1386-7857},
+ pages = {247--255},
+ doi = {http://dx.doi.org/10.1023/A:1015669003494},
+ publisher = {Kluwer Academic Publishers},
+ address = {Hingham, MA, USA},
+ }
+
+@article{magnusson,
+        author = "P.S. Magnusson and others",
+        title = "Simics: a full system simulation platform",
+        journal = "IEEE~Computer",
+        year = 2002,
+        volume = 35,
+        number = 2,
+        pages = "50-58",
+        address = "Los Alamitos",
+
+}
+
+@inproceedings{alpern,
+        author = "B. Alpern and L. Carter",
+        title = "The myth of scalable high performance",
+        address = "San Francisco, CA",
+        year = 1995,
+        booktitle = "Proc. of 7th SIAM Parallel Computing Conference",
+}
+
+@Inproceedings{IB-Kar,
+  author =       "K.L. Karavanic and B.P. Miller",
+  title =        "Improving online performance diagnosis by tthe use of historical performance data",
+  edition =      "",
+  publisher =    "Annals of SC'99l",
+  address =      "Portland, download ftp://grilled.cs.wisc.edu/technical_papers/diagnosis.pdf",
+  year =         "1999",
+  ISBN =         "",
+}
+
+@Article{Kitajima,
+  author =       "J.P. Kitajima and B. Plateau",
+  title =        "Modelling parallel program behaviour in ALPES",
+  edition =      "",
+  journal =      "Information and Software Technology", 
+  volume =       "36", 
+  number =       "7", 
+  pages =        "457-464",
+  address =      "",
+  year =         "1994",
+  ISBN =         "",
+}
+
+@Techreport{Larus,
+  author =       "J.R. Larus and T. Ball",
+  title =        "Rewriting executable files to measure program behavior",
+  edition =      "",
+  institution =  "Computer Sciences Department, University of Wisconsin",
+  address =      "Madison, download ftp.cs.wisc.edu/reports/reports/92/tr1083.ps.Z",
+  year =         "1992",
+  ISBN =         "",
+}
+
+@Article{IB-Mil,
+  author =       "B.P. Miller",
+  title =        "The Paradyn parallel performance measurement   tool",
+  edition =      "",
+  journal =      "IEEE Computer", 
+  volume =       "28", 
+  number =       "11", 
+  pages =        "37-46",
+  address =      "",
+  year =         "1995",
+  ISBN =         "",
+}
+
+@Techreport{IB-Pie,
+  author =       "J. Pierce and T. Mudge",
+  title =        "IDTrace - A tracing tool for i486 simulation",
+  edition =      "",
+  institution =    "Eletrical Engineering Department and Computer Science Department",
+  address =      "Michigan (EUA) download ftp.eecs.umich.edu/techreports/cse/1994/CSE-TR-203-94.ps.Z",
+  year =         "1994",
+  ISBN =         "",
+}
+
+@Article{Reiser,
+  author =       "J.F. Reiser and J.P. Skudlarek",
+  title =        "Program profiling problems and a solution via machine language rewriting",
+  edition =      "",
+  journal =      "ACM Sigplan Notices", 
+  volume =       "29", 
+  number =       "1", 
+  pages =        "37-45",
+  address =      "",
+  year =         "1994",
+  ISBN =         "",
+}
+
+@Inproceedings{IB-Rot,
+  author =       "P.C. Roth and B.P. Miller",
+  title =        "Deep Start: a hybrid strategy for automated performance problem searches",
+  edition =      "",
+  publisher =    "Euro-Par",
+  address =      "Paderborn, download ftp://grilled.cs.wisc.edu/technical_papers/deepstart.pdf",
+  year =         "2002",
+  ISBN =         "",
+}
+
+@Article{Sahni,
+  author =       "Sahni, S. and Thanvantri, V.",
+  title =        "Performance metrics: keeping the focus on runtime",
+  edition =      "",
+  journal =      "IEEE Parallel and Distributed Technology",
+  volume =       "4", 
+  number =       "1", 
+  pages =        "43-56",
+  address =      "",
+  year =         "1996",
+  ISBN =         "",
+}
+
+@Book{IB-Wal,
+  author =       "Wall, D.W.",
+  title =        "Systems for late code modification",
+  edition =      "",
+  publisher =    "Code Generation - Concepts, Tools, Techniques p.275-293",
+  address =      "Spring-Verlag",
+  year =         "1992",
+  ISBN =         "",
+}
+
+@inproceedings{Blanco2007,
+  author    = {Diego R. Mart\'{\i}nez and
+               Vicente Blanco P{\'e}rez and
+               Marcos Boull{\'o}n and
+               Jos{\'e} Carlos Cabaleiro and
+               Casiano Rodr\'{\i}guez and
+               Francisco F. Rivera},
+  title     = {Software Tools for Performance Modeling of Parallel Programs},
+  booktitle = {Intl Parallel and Distributed Processing Symposium {IPDPS}},
+  year      = {2007},
+  pages     = {1-8},
+}
+
+@article{Blanco,
+  author    = {Vicente Blanco P{\'e}rez and
+               Jesus A. Gonz{\'a}lez and
+               Coromoto Le{\'o}n and
+               Casiano Rodr\'{\i}guez and
+               Germ{\'a}n Rodr\'{\i}guez and
+               Marcela Printista},
+  title     = {Predicting the performance of parallel programs},
+  journal   = {Parallel Computing},
+  volume    = {30},
+  number    = {3},
+  year      = {2004},
+  pages     = {337-356},
+}
+
+@article{MalonyTAU,
+  author    = {Alan Morris and
+               Allen D. Malony and
+               Sameer Shende},
+  title     = {Supporting Nested OpenMP Parallelism in the TAU Performance
+               System},
+  journal   = {International Journal of Parallel Programming},
+  volume    = {35},
+  number    = {4},
+  year      = {2007},
+  pages     = {417-436},
+}
+
+@inproceedings{Sottile,
+  author    = {Matthew J. Sottile and
+               Vaddadi P. Chandu and
+               David A. Bader},
+  title     = {Performance analysis of parallel programs via message-passing
+               graph traversal},
+  booktitle = {Intl Parallel and Distributed Processing Symposium {IPDPS}},
+  year      = {2006},
+}
+
+@PhdThesis{paula:09,
+  author = {N. C. Paula},
+  title = {Um ambiente de monitoramento de recursos e escalonamento cooperativo de aplicações   paralelas em Grades Computacionais},
+  school = {Universidade de São Paulo (USP)},
+  year = {2009},
+  address = {São Paulo}
+}
+
+@inproceedings{Kapelnikov,
+        author = "A. Kapelnikov and R.R. Muntz and M.D. Ercegovac",
+        title = "A methodology for the performance evaluation of distributed computations",
+        year = 1988,
+        booktitle = "Distributed Processing",
+        editor = "M.H. Barton, E.L. Dagless and G.L. Reijins",
+        publisher = "Elsevier Science Pub.",
+        pages = "465-479"
+}
+
+@article{Gandra,
+        author = "M. Gandra and J.M. Drake and J.A. Gregorio",
+        title = "Performance evaluation of parallel systems by using unbounded generalized stochastic Petri nets",
+        journal = "IEEE~Trans. on Software Engineering",
+        year = 1992,
+        volume = 18,
+        number = 1,
+        pages = "55-71",
+        address = "Los Alamitos",
+}
+
+@inproceedings{Gelenbe,
+        author = "E. Gelenbe and  Z. Liu",
+        title = "Performance analysis approximations for parallel processing in multiprocessor systems",
+        year = 1988,
+        booktitle = "Parallel Processing",
+        editor = "M. Cosnard, M.H. Barton and M. Vanneschi",
+        publisher = "Elsevier Science Pub.",
+}
+
+@article{Marsan,
+        author = "M.A. Marsan and G. Balbo and G. Conte",
+        title = "A class of generalized stochastic Petri nets for the performance evaluation of multiprocessor systems",
+        journal = "ACM~Trans. Computer Systems",
+        volume = 2,
+        number = 2,
+        year = 1984,
+        pages = "93-122",
+}
+
+@techreport{ftio,
+        title = "The FTIO benchmark",
+        institution = "NASA Ames Research Center",
+        year = 2000,
+        address = "Moffett Field, CA",
+        number = "{NAS-00-004}",
+        author = "F. Fagerstrom and C. Kuszmaul",
+}
+
+@inproceedings{PierceMudge,
+ author = {Jim Pierce and Trevor N. Mudge},
+ title = {IDtrace - A Tracing Tool for i486 Simulation},
+ booktitle = {MASCOTS '94: Proceedings of the Second International Workshop on Modeling, Analysis, and Simulation On Computer and Telecommunication Systems},
+ year = {1994},
+ isbn = {0-8186-5292-6},
+ pages = {419--420},
+ publisher = {IEEE Computer Society},
+}
+
+@article{210421,
+ author = {Jerry Yan and Sekhar Sarukkai and Pankaj Mehra},
+ title = {Performance measurement, visualization and modeling of parallel and distributed programs using the AIMS toolkit},
+ journal = {Softw. Pract. Exper.},
+ volume = {25},
+ number = {4},
+ year = {1995},
+ issn = {0038-0644},
+ pages = {429--461},
+ publisher = {John Wiley \& Sons, Inc.},
+ }
+
+@article{microgrid,
+ author = {H.J. Song and X. Liu and D. Jakobsen and R. Bhagwan and X. Zhang and K. Taura and A. Chien},
+ title = {The Microgrid: a scientific tool for modeling computational grids},
+ journal = {Scientific Programming},
+ volume = {8},
+ number = {3},
+ year = {2000},
+ issn = {0038-0644},
+ pages = {127-141},
+ publisher = {},
+ }
+
+@inproceedings{Reed,
+ author = {Daniel A. Reed},
+ title = {Experimental analysis of parallel systems: techniques and open problems},
+ booktitle = {Proceedings of the 7th international conference on Computer performance evaluation: modelling techniques and tools},
+ year = {1994},
+ isbn = {3-540-58021-2},
+ pages = {25--51},
+ location = {Vienna, Austria},
+ publisher = {Springer-Verlag New York, Inc.},
+ }
+
+@misc{bench,
+ author = {A. Iosup and C. Dumitrescu and D. Epema},
+ title = {An Analysis of Four Long-Term Grid Traces},
+ year = {2006},
+ location = {Technical Report PDS 2006-003, Delft University of Technology},
+ }
+
+@inproceedings{Net,
+ author = {N. Taesombut and A.A. Chien},
+ title = {Evaluating Network Information Models on Resource Efficiency and Application Performance in Lambda-Grids},
+ booktitle = {Proc. of the 5th IEEE Intl Symp. on Cluster Computing and the Grid - CCGrid'05},
+ year = {2005},
+ isbn = {3-540-58021-2},
+ pages = {1151-1158},
+ location = {},
+ publisher = {IEEE Press},
+ }
+
+@Article{liumuller,
+ author = "W. Liu and W. Muller-Wittig",
+ title = "Performance Analysis of General-Purpose Computation on Commodity
+Graphics Hardware: A Case Study Using Bioinformatics",
+ journal = "J. of VLSI Signal Processing",
+ year = "2007",
+ volume = "48",
+ pages = "209-221",
+}
+
+@inproceedings{calzarossa,
+  author    = {M. Calzarossa and
+               L. Massari and
+               D. Tessera},
+  title     = {Workload Characterization Issues and Methodologies},
+  booktitle = {Performance Evaluation},
+  year      = {2000},
+  pages     = {459-481},
+}
+
+@inproceedings{HuangFeng,
+ author = {S. Huang and W. Feng},
+ title = {Energy-Efficient Cluster Computing via Accurate Workload Characterization},
+ booktitle = {CCGRID '09: Proceedings of the 2009 9th IEEE/ACM International Symposium on Cluster Computing and the Grid},
+ year = {2009},
+ isbn = {978-0-7695-3622-4},
+ pages = {68--75},
+ doi = {http://dx.doi.org/10.1109/CCGRID.2009.88},
+ publisher = {IEEE Computer Society},
+ address = {Washington, DC, USA},
+ }
+
+@article{iamnitchi,
+ author = {A. Iamnitchi and S. Doraimani and G. Garzoglio},
+ title = {Workload characterization in a high-energy data grid and impact on resource management},
+ journal = {Cluster Computing},
+ volume = {12},
+ number = {2},
+ year = {2009},
+ issn = {1386-7857},
+ pages = {153--173},
+ doi = {http://dx.doi.org/10.1007/s10586-009-0081-3},
+ publisher = {Kluwer Academic Publishers},
+ address = {Hingham, MA, USA},
+ }
+
+@ARTICLE{lublin2003,
+AUTHOR = "Uri Lublin and Dror G. Feitelson",
+TITLE = "The workload on parallel supercomputers: modeling the characteristics of rigid jobs.",
+JOURNAL = "J. Parallel Distrib. Comput.",
+PAGES = {1105-1122},
+YEAR = {2003}  
+}
+
+@article{Downey_feitel,
+ author = {A.B. Downey and D.G. Feitelson},
+ title = {The elusive goal of workload characterization},
+ journal = {SIGMETRICS Perform. Eval. Rev.},
+ volume = {26},
+ number = {4},
+ year = {1999},
+ issn = {0163-5999},
+ pages = {14--29},
+ doi = {http://doi.acm.org/10.1145/309746.309750},
+ publisher = {ACM},
+ address = {New York, NY, USA},
+ }
+
+@inproceedings{tau1,
+  author    = {B. Mohr and D. Brown and A.D. Malony},
+  title     = {TAU: A Portable Parallel Program Analysis Environment for pC++},
+  booktitle = {CONPAR},
+  year      = {1994},
+  pages     = {29-40}
+}
+
+@inproceedings{tau_sourceinst,
+  author    = {M. Geimer and S. Shende and A.D. Malony and F. Wolf},
+  title     = {A Generic and Configurable Source-Code Instrumentation Component},
+  booktitle = {Intl Conf on Computational Science},
+  year      = {2009},
+  pages     = {696-705}
+}
+
+@inproceedings{tau_holistic,
+  author    = {H. Jagode and J. Dongarra and S.R. Alam and J.S. Vetter and W. Spear and A.D. Malony},
+  title     = {A Holistic Approach for Performance Measurement and Analysis for Petascale Applications},
+  booktitle = {Intl Conf on Computational Science},
+  year      = {2009},
+  pages     = {686-695}
+}
+
+@inproceedings{tau_automatic,
+  author    = {K.A. Huck and A.D. Malony and S. Shende and A. Morris},
+  title     = {Scalable, Automated Performance Analysis with TAU and PerfExplorer},
+  booktitle = {PARCO},
+  year      = {2007},
+  pages     = {629-636}
+}
+
+@inproceedings{sweetspots,
+  author    = {A. Nataraj and A.D. Malony and A. Morris and D.C. Arnold and B.P. Miller},
+  title     = {In search of sweet-spots in parallel performance monitoring},
+  booktitle = {CLUSTER},
+  year      = {2008},
+  pages     = {69-78}
+}
+
+@inproceedings{Alam,
+  author    = {S.R. Alam and R.F. Barrett and J.A. Kuehn and S. Poole},
+  title     = {Performance Characterization of a Hierarchical MPI Implementation on Large-scale Distributed-memory Platforms},
+  booktitle = {Intl Conf on Parallel Processing},
+  year      = {2009},
+  pages     = {132-139}}
+
+@inproceedings{Korthikanti,
+  author    = {V.A. Korthikanti and G. Agha},
+  title     = {Analysis of Parallel Algorithms for Energy Conservation in Scalable Multicore Architectures},
+  booktitle = {Intl Conf on Parallel Processing},
+  year      = {2009},
+  pages     = {212-219}
+}
+
+@inproceedings{Ozisikyilmaz,
+  author    = {B. {\"O}zisikyilmaz and G. Memik and A.N. Choudhary},
+  title     = {Machine Learning Models to Predict Performance of Computer System Design Alternatives},
+  booktitle = {Intl Conf on Parallel Processing},
+  year      = {2008},
+  pages     = {495-502}
+}
+
+@inproceedings{Barnes,
+ author = {B.J. Barnes and B. Rountree and D.K. Lowenthal and J. Reeves and B. de Supinski and M. Schulz},
+ title = {A regression-based approach to scalability prediction},
+ booktitle = {ICS '08: Proc. of the 22nd annual Intl Conf on Supercomputing},
+ year = {2008},
+ isbn = {978-1-60558-158-3},
+ pages = {368--377},
+ location = {Island of Kos, Greece},
+ doi = {http://doi.acm.org/10.1145/1375527.1375580},
+ publisher = {ACM},
+ address = {New York, NY, USA},
+ }
+
+@inproceedings{Ratn,
+ author = {P. Ratn and F. Mueller and B.R. de Supinski and M. Schulz},
+ title = {Preserving time in large-scale communication traces},
+ booktitle = {ICS '08: Proc. of the 22nd annual Intl Conf on Supercomputing},
+ year = {2008},
+ isbn = {978-1-60558-158-3},
+ pages = {46--55},
+ location = {Island of Kos, Greece},
+ doi = {http://doi.acm.org/10.1145/1375527.1375537},
+ publisher = {ACM},
+ address = {New York, NY, USA},
+ }
+
+@TechReport{top500,
+  author = {Top 500},
+  title = {Top 500 computer systems ranking},
+  institution = {Top 500 World Ranking},
+  year = {2009},
+  address = {available in http://www.top500.org}
+}
+
+
+@article{Nataraj,
+ author = {A. Nataraj and A.D. Malony and A. Morris and D.C. Arnold and B.P. Miller},
+ title = {A Framework for Scalable, Parallel Performance Monitoring},
+ journal = {Concurrency and Computation: Practice and Experience (online)},
+ volume = {},
+ number = {},
+ year = {2009},
+ pages = {1-15},
+ }
+
+@article{Shende,
+ author = {S.S. Shende and A.D. Malony and A. Morris and D.C. Arnold and B.P. Miller},
+ title = {The TAU parallel performance system},
+ journal = {International Journal of High Performance Computing Applications},
+ volume = {20},
+ number = {2},
+ year = {2006},
+ pages = {287-331},
+ }
+
+@INPROCEEDINGS{WeiWu,
+	author = {W Wu and L Jin and J Yang and P Liu and S X-D Tan},
+	title = {A systematic method for functional unit power estimation in microprocessors},
+	booktitle = {In Proceedings of the 43rd annual Design Automation Conference},
+	year = {2006},
+	pages = {554--557}
+}
+
+@INPROCEEDINGS{Isci,
+	author = {C Isci and A Buyuktosunoglu and C Cher and P Bose and M Martonosi},
+	title = {An Analysis of Efficient Multi-Core Global Power Management Policies: Maximizing Performance for a Given Power Budget},
+	booktitle = {In International Symposium on Microarchitecture},
+	year = {2006},
+	pages = {347--358}
+}
+
+@ARTICLE{Tiwari, 
+author={Tiwari, V. and Malik, S. and Wolfe, A.}, 
+journal={Very Large Scale Integration (VLSI) Systems, IEEE Transactions on}, title={Power analysis of embedded software: a first step towards software power minimization}, 
+year={1994}, 
+month={dec}, 
+volume={2}, 
+number={4}, 
+pages={437 -445}, 
+ISSN={1063-8210},}
+
+@INPROCEEDINGS{Hsieh,
+	author = {C Hsieh and M Pedram},
+	title = {Microprocessor Power Estimation using Profile-Driven Program Synthesis},
+	booktitle = {Aided Design of Integrated Circuits and Systems},
+	year = {1998}
+}
+
+@PhdThesis{branco:04,
+  author = {K. R. L. J. C. Branco},
+  title = {Índices de Carga e Desempenho em Ambientes Paralelos / Distribuídos - Modelagem e Métricas},
+  school = {Universidade de São Paulo (USP)},
+  year = {2004},
+  address = {São Carlos}
+}
+
+@INPROCEEDINGS{fursin2005,
+    author = {Grigori Fursin and Albert Cohen and Michael O'Boyle and Olivier Temam},
+    title = {A Practical Method for Quickly Evaluating Program Optimizations},
+    booktitle = {In Proceedings of the International Conference on High Performance Embedded Architectures And Compilers (HiPEAC 2005},
+    year = {2005},
+    pages = {29--46},
+    publisher = {Springer Verlag}
+}
+
+@article{fursin2010,
+ author = {Fursin, Grigori and Temam, Olivier},
+ title = {Collective optimization: A practical collaborative approach},
+ journal = {ACM Trans. Archit. Code Optim.},
+ issue_date = {December 2010},
+ volume = {7},
+ issue = {4},
+ month = {December},
+ year = {2010},
+ issn = {1544-3566},
+ pages = {20:1--20:29},
+ publisher = {ACM},
+} 
+
+@inproceedings{hoffmann2010,
+ author = {Hoffmann, Henry and Eastep, Jonathan and Santambrogio, Marco D. and Miller, Jason E. and Agarwal, Anant},
+ title = {Application heartbeats: a generic interface for specifying program performance and goals in autonomous computing environments},
+ booktitle = {Proceeding of the 7th international conference on Autonomic computing},
+ series = {ICAC '10},
+ year = {2010},
+ isbn = {978-1-4503-0074-2},
+ location = {Washington, DC, USA},
+ pages = {79--88},
+ publisher = {ACM},
+ address = {New York, NY, USA},
+} 
+
+@INPROCEEDINGS{parello2004,
+    author = {David Parello and Olivier Temam and Alchemy Group and Hp France and Hipeac Network},
+    title = {Toward a Systematic, Pragmatic and Architecture-Aware Program Optimization Process for Complex Processors},
+    booktitle = {In ACM Supercomputing'04},
+    year = {2004},
+    pages = {15},
+    publisher = {IEEE Computer Society}
+}
+
+@INPROCEEDINGS{pedretti2010,
+    author = {Kevin Pedretti and Patrick Bridges},
+    title = {Opportunities for leveraging OS virtualization in high-end supercomputing},
+    booktitle = {In Workshop on Microarchitectural Support for Virtualization, Data Center Computing, and Clouds},
+    year = {2010},
+    pages = {12},
+    publisher = {MASVDC}
+}
+
+@inproceedings{voorsluys2009,
+ author = {Voorsluys, William and Broberg, James and Venugopal, Srikumar and Buyya, Rajkumar},
+ title = {Cost of Virtual Machine Live Migration in Clouds: A Performance Evaluation},
+ booktitle = {Proceedings of the 1st International Conference on Cloud Computing},
+ series = {CloudCom'09},
+ year = {2009},
+ location = {Beijing, China},
+ pages = {254--265},
+ publisher = {Springer-Verlag},
+} 
+
+@inproceedings{huanliu2009,
+ author = {Liu, Huan and Wee, Sewook},
+ title = {Web Server Farm in the Cloud: Performance Evaluation and Dynamic Architecture},
+ booktitle = {Proceedings of the 1st International Conference on Cloud Computing},
+ series = {CloudCom'09},
+ year = {2009},
+ location = {Beijing, China},
+ pages = {369--380},
+ publisher = {Springer-Verlag},
+} 
+
+%% End{performanceanalysis}
+
+
+%% Begin{GSPDpub}
+
+@techreport{tiago,
+  author =       "Gonçalves, T.D.",
+  title =        "RTsim 2.0 - Reengenharia e novas funcionalidades",
+  year =         "2004",
+  institution =  "Projeto Final de curso, UNESP",
+}
+
+@techreport{fmm,
+  author =       "Maciel, F.M. and Oliveira, N.A.",
+  title =        "Geração de um grafo de execução para códigos executando em plataformas baseadas na família x86",
+  year =         "2005",
+  institution =  "Projeto Final de curso, UNESP",
+}
+
+@techreport{dioraci,
+  author =       "Correa Jr, D.",
+  title =        "Editor de conteúdos para o sistema de ensino baseado em computador RTTutor",
+  year =         "2005",
+  institution =  "Projeto Final de curso, UNESP",
+}
+
+@mastersthesis{marcari,
+  author =       "Marcari Jr, E.",
+  title =        "Classificação e comparação de ferramentas para análise de desempenho de sistemas paralelos",
+  year =         "2002",
+  school =  "Dissertação de mestrado em engenharia elétrica, UNESP, Ilha Solteira",
+}
+
+@inproceedings{rtsim,
+ author = {A. {Manacero Jr.} and M.B. Miola and V.A. Nabuco},
+ title = {Teaching real-time with a scheduler simulator},
+ booktitle = {Proc. of the 31st Frontiers in Education Conference},
+ year = {2001},
+ isbn = {},
+ pages = {T4D15-19},
+ location = {Reno, USA},
+ publisher = {IEEE Press},
+ }
+
+@inproceedings{linguagem,
+ author = {V.G. Oliveira and R. Spolon Lobato},
+ title = {Uma linguagem algoritmica para simula\c{c}\~{a}o de redes de fila},
+ booktitle = {Anais XVIII Congresso de Inicia\c{c}\~{a}o Cientifica da UNESP}, 
+ year = {2006}, 
+ location = {Bauru},
+ }
+
+@techreport{paradyn,
+ author = {A. {Manacero Jr.} and D.R. Boccardo and J.N. Falavinha Jr. and L.S. Casagrande and H.J. Nakashima and B.P. Miller},
+ title = {Dynamic instrumentation of loop blocks in parallel programs performance analysis},
+ year = {2005},
+ institution = {Technical Report DCCE/UNESP available in http://www.dcce.ibilce.unesp.br/spd/pubs/paradynen.pdf},
+ }
+
+@TechReport{paradyn2,
+ author = {E.A. Marucci and L.J. Oliveira},
+ title = {Investigando a otimiza\c{c}\~{a}o autom\'{a}tica de c\'{o}digos atrav\'{e}s do Paradyn},
+ year = {2006},
+ institution = {DCCE/Unesp},
+ address = {available in http://www.dcce.ibilce.unesp.br/spd/pubs/monoLuigiEvandro.pdf},
+}
+
+@phdthesis{grasp,
+ author = {A. {Manacero Jr.}},
+ title = {Predi\c{c}\~{a}o do desempenho de programas paralelos por simula\c{c}\~{a}o do grafo de execu\c{c}\~{a}o},
+ year = {1997},
+ school = {Tese de doutorado - FEEC/Unicamp available in http://www.dcce.ibilce.unesp.br/spd/pubs/thesis.pdf},
+ }
+
+@inproceedings{Davidson,
+ author = {D.R. Boccardo and A. {Manacero Jr.} and  J.N. {Falavinha Jr.}},
+ title = {Implica\c{c}\~{o}es da ofusca\c{c}\~{a}o de c\'{o}digo no desenvolvimento de detectores de c\'{o}digo malicioso},
+ booktitle = {Anais do XXVII Congresso Anual da SBC - 34th SEMISH},
+ year = {2007},
+ isbn = {3-540-58021-2},
+ pages = {2277-2291},
+ location = {Rio de Janeiro},
+ publisher = {},
+ }
+
+@inproceedings{Zafalon,
+ author = {G.F.D. Zafalon and A. {Manacero Jr.}},
+ title = {Constru\c{c}\~{a}o de geradores independentes de n\'{u}meros aleat\'{o}rios para diferentes distribui\c{c}\~{o}es probabil\'{i}sticas.},
+ booktitle = {Anais do XXVI Congresso Anual da SBC - WCOMPA},
+ year = {2006},
+ isbn = {},
+ pages = {16-21},
+ location = {Campo Grande,MS},
+ publisher = {},
+ }
+
+@inproceedings{CPMart,
+ author = {C.P. Martins and A. {Manacero Jr.}},
+ title = {Compara\c{c}\~{a}o de t\'{e}cnicas de Redes de Petri na descri\c{c}\~{a}o de um Pipeline.},
+ booktitle = {Anais do XXVI Congresso Anual da SBC - 33th SEMISH},
+ year = {2006},
+ isbn = {},
+ pages = {97-110},
+ location = {Campo Grande,MS},
+ publisher = {},
+ }
+
+@inproceedings{Kolb-CLEI,
+ author = {A. {Manacero Jr.} and A.G. Casagrande and O.C. Lopes},
+ title = {A computer-based learning tool using XML to enable learning styles},
+ booktitle = {Anais do XXVI Congresso Latinoamericano de Informatica - CLEI},
+ year = {2008},
+ isbn = {},
+ pages = {CIESC84-CIESC93},
+ location = {Argentina},
+ publisher = {},
+ }
+
+@inproceedings{Grasp-CLEI,
+ author = {A. Manacero},
+ title = {Using binary code to build execution graph models for performance evaluation of parallel programs},
+ booktitle = {Anais do XXIX Congresso Latinoamericano de Informatica - CLEI},
+ year = {2011},
+ isbn = {},
+ pages = {16 pages},
+ location = {Quito},
+ publisher = {},
+ }
+
+@TechReport{cps,
+  author =       {A. {Manacero Jr.}},
+  title =        {Comparisons of CPS performance under different network loads},
+  institution =  {Fermilab},
+  year =         {1994},
+  address =      {FERMILAB-PUB-94-033, available at http://lss.fnal.gov/archive/1994/pub/Pub-94-033.pdf},
+}
+
+@TechReport{Luigi,
+  author =       {L.J. Oliveira},
+  title =        {Compara\c{c}\~{a}o de ferramentas de simula\c{c}\~{a}o de grades computacionais},
+  institution =  {Grupo de Sistemas Parelelos e Distribu\'{i}dos - UNESP},
+  year =         {2008},
+  address =      {dispon\'{i}vel em htpp://www.dcce.ibilce.unesp.br/spd/pubs/gridsimulationtools.pdf},
+}
+
+@TechReport{AoquiGuerra,
+  author =       {V. Aoqui and A.I. Guerra},
+  title =        {Plataforma de Simulação de Grades Computacionais: Interface Icônica e Interpretador de Modelos Externos},
+  institution =  {Grupo de Sistemas Parelelos e Distribu\'{i}dos - UNESP},
+  year =         {2010},
+  address =      {dispon\'{i}vel em htpp://www.dcce.ibilce.unesp.br/spd/pubs/Mono\_Victor\_Aldo.pdf},
+}
+
+@TechReport{GarciaOliveira,
+  author =       {M.A.B.A Garcia and P.H.M.A. Oliveira},
+  title =        {Motor de Simulação e Geração de Métricas para Avaliação de Desempenho para o Simulador de Grades Computacionais iSPD},
+  institution =  {Grupo de Sistemas Parelelos e Distribu\'{i}dos - UNESP},
+  year =         {2008},
+  address =      {dispon\'{i}vel em htpp://www.dcce.ibilce.unesp.br/spd/pubs/Mono\_Paulo\_Marco.pdf},
+}
+
+@Unpublished{GSPD,
+  author =       {GSPD},
+  title =        {Grupo de Pesquisa em Sistemas Paralelos e Distribu\'{i}dos},
+  note =         {P\'{a}gina web dispon\'{i}vel em http://www.dcce.ibilce.unesp.br/spd},
+  year = {2011},
+}
+
+@InProceedings{aoqui:10,
+  author = {V. Aoqui and A. I. Guerra and P. H. M. A. Oliveira and M. A. B. A. Garcia and R. S. Lobato and A. Manacero JR},
+  title = {Interpretador de Modelos Externos Para Simulador de Grades Computacionais},
+  booktitle = {I Escola Regional de Alto Desempenho de São Paulo},
+  pages = {1-2},
+  year = {2010},
+  volume = {CD-ROM},
+  organization = {Universidade Presbiteriana Mackenzie}
+}
+
+@InProceedings{guerra:10,
+  author = {A. I. Guerra and M. A. B. A. Garcia and P. H. M. A. Oliveira and V. Aoqui and R. S. Lobato and A. Manacero JR},
+  title = {Plataforma de Simulação de Grades Computacionais: Interface Icônica},
+  booktitle = {I Escola Regional de Alto Desempenho de São Paulo},
+  pages = {1-2},
+  year = {2010},
+  volume = {CD-ROM},
+  organization = {Universidade Presbiteriana Mackenzie}
+}
+
+@InProceedings{oliveira:10,
+  author = {P. H. M. A. Oliveira and A. I. Guerra and M. A. B. A. Garcia and V. Aoqui and A. Manacero JR and R. S. Lobato},
+  title = {O Motor de Uma Plataforma de Simulação de Grades Computacionais},
+  booktitle = {I Escola Regional de Alto Desempenho de São Paulo},
+  pages = {1-2},
+  year = {2010},
+  volume = {CD-ROM},
+  organization = {Universidade Presbiteriana Mackenzie}
+}
+
+@InProceedings{menezes:11,
+  author = {D. Menezes and D.T. da Silva and A. Manacero},
+  title = {Interpretador de algoritmos de escalonamento para inserção de escalonadores em simulador de computação em grade},
+  booktitle = {II Escola Regional de Alto Desempenho de São Paulo},
+  pages = {1-2},
+  year = {2011},
+  volume = {CD-ROM},
+  organization = {}
+}
+
+@inproceedings{Falavinha,
+ author = {J.N. {Falavinha Jr.} and A. {Manacero Jr.} and D.R. Boccardo and L.J. de Oliveira},
+ title = {Avalia\c{c}\~{a}o de algoritmos de escalonamento em grids para diferentes configura\c{c}\~{o}es de ambiente},
+ booktitle = {Anais do XXVII Congresso Anual da SBC - Wperformance'2007},
+ year = {2007},
+ isbn = {3-540-58021-2},
+ pages = {505-524},
+ location = {Rio de Janeiro},
+ publisher = {},
+ }
+
+@inproceedings{Falavinha2009,
+ author = {J.N. {Falavinha Jr.} and A. {Manacero Jr.} and M. Livny and D. Bradley},
+ title = {The Owner-Share scheduler for a distributed system},
+ booktitle = {Proc. of 38th Intl. Conf. on Parallel Processing Workshops},
+ year = {2009},
+ isbn = {3-540-58021-2},
+ pages = {298-305},
+ location = {Vienna, Austria},
+ publisher = {IEEE},
+ }
+
+@Article{fermi4,
+     author    = {E.M. Aitala and S. Amato and J. Anjos and A. Manacero and others},
+ collaboration = {E791},
+     title     = {Search for the flavor changing neutral current decays D+ $\to$ pi+ mu+ mu- and D+ $\to$ pi+ e+ e-},
+     journal   = {Phys. Rev. Lett.},
+     volume    = {76},
+     year      = {1996},
+     pages     = {364-367},
+     doi       = {10.1103/PhysRevLett.76.364},
+}
+
+@Article{fermi3,
+     author    = {E.M. Aitala and S. Amato and J. Anjos and A. Manacero and others},
+ collaboration = {E791},
+     title     = {Asymmetries between the production of $D^+$ and $D^-$ mesons from 500-{GeV/c} $\pi^-$ - nucleon interactions as a function of $x_F$ and $p_t^2$},
+     journal   = {Phys. Lett.},
+     volume    = {B371},
+     year      = {1996},
+     pages     = {157-162},
+     doi       = {10.1016/0370-2693(96)00093-7},
+}
+
+@Article{fermi2,
+     author    = {E.M. Aitala and S. Amato and J. Anjos and A. Manacero and others},
+ collaboration = {E791},
+     title     = {Mass splitting and production of sigma(c)0 and sigma(c)++ measured in 500-GeV pi- n interactions},
+     journal   = {Phys. Lett.},
+     volume    = {B379},
+     year      = {1996},
+     pages     = {292-298},
+     doi       = {10.1016/0370-2693(96)00471-6},
+}
+
+@TechReport{fermi1,
+     author    = {E.M. Aitala and S. Amato and J. Anjos and A. Manacero and others},
+ collaboration = {E791},
+     title     = {Search for D0 - anti-D0 mixing in semileptonic decay modes},
+     journal   = {Phys. Rev. Lett.},
+     volume    = {77},
+     year      = {1996},
+     pages     = {2384-2387},
+     eprint    = {hep-ex/9606016},
+     institution = {FERMILAB-PUB-96-109E, available at http://lss.fnal.gov/archive/1996/pub/Pub-96-109-E.pdf},
+     doi       = {10.1103/PhysRevLett.77.2384},
+}
+
+%% End{GSPDpub}
+
+%% Begin{bioinformatics}
+
+@InProceedings{evandroERAD,
+ author = {E.A. Marucci and G.F.D. Zafalon and A. Manacero and L.M. Sato and
+J.M. Machado},
+ title = {Finding Fractional Identities in Multiple Sequences Using a Fast
+Parallel Algorithm},
+ booktitle = {Anais da ERAD-2010},
+ year = {2010},
+ volume={1},
+series = {Escola Regional de Alto Desempenho de S\~{a}o Paulo}
+}
+
+@MastersThesis{evandro,
+ author = {E.A. Marucci},
+ title = {Paraleliza\c{c}\~{a}o da ferramenta de alinhamento de sequ\^{e}ncias
+MUSCLE para um ambiente distribu\'{\i}do},
+ school = {UNESP},
+ year = {2009}
+}
+
+@article{bioinf,
+ author = {J. Skolnick and J.S. Fetrow},
+ title = {From genes to structure to function: new computational approaches for the genomic era},
+ journal = {Trends in Biotechnology},
+ volume = {18},
+ number = {},
+ year = {1999},
+ issn = {0038-0644},
+ pages = {34-39},
+ publisher = {},
+ }
+
+@ARTICLE{liew,
+  AUTHOR =       "A. W-C. Liew and H. Yan and M. Yang",
+  TITLE =        "Pattern recognition for the emerging field of bioinformatics: a review",
+  JOURNAL =      "Pattern Recogntion, Science Direct",
+  YEAR =         "2005",
+  number =       "38",
+  pages =        "2055-2073"
+ }
+
+@ARTICLE{edgar,
+  AUTHOR =       "Robert C Edgar and Serafim Batzoglou",
+  TITLE =        "Multiple sequence alignment",
+  JOURNAL =      "Current Opinion in Structural Biology",
+  YEAR =         "2006",
+  number =       "16",
+  pages =        "368-373"
+}
+
+@ARTICLE{zhou,
+  AUTHOR =       "D. Zhou and X. Fan and De Tan and Y. Xu and J. Tavis and A. Di Bisceglie",
+  TITLE =        "Separation of near full-length hepatitis C virus quasispecies variants
+from a complex population",
+  JOURNAL =      "Journal of Virological Methods",
+  YEAR =         "2007",
+  number =       "141",
+  pages =        "220-224"
+  }
+
+@ARTICLE{wallace,
+  AUTHOR =       "Iain M Wallace and Gordon Blackshields and Desmond G Higgins",
+  TITLE =        "Multiple Sequence Alignment",
+  JOURNAL =      "Current Opinion in Structural Biology",
+  YEAR =         "2005",
+  number =       "15",
+  pages =        "261-266"
+  }
+
+@ARTICLE{needleman,
+  AUTHOR =       "S B Needleman and C D Wunsch",
+  TITLE =        "A general method applicable to the search for similarities in the amino acid sequence of two proteins",
+  JOURNAL =      "Journal of Molecular Biology",
+  YEAR =         "1970",
+  number =       "48",
+  pages =        "443-453"
+}
+
+@TECHREPORT{lemos1,
+  AUTHOR =       "Melissa Lemos and Antônio Basílio and Marco Antônio Casanova",
+  TITLE =        "Um estudo dos algoritmos de montagem de fragmentos de DNA",
+  INSTITUTION =  "Pontifícia Universidade Católica - PUC-Rio",
+  YEAR =         "2003"
+}
+
+@TECHREPORT{lemos2,
+  AUTHOR =       "Melissa Lemos and Marcus V. S. Poggi de Aragão and Marco Antônio Casanova",
+  TITLE =        "Padrões em biosseqüências",
+  INSTITUTION =  "Pontifícia Universidade Católica - PUC-Rio",
+  YEAR =         "2003"
+}
+
+@TECHREPORT{lemos3,
+  AUTHOR =       "Melissa Lemos and Marco Antônio Casanova",
+  TITLE =        "Algoritmos para análise de seqüências",
+  INSTITUTION =  "Pontifícia Universidade Católica - PUC-Rio",
+  YEAR =         "2000"
+}
+
+@ARTICLE{eidhammer,
+  AUTHOR =       "I. Eidhammer and I. Jonassen and W. R. Taylor",
+  TITLE =        "Structure comparison and structure patterns",
+  JOURNAL =      "Journal of Computational Biology",
+  YEAR =         "2000",
+  number =       "7",
+  pages =        "685-716"
+}
+
+@TECHREPORT{rech,
+  AUTHOR =       "Daniel Rech and Rodrigo Pilatti",
+  TITLE =        "992align - Uma ferramenta para alinhamento múltiplo de seqüências de DNA e proteínas",
+  INSTITUTION =  "Universidade Federal de Santa Catarina - Depto. de Informática e Estatística",
+  YEAR =         "2004"
+}
+
+@ARTICLE{feng,
+  AUTHOR =       "Da-Fei Feng and Russell F. Doolittle",
+  TITLE =        "Progressive sequence alignment as a prerequisite to correct phylogenetic trees",
+  JOURNAL =      "Journal of Molecular Evolution",
+  YEAR =         "1987",
+  number =       "60",
+  pages =        "351-360"
+}
+
+@ARTICLE{nei,
+  AUTHOR =       "Masatoshi Nei and Naruya Saito",
+  TITLE =        "The neighbor-joining method: a new method for reconstructing phylogenetic trees",
+  JOURNAL =      "Molecular Biology and Evolution",
+  YEAR =         "1987",
+  number =       "4",
+  pages =        "406-425"
+}
+
+@InProceedings{liuschmidt, 
+author={Yongchao Liu and Schmidt, B. and Maskell, D.L.}, 
+title={Parallel reconstruction of neighbor-joining trees for large multiple
+sequence alignments using CUDA}, 
+booktitle={2009 IEEE International Symposium on Parallel Distributed
+Processing}, 
+year={2009},
+volume={1},
+pages={1-8}
+}
+
+@Article{khajeh,
+  author = {Khajeh-Saeed, Ali and Poole, Stephen and Blair Perot, J.},
+  title = {Acceleration of the Smith-Waterman algorithm using single and
+multiple	graphics processors},
+  journal = {J. Comput. Phys.},
+  year = {2010},
+  volume = {229},
+  pages = {4247-4258},
+  issue = {11}
+}
+
+@Article{schatz,
+AUTHOR = {Schatz, Michael and Trapnell, Cole and Delcher, Arthur and Varshney,
+Amitabh},
+TITLE = {High-throughput sequence alignment using Graphics Processing Units},
+JOURNAL = {BMC Bioinformatics},
+VOLUME = {8},
+YEAR = {2007},
+NUMBER = {1},
+PAGES = {474},
+}
+
+@ARTICLE{liuschmidtvoss, 
+author={Liu Weiguo and Schmidt, B. and Voss, G. and Muller-Wittig, W.}, 
+journal={IEEE Transactions on Parallel and Distributed Systems},
+title={Streaming Algorithms for Biological Sequence Alignment on GPUs}, 
+year={2007}, 
+volume={18}, 
+number={9}, 
+pages={1270 -1281}, 
+}
+
+@article{trapnell,
+ author = {Trapnell, Cole and Schatz, Michael C.},
+ title = {Optimizing data intensive GPGPU computations for DNA sequence
+alignment},
+ journal = {Parallel Comput.},
+ volume = {35},
+ issue = {8-9},
+ year = {2009},
+ pages = {429-440},
+}
+
+@BOOK{doolittle,
+  AUTHOR =       "Russel F. Doolittle",
+  TITLE =        "Molecular Evolution: Computer Analisys of Protein and Nucleic Acid Sequences",
+  PUBLISHER =    "Academic Press",
+  YEAR =         "1990"
+  }
+
+@ARTICLE{altschul,
+  AUTHOR =       "Stephen F. Altschul and Warren Gish and Webb Miller and Eugene W. Myers and David J.Lipman",
+  TITLE =        "A basic local alignment search tool",
+  JOURNAL =      "Journal of Molecular Biology",
+  YEAR =         "1990"
+  }
+
+@ARTICLE{lipman,
+  AUTHOR =       "David J. Lipman and William R. Pearson",
+  TITLE =        "Rapid and sensitive protein similarity search",
+  JOURNAL =      "Science",
+  YEAR =         "1985",
+  number =       "227",
+  pages =        "1435-1441"
+  }
+
+@INPROCEEDINGS{pearson,
+  AUTHOR =       "William R. Pearson and David J. Lipman",
+  TITLE =        "Improved Tools for Biological Sequence Comparison",
+  BOOKTITLE =    "Proceedings of the National Academy of Sciences of the U.S.A",
+  YEAR =         "1988",
+  number =       "85",
+  pages =        "2444-2448"
+  }
+
+@ARTICLE{altschul2,
+  AUTHOR =       "Stephen F. Altschul and Thomas L. Madden and Alejandro A. Schäffer and Jinghui Zhang and Zheng Zhang and Webb Miller and David J. Lipman",
+  TITLE =        "Gapped blast and psi-blast: a new generation of protein database search programs",
+  JOURNAL =      "Nucleic Acids Research",
+  YEAR =         "1997",
+  number =       "25",
+  pages =        "3389-3402"
+  }
+
+
+@ARTICLE{schwartz,
+  AUTHOR =       "Ariel S. Schwartz and Lior Patcher",
+  TITLE =        "Multiple alignment by sequence annealing",
+  JOURNAL =      "Bioinformatics",
+  YEAR =         "2006",
+  volume =       "23",
+  pages =        "24-29"
+  }
+
+@INPROCEEDINGS{kalos,
+  AUTHOR =       "Malvin H. Kalos",
+  TITLE =        "Monte Carlo Methods in th Physical Sciences",
+  BOOKTITLE =    "Proceedings of the 2007 Winter Simulation Conference",
+  YEAR =         "2007",
+  pages =        "266-271"
+  }
+
+@ARTICLE{wiese,
+  AUTHOR =       "Kay C. Wiese and Alain A. Deschenes and Andrew G. Hendriks",
+  TITLE =        "RnaPredicted - An Evolutionary Algorithm for RNA Secondary Structure Prediction",
+  JOURNAL =      "IEEE/ACM Transactions on Computational Biology and Bioinformatics",
+  YEAR =         "2008",
+  volume =       "5",
+  number =       "1",
+  pages =        "25-41"
+  }
+
+@ARTICLE{cohen,
+  AUTHOR =       "Jacques Cohen",
+  TITLE =        "Bioinformatics - An Introduction for Computer Scientists",
+  JOURNAL =      "ACM Computing Surveys",
+  YEAR =         "2004",
+  volume =       "36",
+  number =       "2",
+  pages =        "122-158"
+}
+
+@ARTICLE{rouchka,
+  AUTHOR =       "Eric C. Rouchka",
+  TITLE =        "Aligning DNA Sequences Using Dynamic Programming",
+  JOURNAL =      "The ACM Student Magazine",
+  YEAR =         "2006",
+  volume =       "3",
+  number =       "1"
+  }
+
+@ARTICLE{henikoff,
+  AUTHOR =       "S. Henikoff and J. G. Henikoff",
+  TITLE =        "Amino acid substitution matrices from protein blocks",
+  JOURNAL =      "Proceedings of the National Academy of Sciences of the United States of America - PNAS",
+  YEAR =         "1992",
+  volume =       "89",
+  number =       "22",
+  pages =        "10915-10919"
+}
+
+@ARTICLE{baldi,
+  AUTHOR =       "P. Baldi and Y. Chauvin and T. Hunkapiller and M.A. McClure",
+  TITLE =        "Hidden Markov Models of Biological Primary Sequence Information",
+  JOURNAL =      "Proceedings of the National Academy of Sciences of the United States of America - PNAS",
+  YEAR =         "1994",
+  volume =       "91",
+  number =       "3",
+  pages =        "1059-1063"
+}
+
+@BOOK{krogh,
+  AUTHOR =       "Anders Krogh",
+  editor =       "S. L. Salzberg and D. B.Searls and S. Kasif",
+  TITLE =        "Computational Methods in Molecular Biology",
+  PUBLISHER =    "Elsevier",
+  YEAR =         "1998"
+  }
+
+@INPROCEEDINGS{siepel,
+  AUTHOR =       "Adam Siepel and David Haussler",
+  TITLE =        "Combining Phylogenetic and Hidden Markov Models in Biosequence Analysis",
+  BOOKTITLE =    "Proceedings of the seventh annual international conference on Research in computational molecular biology - RECOMB '03",
+  YEAR =         "2003",
+  pages =        "277-286"
+  }
+
+@INPROCEEDINGS{chen,
+  AUTHOR =       "Yixin Chen and Yi Pan and Juan Chen and Wei Liu and Ling Chen",
+  TITLE =        " Partitioned optimization algorithms for multiple sequence alignment",
+  BOOKTITLE =    "Proceedings of the 20th International Conference on Advanced Information Networking and Applications (AINA '06)",
+  YEAR =         "2006"
+  }
+
+@ARTICLE{lee,
+  AUTHOR =       "Zne-Jung Lee and Shun-Feng Su and Chen-Chia Chuang and Kuan-Hung Liu",
+  TITLE =        "Genetic algorithm with ant colony optimization (GA-ACO) for multiple sequence alignment",
+  JOURNAL =      "Applied Soft Computing",
+  YEAR =         "2008",
+  volume =       "8",
+  number =       "1",
+  pages =        "55-78"
+  }
+
+@INPROCEEDINGS{kumnorkaew,
+  AUTHOR =       "Pisist Kumnorkaew and Wiwat Ruenglertpanyakul and Hong-Ming Ku",
+  TITLE =        "Application of Ant Colony Optimization to Evolutionary Tree Construction",
+  BOOKTITLE =    "Proceedings of the 15th Annual Meeting of the Thai Society for Biotechnology",
+  YEAR =         "2004"
+  }
+
+@ARTICLE{saitou,
+  AUTHOR =       "Naruya Saitou and Masatoshi Nei",
+  TITLE =        "The Neighbor-joining Method: A New Method for Reconstructing Phylogenetic Trees",
+  JOURNAL =      "Molecular Biology and Evolution",
+  YEAR =         "1987",
+  volume =       "4",
+  number =       "4",
+  pages =        "406-425"
+  }
+
+@ARTICLE{gras,
+  AUTHOR =       "Robin Gras and David Hernandez and Patricia Hernandez and Nadine Zangge and Yoann Mescam and Julien Frey and Olivier Martin and Jacques Nicolas and Ron D. Appel",
+  TITLE =        "Cooperative Metaheuristics for Exploring Proteomic Data",
+  JOURNAL =      "Artificial Intelligence Review",
+  YEAR =         "2003",
+  volume =       "20",
+  number =       "1-2",
+  pages =        "95-120"
+  }
+
+
+@ARTICLE{jeanmougin,
+  AUTHOR =       "François Jeanmougin and Julie D. Thompson and Manolo Gouy and Desmond G. Higgins and Toby J. Gibson",
+  TITLE =        "Multiple sequence alignment with Clustal X ",
+  JOURNAL =      "Trends in Biochemical Sciences",
+  YEAR =         "1998",
+  volume =       "23",
+  number =       "10",
+  pages =        "403-405"
+  }
+
+@ARTICLE{morgenstern,
+  AUTHOR =       "B. Morgenstern and K. Frech and A. Dress and T. Werner",
+  TITLE =        "DIALIGN: finding local similarities by multiple sequence alignment",
+  JOURNAL =      "Bioinformatics",
+  YEAR =         "1998",
+  volume =       "14",
+  number =       "3",
+  pages =        "290-294"
+  }
+
+@ARTICLE{notredame,
+  AUTHOR =       "C. Notredame and D.G. Higgins",
+  TITLE =        "SAGA: sequence alignment by genetic algorithm",
+  JOURNAL =      "Nucleic Acid Research",
+  YEAR =         "1996",
+  volume =       "24",
+  number =       "8",
+  pages =        "1515-1524"
+ }
+
+@ARTICLE{thompson,
+  AUTHOR =       "Julie D. Thompson and Patrice Koehl and Raymond Ripp and Olivier Poch",
+  TITLE =        "BAliBASE 3.0: Latest developments of the multiple sequence alignment benchmark",
+  JOURNAL =      "Proteins: Structure, Function, and Bioinformatics",
+  YEAR =         "2005",
+  volume =       "61",
+  number =       "1",
+  pages =        "127-136"
+  }
+
+
+@ARTICLE{bilu,
+  AUTHOR =       "Yonatan Bilu and Pankaj K. Agarwal and Rachel Kolodny",
+  TITLE =        "Faster Algorithms for Optimal Multiple Sequence Alignment Based on Pairwise Comparisons",
+  JOURNAL =      "IEEE/ACM Transactions on computational biology and bioinformatics",
+  YEAR =         "2006",
+  volume =       "3",
+  number =       "4",
+  pages =        "408-422"
+ }
+
+@INPROCEEDINGS{thorsen,
+  AUTHOR =       "Oystein Thorsen and Brian Smith and Carlos P. Sosa and Karl Jiang and Heshan Lin and Amanda Peters and Wu-chun Feng",
+  TITLE =        "Parallel Genomic Sequence-Search on a Massively Parallel System",
+  BOOKTITLE =    "Proceedings of the 4th international conference on Computing frontiers",
+  YEAR =         "2007",
+  pages =        "59-68"
+  }
+
+
+@INPROCEEDINGS{gardner,
+  AUTHOR =       "Mark K. Gardner and Wu-chun Feng and Jeremy Archuleta and Heshan Lin and Xiaosong Mal",
+  TITLE =        "Parallel genomic sequence-searching on an ad-hoc grid: experiences, lessons learned, and implications",
+  BOOKTITLE =    "Proceedings of the 2006 ACM/IEEE conference on Supercomputing",
+  YEAR =         "2006"
+ }
+
+@ARTICLE{ebedes,
+  AUTHOR =       "Justin Ebedes and Amitava Datta",
+  TITLE =        "Multiple sequence alignment in parallel on a workstation cluster",
+  JOURNAL =      "Bioinformatics",
+  YEAR =         "2004",
+  volume =       "20",
+  number =       "7",
+  pages =        "1193-1195"
+ }
+
+@inproceedings{zola,
+  AUTHOR =       "Jaroslaw Zola and Denis Trystram and Andrei Tchernykh and Carlos Brizuela",
+  TITLE =        "Parallel Multiple Sequence Alignment with Local Phylogeny Search by Simulated Annealing",
+  booktitle =    "Proc. of 20th International Parallel and Distributed Processing Symposium, IPDPS",
+  YEAR =         "2006"
+  }
+  
+  
+  @ARTICLE{nemati,
+  AUTHOR =       "Shahla Nemati and Mohammad Ehsan Basiri and Nasser Ghasem-Aghaee and Mehdi Hosseinzadeh Aghdam",
+  TITLE =        "A novel ACO-GA hybrid algorithm for feature selection in protein function prediction",
+  JOURNAL =      "Expert Systems with Applications",
+  YEAR =         "2009",
+  volume =       "36",
+  number =       "10",
+  pages =        "12086-12094"
+ }
+ 
+ @ARTICLE{shmygelska,
+  AUTHOR =       "Alena Shmygelska and Holger H. Hoos",
+  TITLE =        "An ant colony optimisation algorithm for the 2D and 3D hydrophobic polar protein folding problem",
+  JOURNAL =      "BMC Bioinformatics",
+  YEAR =         "2005",
+  volume =       "6",
+  number =       "1",
+  pages =        "30"
+ }
+
+@ARTICLE{kim,
+  AUTHOR =       "Jin Kim and Sakti Pramanik and Moon Jung Chung",
+  TITLE =        "Multiple sequence alignment using simulated annealing",
+  JOURNAL =      "Oxford Journals - Bioinformatics",
+  YEAR =         "1994",
+  volume =       "10",
+  pages =        "419-426"
+}
+
+@INPROCEEDINGS{riaz,
+  AUTHOR =       "Tariq Riaz and Yi Wang and Kuo-Bin Li",
+  TITLE =        "Multiple Sequence Alignment Using Tabu Search",
+  BOOKTITLE =    "Proceedings of the 2nd conference on Asia-Pacific bioinformatics",
+  YEAR =         "2004",
+  pages=        "223-232"
+}
+
+@ARTICLE{moss,
+  AUTHOR =       "Jonathan Moss and Colin G. Johnson",
+  TITLE =        "An ant colony algorithm for multiple sequence alignment in bioinformatics",
+  JOURNAL =      "Artificial Neural Networks and Genetic Algorithms",
+  YEAR =         "2003",
+  pages =        "182-186"
+}
+
+@ARTICLE{brazma,
+  AUTHOR =       "A. Brazma and I. Jonassen and I. Eidhammer and D. Gilbert",
+  TITLE =        "Approaches to the Automatic Discovery of Patterns in Biosequences",
+  JOURNAL =      "Journal of Computational Biology",
+  YEAR =         "1998",
+  pages =        "2740-2746"
+}
+
+%% End{bioinformatics}
+
+%% Begin{simulation}
+
+@Article{gridsim,
+ author = {R. Buyya and M. Murshed},
+ title = {GridSim: a toolkit for the modeling and simulation of distributed resource management and scheduling for grid computing},
+ journal = {Concurrency and Computation: Pract. and Exper.},
+ volume = {14},
+ number = {},
+ year = {2002},
+ issn = {0038-0644},
+ pages = {1175-1220},
+ publisher = {},
+ }
+
+@inproceedings{nucleoSMB,
+ author = {R. Spolon Lobato and R.P.S. Sacchi and R.S. Ulson},
+ title = {Um N\'{u}cleo para Simula\c{c}\~{a}o Distribu\'{i}da Otimista},
+ booktitle = {Proc. XXXII Conferencia Latinoamericana de Informatica},
+ year = {2006}, 
+ location = {Santiago-Chile}, 
+ }
+
+@inproceedings{conservativa,
+ author = {R. Spolon Lobato and R.S. Ulson and G.F.D. Zafalon and M.O.S. Balieiro}, 
+ title = {Abordagem Conservativa para Simula\c{c}\~{a}o Distribu\'{i}da de Modelos de Redes de Fila},
+ booktitle = {Proc. XXXII Conferencia Latinoamericana de Informatica}, 
+ year = {2006}, 
+ location = {Santiago-Chile},
+ }
+
+@inproceedings{warpbased,
+ author = {R. Spolon Lobato and R.S. Ulson and M.J. Santana and R.H.C. Santana},
+ title = {A Revised Taxonomy for Time Warp based Distributed Synchronization Protocols},
+ booktitle = {Proc. of The 8th IEEE International Symposium on Distributed Simulation and Real Time Applications}, 
+ year = {2004},
+ location = {Budapeste},
+ publisher = {IEEE Press},
+ pages = {226-229},
+ }
+
+@inproceedings{Dumitri,
+ author = {C. Dumitrescu and I. Foster},
+ title = {GangSim: a simulator for grid scheduling studies},
+ booktitle = {Proc. of the 5th IEEE Intl Symp. on Cluster Computing and the Grid - CCGrid'05},
+ year = {2005},
+ isbn = {3-540-58021-2},
+ pages = {1151-1158},
+ location = {},
+ publisher = {IEEE Press},
+ }
+
+@inproceedings{xia-microgrid,
+ author = {H. Xia and H. Dail and H. Casanova and A.A. Chien},
+ title = {The MicroGrid: Using Online Simulation to Predict Application Performance in Diverse Grid Network Environments},
+ booktitle = {Proc. of the 2nd Intl Workshop on Challenges of Large Applications in Distributed Environments},
+ year = {2004},
+ isbn = {3-540-58021-2},
+ pages = {},
+ location = {},
+ publisher = {IEEE Press},
+ }
+
+@INPROCEEDINGS{casanova:01,
+    author = {Henri Casanova},
+    title = {Simgrid: a Toolkit for the Simulation of Application Scheduling},
+    booktitle = {Proceedings of the First IEEE/ACM International Symposium on Cluster Computing and the Grid (CCGrid 2001},
+    year = {2001},
+    pages = {430--437}
+}
+
+@inproceedings{simgrid,
+ author = {H. Casanova and L. Legrand and A. Marchal},
+ title = {Scheduling distributed applications: The SimGrid simulation framework},
+ booktitle = {Proc. of the 3rd IEEE Intl Symp. on Cluster Computing and the Grid - CCGrid'03},
+ year = {2003},
+ isbn = {3-540-58021-2},
+ pages = {},
+ location = {},
+ publisher = {IEEE Press},
+ }
+
+@Misc{SiCoGrid,
+  author =    {V. Mendez and A. Garcia},
+  title =     {SiCoGrid: a complete grid simulator for scheduling and algorithmical research, with emergent artificial intelligence data algorithms},
+  howpublished = {Technical Report RR-06-11, Universidade de Zaragoza},
+  year =      {2006},
+  month =     {},
+  note =      {},
+  annote =    {}
+}
+
+@inproceedings{netrepresent,
+ author = {L. Eyraud-Dubois and A. Legrand and M. Quinson and F. Vivien},
+ title = {A First Step Towards Automatically Building Network Representations},
+ booktitle = {Proc. of the 12th International Euro-Par Conference},
+ year = {2007},
+ isbn = {},
+ pages = {},
+ location = {Rennes, France},
+ publisher = {},
+ }
+
+@inproceedings{optor,
+ author = {W.H. Bell and D.G. Cameron and L. Capozza and A.P. Millar and K. Stockingger and F. Zini},
+ title = {Simulation of Dynamic grid replication strategies in optorsim},
+ booktitle = {Proc. of the ACM/IEEE Workshop on Grid Computing},
+ year = {2002},
+ isbn = {3-540-58021-2},
+ pages = {},
+ location = {},
+ publisher = {Springer-Verlag},
+ }
+
+@inproceedings{vmgrid,
+ author = {A. Sulistio and C.S. Yeo and R. Buyya},
+ title = {Visual Modeler for Grid Modeling and Simulation (GridSim) Toolkit},
+ booktitle = {Lecture Notes on Computer Science},
+ year = {2003},
+ isbn = {3-540-58021-2},
+ pages = {1123-1132},
+ location = {},
+ publisher = {},
+ }
+
+@inproceedings{bricks,
+ author = {A. Takefusa},
+ title = {Overview of a performance evaluation system for global computing scheduling algorithms},
+ booktitle = {HPDC'99: 8th IEEE Intl Symposium on High Performance Distributed Computing},
+ year = {1999},
+ isbn = {0-7695-0287-3},
+ pages = {11},
+ location = {Washington, DC},
+ publisher = {IEEE Computer Society},
+ }
+
+%% End{simulation}
+
+%% Begin{parallelprogramming}
+
+@INPROCEEDINGS{hall,
+  AUTHOR =       "Mary W. Hall and Saman P. Amarasinghe and Brayn R. Murphy and Shih-Wei Liao and Monica S. Lam",
+  TITLE =        "Detecting Coarse-Grain Parallelism Using an Interprocedural Parallelizing Compiler",
+  BOOKTITLE =    "Proceedings of IEEE/ACM SC95 Conference",
+  YEAR =         "1995"
+  }
+
+@ARTICLE{rinard,
+  AUTHOR =       "Martin C. Rinard",
+  TITLE =        "Effective fine-grain synchronization for automatically parallelized programs using optimistic synchronization primitives",
+  JOURNAL =      "ACM Transactions on Computer Systems (TOCS)",
+  YEAR =         "1999"
+  }
+
+@INPROCEEDINGS{muhmmad,
+  AUTHOR =       "Rashid Bin Muhmmad",
+  TITLE =        "Parallelization of local search for Euclidean Steiner tree problem",
+  BOOKTITLE =    "Proceedings of the 44th annual Southeast Regional Conference ",
+  YEAR =         "2006"
+  }
+
+@INPROCEEDINGS{tan,
+  AUTHOR =       "Wi Bing Tan and Peter Strazdins",
+  TITLE =        "The Analysis and Optimization of Collective Communications on a Beowulf Cluster",
+  BOOKTITLE =    "Proceedings of the 9th International Conference on Parallel and Distributed Systems (ICPADS'02)",
+  YEAR =         "2002",
+  pages =        "659- 666"
+  }
+
+@ARTICLE{kirkpatrick,
+  AUTHOR =       "S. Kirkpatrick and C. D. Gelatt and M. P. Vecchi",
+  TITLE =        "Optimization by simulated annealing",
+  JOURNAL =      "Science",
+  YEAR =         "1983",
+  number =       "220",
+  pages =        "671-680"
+  }
+
+@ARTICLE{blum,
+  AUTHOR =       "Christian Blum and Adrea Roli",
+  TITLE =        "Metaheuristics in combinatorial optimization: Overview and conceptual comparison",
+  JOURNAL =      "ACM Computing Surveys",
+  YEAR =         "2003",
+  volume =       "35",
+  number =       "3",
+  pages =        "268-308"
+  }
+
+@ARTICLE{backer,
+  AUTHOR =       "Bruno de Backer and Vincent Furnon and Paul Shaw",
+  TITLE =        "Solving Vehicle Routing Problems Using Constraint Programming and Metaheuristics",
+  JOURNAL =      "Journal of Metaheuristics",
+  YEAR =         "2000",
+  number =       "6",
+  pages =        "501-523"
+  }
+
+@ARTICLE{horowitz,
+  AUTHOR =       "E. Horowitz and S. Sahni",
+  TITLE =        "Computing partitions with applications to the Knapsack problem",
+  JOURNAL =      "Journal of ACM",
+  YEAR =         "1974",
+  volume =       "21"
+  }
+
+@ARTICLE{cook,
+  AUTHOR =       "S. A. Cook and D. G. Mitchell",
+  TITLE =        "Finding hard instances of the satisfiability problem: A survey",
+  JOURNAL =      "Dimacs Series in Discrete Mathematics and Theoretical Computer Science",
+  YEAR =         "1997",
+  volume =       "35",
+  pages =        "1-17"
+  }
+
+@ARTICLE{dorigo3,
+  AUTHOR =       "Marco Dorigo and Christian Blum",
+  TITLE =        "Ant Colony Optimization Theory: A Survey",
+  JOURNAL =      "Theoretical Computer Science",
+  YEAR =         "2005",
+  volume =       "344",
+  pages =        "243-278"
+  }
+
+@BOOK{papadimitriou,
+  AUTHOR =       "C.H. Papadimitriou and K. Steiglitz",
+  TITLE =        "Combinatorial Optimization - Algorithms and Complexity",
+  PUBLISHER =    "Dover Publications Inc.",
+  YEAR =         "1982"
+  }
+
+@INPROCEEDINGS{zhang,
+  AUTHOR =       "Lintao Zhang and Sharad Malik",
+  TITLE =        "Conflict driven learning in a quantified Boolean Satisfiability solver",
+  BOOKTITLE =    "Proceedings of the 2002 IEEE/ACM international conference on Computer-aided design - ICCAD '02",
+  YEAR =         "2002",
+  pages =        "442-449"
+  }
+
+@article{kyoungOh,
+title = "GPU implementation of neural networks",
+journal = "Pattern Recognition",
+volume = "37",
+number = "6",
+pages = "1311 - 1314",
+year = "2004",
+author = "K.-S.Kyoung-Su Oh and Keechul Jung",
+}
+
+@article{tarabalka,
+author = {Tarabalka, Yulia and Haavardsholm, Trym and Kasen, Ingebjorg and Skauli, Torbjorn},
+title = {Real-time anomaly detection in hyperspectral images using multivariate normal mixture models and GPU processing},
+journal = {Journal of Real-Time Image Processing},
+pages = {287-300},
+volume = {4},
+number = {3},
+year = {2009}
+}
+
+@Inproceedings{adams,
+author= {Adams, S. and Payne, J. and Boppana, R.}, 
+title={Finite Difference Time Domain (FDTD) Simulations Using Graphics Processors},
+pages={334-338}, 
+year={2007},
+booktitle={DoD High Performance Computing Modernization Program Users Group Conference}
+}
+
+@article{goodnight,
+author={Nolan Goodnight and Rui Wang and Greg Humphreys},
+title={Computation on Programmable Graphics Hardware},
+journal={IEEE Computer Graphics and Applications}, 
+volume={25},
+number={5},
+pages={12-15},
+year={2005}
+}
+
+@ARTICLE{ho,
+  AUTHOR =       "S. L. Ho and Shiyou Yang and Guangzheng Ni and José Márcio Machado",
+  TITLE =        "A modified ant colony optimization algorithm modeled on tabu-search methods",
+  JOURNAL =      "IEEE Transactions on Magnetics",
+  YEAR =         "2006",
+  volume =       "42",
+  number =       "4"
+}
+
+@ARTICLE{gupta,
+  AUTHOR =       "S. K. Gupta and J. D. Kececioglu and A. A. Schaffer",
+  TITLE =        "Improving the practical space and time efficiency of the
+  shortest-paths approach to sum-of-pairs multiple sequence alignment",
+  JOURNAL =      "Journal of Computational Biology",
+  YEAR =         "1995",
+  volume =       "2",
+  number =       "3",
+  pages =        "459-472"
+}
+
+@ARTICLE{dorigo,
+  AUTHOR =       "Marco Dorigo and Luca Maria Gambardella",
+  TITLE =        "Ant Colony System: A Cooperative Learning
+Approach to the Traveling Salesman Problem",
+  JOURNAL =      "IEEE Transactions on Evolutionary Computation",
+  YEAR =         "1997",
+  volume =       "1",
+  number =       "1"
+}
+
+@ARTICLE{ho2,
+  AUTHOR =       "S. L. Ho and Shiyou Yang and H. C. Wong and K. W. E. Cheng and Guangzheng Ni",
+  TITLE =        "An Improved Ant Colony Optimization Algorithm and Its Application to Electromagnetic
+Devices Designs",
+  JOURNAL =      "IEEE Transactions on Magnetics",
+  YEAR =         "2005",
+  volume =       "41",
+  number =       "5"
+}
+
+@ARTICLE{dorigo2,
+  AUTHOR =       "Marco Dorigo and Gianni Di Caro and Luca M. Gambardella",
+  TITLE =        "Ant Algorithms for Discrete Optmization",
+  JOURNAL =      "Artificial Life",
+  YEAR =         "1999",
+  pages =        "137-172"
+  }
+
+
+@misc{ arpaci-dusseau97extending,
+  author = "A. Arpaci-Dusseau and D. Culler",
+  title = "Extending Proportional-Share Scheduling to a Network of Workstations",
+  text = "In International Conference on Parallel and Distributed Processing Techniques and Applications (PDPTA'97),
+    June 1997.",
+  year = "1997",
+  url = "citeseer.ist.psu.edu/arpaci-dusseau97extending.html"
+}
+
+@article{976123,
+ author = {Alain Roy and Miron Livny},
+ title = {Condor and preemptive resume scheduling},
+ book = {Grid resource management: state of the art and future trends},
+ year = {2004},
+ isbn = {1-4020-7575-8},
+ pages = {135--144},
+ publisher = {Kluwer Academic Publishers},
+ address = {Norwell, MA, USA},
+ }
+
+
+@incollection{
+        condorgrid,
+	author = "Douglas Thain and Todd Tannenbaum and Miron Livny",
+	title = "{C}ondor and the Grid",
+	editor = "Fran Berman and Geoffrey Fox and Tony Hey",
+	booktitle = "Grid Computing: Making the Global Infrastructure a Reality",
+	publisher = "John Wiley \& Sons Inc.",
+	month = "December",
+	year = "2002"
+}
+
+@article{35047,
+ author = {J. Kay and P. Lauder},
+ title = {A fair share scheduler},
+ journal = {Commun. ACM},
+ volume = {31},
+ number = {1},
+ year = {1988},
+ issn = {0001-0782},
+ pages = {44--55},
+ doi = {http://doi.acm.org/10.1145/35043.35047},
+ publisher = {ACM},
+ address = {New York, NY, USA},
+ }
+
+@article{
+        condor-g-jcc,
+	author = "James Frey and Todd Tannenbaum and Ian Foster and Miron Livny and Steve Tuecke",
+	title = "{C}ondor-{G}: A Computation Management Agent for Multi-Institutional Grids",
+	journal = "Cluster Computing",
+	volume = "5",
+	year = "2002",
+	pages = "237--246"
+}
+
+@Article{foster:01,
+  author = {I. Foster and C. Kesselman and S. Tuecke},
+  title = {The Anatomy of the Grid: Enabling Scalable Virtual Organizations},
+  journal = {The International Journal of Supercomputer Applications},
+  year = {2001},
+  volume = {15},
+  number = {3},
+  pages = {200-222}
+}
+
+@Book{foster:03,
+  author = {I. Foster and C. Kesselman},
+  title = {The Grid 2: blueprint for a new computing infrastructure},
+  publisher = {Morgan Kaufmann},
+  year = {2003}
+}
+
+@misc{ jongh-share,
+  author = "Johannes Frederik Cornelis Maria de Jongh",
+  title = "Share Scheduling in Distributed Systems",
+  url = "citeseer.ist.psu.edu/jongh02share.html" }
+
+@article{1233816,
+ author = {Kevin Lai and Lars Rasmusson and Eytan Adar and Li Zhang and Bernardo A. Huberman},
+ title = {Tycoon: An implementation of a distributed, market-based resource allocation system},
+ journal = {Multiagent Grid Syst.},
+ volume = {1},
+ number = {3},
+ year = {2005},
+ issn = {1574-1702},
+ pages = {169--182},
+ publisher = {IOS Press},
+ address = {Amsterdam, The Netherlands, The Netherlands},
+ }
+
+@inproceedings{1252206,
+ author = {Lior Amar and Amnon Barak and Ely Levy and Michael Okun},
+ title = {An On-line Algorithm for Fair-Share Node Allocations in a Cluster},
+ booktitle = {CCGRID '07: Proceedings of the Seventh IEEE International Symposium on Cluster Computing and the Grid},
+ year = {2007},
+ isbn = {0-7695-2833-3},
+ pages = {83--91},
+ doi = {http://dx.doi.org/10.1109/CCGRID.2007.22},
+ publisher = {IEEE Computer Society},
+ address = {Washington, DC, USA},
+ }
+
+
+@inproceedings{
+        condor-hunter,
+	author = "Michael Litzkow and Miron Livny and Matthew Mutka",
+	title = "{C}ondor - A Hunter of Idle Workstations",
+	booktitle = "Proceedings of the 8th International Conference of Distributed Computing Systems",
+	month = "June",
+	year = "1988"
+}
+
+@techreport{
+        litzkow-tr1346,
+	author = "Michael Litzkow and Todd Tannenbaum and Jim Basney and Miron Livny",
+	institution = "University of Wisconsin - Madison Computer Sciences Department",
+	title = "Checkpoint and Migration of {UNIX} Processes in the {C}Ondor Distributed Processing System",
+	number = "UW-CS-TR-1346",
+	month = "April",
+	year = "1997"
+}
+
+
+
+@incollection{
+        gridbook-htc,
+	author = "Miron Livny and Rajesh Raman",
+	title = "High-throughput resource management",
+	editor = "Ian Foster and Carl Kesselman",
+	booktitle = "The Grid: Blueprint for a New Computing Infrastructure",
+	publisher = "Morgan Kaufmann",
+	year = "1998"
+}
+
+@inproceedings{
+        raman-hpdc7,
+	author = "Rajesh Raman and Miron Livny and Marvin Solomon",
+	title = "Matchmaking: Distributed Resource Management for High Throughput Computing",
+	booktitle = "Proceedings of the Seventh {IEEE} International Symposium on High Performance Distributed Computing ({HPDC7})",
+	month = "July",
+	date = "28--31",
+	year = "1998",
+	address = "Chicago, IL"
+}
+
+@inproceedings{792437,
+ author = {Stephen D. Kleban and Scott H. Clearwater},
+ title = {Fair Share on High Performance Computing Systems: What Does Fair Really Mean?},
+ booktitle = {CCGRID '03: Proceedings of the 3st International Symposium on Cluster Computing and the Grid},
+ year = {2003},
+ isbn = {0-7695-1919-9},
+ pages = {146},
+ publisher = {IEEE Computer Society},
+ address = {Washington, DC, USA},
+ }
+
+@incollection{
+        beowulfbook-condor,
+	author = "Todd Tannenbaum and Derek Wright and Karen Miller and Miron Livny",
+	title = "{C}ondor -- A Distributed Job Scheduler",
+	editor = "Thomas Sterling",
+	booktitle = "Beowulf Cluster Computing with {L}inux",
+	publisher = "MIT Press",
+	month = "October",
+	year = "2001"
+}
+
+%% End{parallelprogramming}
+
+%% DO NOT INSERT ANYTHING BELOW THIS LINE ! ! ! ! ! ! !
+%% THEY CONTAIN TEMPLATES AND AN EXPLANATION OF VALID FIELDS IN A REFERENCE
+%% 
+
+%% An article from a journal or magazine.
+@Article{,
+  author =       {},
+  title =        {},
+  journal =      {},
+  year =         {},
+  OPTkey =       {},
+  OPTvolume =    {},
+  OPTnumber =    {},
+  OPTmonth =     {},
+  OPTpages =     {},
+  OPTnote =      {},
+  OPTannote =    {}
+}
+
+%% A book with an explicit publisher.
+@book{,
+  author =       {},
+  title =        {},
+  publisher =    {},
+  year =         {},
+  OPTkey =       {},
+  OPTeditor =    {},
+  OPTvolume =    {},
+  OPTnumber =    {},
+  OPTseries =    {},
+  OPTaddress =   {},
+  OPTedition =   {},
+  OPTmonth =     {},
+  OPTnote =      {},
+  OPTannote =    {}
+}
+
+%% A work that is printed and bound,
+%% but without a named publisher or sponsoring institution.
+@booklet{,
+  title =        {},
+  OPTkey =       {},
+  OPTauthor =    {},
+  OPThowpublished = {},
+  OPTaddress =   {},
+  OPTyear =      {},
+  OPTmonth =     {},
+  OPTnote =      {},
+  OPTannote =    {}
+}
+
+%% An article in a conference proceedings.
+@InProceedings{,
+  author =       {},
+  title =        {},
+  booktitle =    {},
+  OPTcrossref =  {},
+  OPTkey =       {},
+  OPTeditor =    {},
+  OPTvolume =    {},
+  OPTnumber =    {},
+  OPTseries =    {},
+  OPTyear =      {},
+  OPTorganization = {},
+  OPTpublisher = {},
+  OPTaddress =   {},
+  OPTmonth =     {},
+  OPTpages =     {},
+  OPTnote =      {},
+  OPTannote =    {}
+}
+
+%% A part of a book, which may be a chapter (or section or whatever)
+%% and/or a range of pages.
+@InBook{,
+  author =       {},
+  title =        {},
+  chapter =      {},
+  publisher =    {},
+  year =         {},
+  OPTkey =       {},
+  OPTeditor =    {},
+  OPTvolume =    {},
+  OPTnumber =    {},
+  OPTseries =    {},
+  OPTaddress =   {},
+  OPTedition =   {},
+  OPTmonth =     {},
+  OPTpages =     {},
+  OPTtype =      {},
+  OPTnote =      {},
+  OPTannote =    {}
+}
+
+%% A part of a book having its own title.
+@InCollection{,
+  author =       {},
+  title =        {},
+  booktitle =    {},
+  OPTcrossref =  {},
+  OPTkey =       {},
+  OPTpublisher = {},
+  OPTyear =      {},
+  OPTeditor =    {},
+  OPTvolume =    {},
+  OPTnumber =    {},
+  OPTseries =    {},
+  OPTchapter =   {},
+  OPTtype =      {},
+  OPTaddress =   {},
+  OPTedition =   {},
+  OPTmonth =     {},
+  OPTpages =     {},
+  OPTnote =      {},
+  OPTannote =    {}
+}
+
+%% Technical documentation.
+@Manual{,
+  title =        {},
+  OPTkey =       {},
+  OPTauthor =    {},
+  OPTorganization = {},
+  OPTaddress =   {},
+  OPTedition =   {},
+  OPTyear =      {},
+  OPTmonth =     {},
+  OPTnote =      {},
+  OPTannote =    {}
+}
+
+%% A Master's thesis.
+@MastersThesis{,
+  author =       {},
+  title =        {},
+  school =       {},
+  year =         {},
+  OPTkey =       {},
+  OPTaddress =   {},
+  OPTtype =      {},
+  OPTmonth =     {},
+  OPTnote =      {},
+  OPTannote =    {}
+}
+
+%% Use this type when nothing else fits.
+@Misc{,
+  OPTkey =       {},
+  OPTauthor =    {},
+  OPTtitle =     {},
+  OPThowpublished = {},
+  OPTyear =      {},
+  OPTmonth =     {},
+  OPTnote =      {},
+  OPTannote =    {}
+}
+
+%% A PhD thesis.
+@PhdThesis{,
+  author =       {},
+  title =        {},
+  school =       {},
+  year =         {},
+  OPTkey =       {},
+  OPTaddress =   {},
+  OPTtype =      {},
+  OPTmonth =     {},
+  OPTnote =      {},
+  OPTannote =    {}
+}
+
+%% The proceedings of a conference.
+@Proceedings{,
+  title =        {},
+  year =         {},
+  OPTkey =       {},
+  OPTeditor =    {},
+  OPTvolume =    {},
+  OPTnumber =    {},
+  OPTseries =    {},
+  OPTpublisher = {},
+  OPTorganization = {},
+  OPTaddress =   {},
+  OPTmonth =     {},
+  OPTnote =      {},
+  OPTannote =    {}
+}
+
+%% A report published by a school or other institution, usually
+%% numbered within a series.
+@TechReport{,
+  author =       {},
+  title =        {},
+  institution =  {},
+  year =         {},
+  OPTkey =       {},
+  OPTtype =      {},
+  OPTnumber =    {},
+  OPTaddress =   {},
+  OPTmonth =     {},
+  OPTnote =      {},
+  OPTannote =    {}
+}
+
+%% A document having an author and title, but not formally published.
+@Unpublished{,
+  author =       {},
+  title =        {},
+  note =         {},
+  OPTkey =       {},
+  OPTyear =      {},
+  OPTmonth =     {},
+  OPTannote =    {}
+}
+
+%% Below is a description of all fields recognized by the standard
+%% bibliography styles.  An entry can also contain other fields, which
+%% are ignored by those styles.
+
+%% address
+%%
+%% Usually the address of the publisher or other type of institution.
+%% For major publishing houses, van Leunen recommends omitting the
+%% information entirely. For small publishers, on the other hand, you
+%% can help the reader by giving the complete address.
+
+%% annote
+%%
+%% An annotation.  It is not used by the standard bibliography styles,
+%% but may be used by others that produce an annotated bibliography.
+
+%% author
+%%
+%% The name(s) of the author(s),
+%% in the format described in the \LaTeX\ book.
+
+%% booktitle
+%%
+%% Title of a book, part of which is being cited.  See the \LaTeX\
+%% book for how to type titles.  For book entries, use the title field
+%% instead.
+
+%% chapter
+%%
+%% A chapter (or section or whatever) number.
+
+%% crossref
+%%
+%% The database key of the entry being cross referenced.
+
+%% edition
+%%
+%% The edition of a book---for example, ``Second''.  This should be an
+%% ordinal, and should have the first letter capitalized, as shown
+%% here; the standard styles convert to lower case when necessary.
+
+%% editor
+%%
+%% Name(s) of editor(s), typed as indicated in the \LaTeX\ book.  If
+%% there is also an author field, then the editor field gives the
+%% editor of the book or collection in which the reference appears.
+
+%% howpublished
+%%
+%% How something strange has been published.  The first word should be
+%% capitalized.
+
+%% institution
+%%
+%% The sponsoring institution of a technical report.
+
+%% journal
+%%
+%% A journal name.  Abbreviations are provided for many journals; see
+%% the Local Guide.
+
+%% key
+%%
+%% Used for alphabetizing, cross referencing, and creating a label
+%% when the ``author'' information (described in Section
+%% odds-and-ends) is missing.  This field should not be confused with
+%% the key that appears in the \cite command and at the beginning of
+%% the database entry.
+
+%% month
+%%
+%% The month in which the work was published or, for an unpublished
+%% work, in which it was written.  You should use the standard
+%% three-letter abbreviation, as described in Appendix B.1.3 of the
+%% \LaTeX\ book.
+
+%% note
+%%
+%% Any additional information that can help the reader.  The first
+%% word should be capitalized.
+
+%% number
+%%
+%% The number of a journal, magazine, technical report, or of a work
+%% in a series.  An issue of a journal or magazine is usually
+%% identified by its volume and number; the organization that issues a
+%% technical report usually gives it a number; and sometimes books are
+%% given numbers in a named series.
+
+%% organization
+%%
+%% The organization that sponsors a conference or that publishes a
+%% manual.
+
+%% pages
+%%
+%% One or more page numbers or range of numbers, such as 42--111 or
+%% 7,41,73--97 or 43+ (the `+' in this last example indicates pages
+%% following that don't form a simple range).  To make it easier to
+%% maintain Scribe-compatible databases, the standard styles convert a
+%% single dash (as in 7-33) to the double dash used in \TeX\ to denote
+%% number ranges (as in 7--33}).
+
+%% publisher
+%%
+%% The publisher's name.
+
+%% school
+%%
+%% The name of the school where a thesis was written.
+
+%% series
+%%
+%% The name of a series or set of books.  When citing an entire book,
+%% the the title field gives its title and an optional series field
+%% gives the name of a series or multi-volume set in which the book is
+%% published.
+
+%% title
+%%
+%% The work's title, typed as explained in the \LaTeX\ book.
+
+%% type
+%%
+%% The type of a technical report---for example, ``Research Note''.
+
+%% volume
+%%
+%% The volume of a journal or multivolume book.
+
+%% year
+%%
+%% The year of publication or, for an unpublished work, the year it
+%% was written.  Generally it should consist of four numerals, such as
+%% 1984, although the standard styles can handle any year whose last
+%% four nonpunctuation characters are numerals, such as about 1984.
+
+%% template.bib ends here.
